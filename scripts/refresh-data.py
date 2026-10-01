@@ -111,6 +111,25 @@ def fetch_market_group(items, query_url):
     return result
 
 
+def fetch_market_breadth():
+    """Approximate A-share breadth from Shanghai and Shenzhen constituent counts."""
+    url = "https://push2.eastmoney.com/api/qt/ulist.np/get?fltt=2&fields=f104,f105,f106&secids=1.000001,0.399001"
+    try:
+        request = Request(url, headers={"User-Agent": "Mozilla/5.0", "Referer": "https://quote.eastmoney.com/"})
+        with urlopen(request, timeout=15) as response:
+            payload = json.loads(response.read().decode("utf-8", "ignore"))
+        rows = (payload.get("data") or {}).get("diff") or []
+        up = sum(int(row.get("f104") or 0) for row in rows)
+        down = sum(int(row.get("f105") or 0) for row in rows)
+        flat = sum(int(row.get("f106") or 0) for row in rows)
+        total = up + down + flat
+        if not total:
+            raise ValueError("breadth empty")
+        return {"available": True, "up": up, "down": down, "flat": flat, "total": total, "ratio": round(up / total * 100, 1), "label": "沪深主要成分估算", "url": url}
+    except Exception:
+        return {"available": False, "label": "等待市场宽度接口", "url": "https://quote.eastmoney.com/center/gridlist.html#hs_a_board"}
+
+
 def fetch_market_snapshot(now):
     def read_group(items):
         codes = ",".join(item["code"] for item in items)
@@ -130,7 +149,7 @@ def fetch_market_snapshot(now):
         "commodities": commodities,
         "weather": weather,
         "average_index_pct": round(avg_pct, 3) if avg_pct is not None else None,
-        "breadth": {"available": False, "label": "等待市场宽度接口", "url": "https://quote.eastmoney.com/center/gridlist.html#hs_a_board"},
+        "breadth": fetch_market_breadth(),
         "sentiment": {"available": False, "label": "等待涨跌停与连板接口", "url": "https://quote.eastmoney.com/center/gridlist.html#limit_up_pool"},
         "analysis": {
             "stance": "数据同步中",
