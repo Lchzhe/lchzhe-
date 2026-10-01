@@ -17,13 +17,13 @@
       <div class="actions"><div class="live"><span id="liveDot" class="dot"></span><span id="syncText">自动更新准备中</span></div><a id="reportLink" class="btn primary" target="_blank" rel="noopener">今日研报 ↗</a></div>
     </header>
     <section class="hero">
-      <div class="card"><div class="eyebrow">TODAY · 北京时间 <span id="clock"></span></div><h2>信息自动跟进，原文一键直达。</h2><p>系统每 60 秒检查一次页面数据；GitHub Actions 每 15 分钟抓取公开来源，自动生成带原文链接的消息清单。所有消息都保留来源、类别和更新时间，方便你回到原始网页核对。</p><div class="tags"><span class="tag">自动更新</span><span class="tag">中国宏观</span><span class="tag">A 股披露</span><span class="tag">全球宏观</span><span class="tag">原文直达</span></div></div>
+      <div class="card"><div class="eyebrow">TODAY · 北京时间 <span id="clock"></span></div><h2>信息自动跟进，原文一键直达。</h2><p>系统每 60 秒检查一次页面数据；GitHub Actions 每 5 分钟抓取公开来源，自动生成带原文链接的消息清单。所有消息都保留来源、类别和更新时间，方便你回到原始网页核对。</p><div class="tags"><span class="tag">自动更新</span><span class="tag">中国宏观</span><span class="tag">A 股披露</span><span class="tag">全球宏观</span><span class="tag">原文直达</span></div></div>
       <div class="card score"><div class="scoreTop"><div><div class="eyebrow">MARKET WEATHER</div><div class="scoreLabel">中国宏观与 A 股风险温度</div></div><div class="scoreNum">68</div></div><div><div class="meter"><span></span></div><div class="scoreNote">研究提示：流动性与增长信号中性偏暖，等待政策与盈利数据确认。</div></div></div>
     </section>
     <section class="stats"><div class="stat"><strong id="newsCount">—</strong><span>已聚合消息</span></div><div class="stat"><strong id="sourceCount">—</strong><span>信息来源</span></div><div class="stat"><strong id="reachableCount">—</strong><span>最近可访问来源</span></div><div class="stat"><strong id="dataTime">—</strong><span>最近抓取时间</span></div></section>
     <section class="panel"><div class="toolbar"><div><h3>最新消息</h3><div class="sub">自动更新 · 点击标题或“查看原文”打开对应网页</div></div><div id="filters" class="filters"><button class="filter active" data-filter="全部">全部</button><button class="filter" data-filter="中国宏观">中国宏观</button><button class="filter" data-filter="A股披露">A股披露</button><button class="filter" data-filter="政策">政策</button><button class="filter" data-filter="全球宏观">全球宏观</button></div></div><div id="newsList" class="news-list"><div class="empty">正在载入公开来源…</div></div></section>
     <section class="panel"><div class="panelHead"><h3>信息来源</h3><span class="sub">国内权威来源 + 全球宏观辅助来源</span></div><div id="sourceGrid" class="source-grid"><div class="empty">正在读取来源状态…</div></div></section>
-    <div class="footer"><span>自动更新频率：页面 60 秒 · 抓取任务 15 分钟</span><span>原始来源优先 · 投资提示仅供学习研究</span></div>
+    <div class="footer"><span>自动更新频率：页面 60 秒 · 抓取任务 5 分钟</span><span>原始来源优先 · 投资提示仅供学习研究</span></div>
   </div>
   <div id="toast" class="toast"></div>
   <script>
