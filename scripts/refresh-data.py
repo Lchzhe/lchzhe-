@@ -41,6 +41,29 @@ SOURCES = [
     {"id": "tradingeconomics", "name": "Trading Economics（辅助）", "category": "数据工具", "url": "https://tradingeconomics.com/"},
 ]
 
+MARKET_INDEXES = [
+    {"code": "sh000001", "name": "上证指数", "url": "https://quote.eastmoney.com/zs000001.html"},
+    {"code": "sz399001", "name": "深证成指", "url": "https://quote.eastmoney.com/zs399001.html"},
+    {"code": "sz399006", "name": "创业板指", "url": "https://quote.eastmoney.com/zs399006.html"},
+    {"code": "sh000688", "name": "科创50", "url": "https://quote.eastmoney.com/zs000688.html"},
+    {"code": "bj899050", "name": "北证50", "url": "https://quote.eastmoney.com/bj899050.html"},
+    {"code": "sh000300", "name": "沪深300", "url": "https://quote.eastmoney.com/zs000300.html"},
+    {"code": "sh000905", "name": "中证500", "url": "https://quote.eastmoney.com/zs000905.html"},
+    {"code": "hkHSI", "name": "恒生指数", "url": "https://quote.eastmoney.com/gb/hkHSI.html"},
+]
+
+MARKET_GLOBAL = [
+    {"code": "usDJI", "name": "道琼斯", "url": "https://quote.eastmoney.com/gb/.DJI.html"},
+    {"code": "usIXIC", "name": "纳斯达克", "url": "https://quote.eastmoney.com/gb/.IXIC.html"},
+    {"code": "usINX", "name": "标普500", "url": "https://quote.eastmoney.com/gb/.INX.html"},
+]
+
+MARKET_COMMODITIES = [
+    {"code": "hf_XAU", "name": "伦敦金", "url": "https://quote.eastmoney.com/globalfuture/GC00.html"},
+    {"code": "hf_CL", "name": "纽约原油", "url": "https://quote.eastmoney.com/globalfuture/CL00.html"},
+    {"code": "hf_SI", "name": "伦敦银", "url": "https://quote.eastmoney.com/globalfuture/SI00.html"},
+]
+
 
 def now_bj():
     return datetime.now(timezone.utc).astimezone(BEIJING)
@@ -50,6 +73,72 @@ def fetch(url, limit=400_000):
     request = Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/rss+xml, application/atom+xml, text/html, */*"})
     with urlopen(request, timeout=15) as response:
         return response.status, response.headers.get_content_type(), response.read(limit)
+
+
+def number(value):
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def fetch_market_group(items, query_url):
+    """Read public Tencent quote text; return usable values or an empty list."""
+    try:
+        request = Request(query_url, headers={"User-Agent": "Mozilla/5.0", "Referer": "https://finance.qq.com/"})
+        with urlopen(request, timeout=15) as response:
+            raw = response.read().decode("gb18030", "ignore")
+    except Exception:
+        return []
+    result = []
+    by_code = {item["code"]: item for item in items}
+    for code, body in re.findall(r'v_([A-Za-z0-9_]+)="([^"]*)"', raw):
+        meta = by_code.get(code)
+        if not meta:
+            continue
+        if code.startswith("hf_"):
+            fields = body.split(",")
+            price, pct, high, low, prev = (number(fields[i]) if len(fields) > i else None for i in (0, 1, 4, 5, 7))
+            chg = round(price - prev, 6) if price is not None and prev is not None else None
+            observed = fields[6] if len(fields) > 6 else ""
+        else:
+            fields = body.split("~")
+            price, prev, chg, pct, high, low = (number(fields[i]) if len(fields) > i else None for i in (3, 4, 31, 32, 33, 34))
+            observed = fields[30] if len(fields) > 30 else ""
+        if price is None:
+            continue
+        result.append({**meta, "price": price, "prev": prev, "chg": chg, "pct": pct, "high": high, "low": low, "observed": observed, "source": "腾讯行情"})
+    return result
+
+
+def fetch_market_snapshot(now):
+    def read_group(items):
+        codes = ",".join(item["code"] for item in items)
+        return fetch_market_group(items, f"https://qt.gtimg.cn/q={codes}")
+    indexes = read_group(MARKET_INDEXES)
+    global_assets = read_group(MARKET_GLOBAL)
+    commodities = read_group(MARKET_COMMODITIES)
+    valid_pcts = [item["pct"] for item in indexes if item.get("pct") is not None]
+    avg_pct = sum(valid_pcts) / len(valid_pcts) if valid_pcts else None
+    weather = round(max(0, min(100, 50 + avg_pct * 8)), 1) if avg_pct is not None else None
+    return {
+        "updated_at": now.isoformat(timespec="minutes"),
+        "timezone": "Asia/Shanghai",
+        "provider": "腾讯行情公开接口",
+        "indices": indexes,
+        "global": global_assets,
+        "commodities": commodities,
+        "weather": weather,
+        "average_index_pct": round(avg_pct, 3) if avg_pct is not None else None,
+        "breadth": {"available": False, "label": "等待市场宽度接口", "url": "https://quote.eastmoney.com/center/gridlist.html#hs_a_board"},
+        "sentiment": {"available": False, "label": "等待涨跌停与连板接口", "url": "https://quote.eastmoney.com/center/gridlist.html#limit_up_pool"},
+        "analysis": {
+            "stance": "数据同步中",
+            "tone": "综合研判只描述公开数据，不构成投资建议",
+            "watch": ["先观察主要指数是否同向、成交是否放大，再回到政策和公司原文核对。"],
+            "risks": ["行情接口可能延迟或暂时不可用；请以交易所和上市公司原始披露为准。"],
+        },
+    }
 
 
 def clean(text):
@@ -157,6 +246,8 @@ def main():
         json.dump({"updated_at": payload["updated_at"], "timezone": payload["timezone"], "sources": statuses}, handle, ensure_ascii=False, indent=2)
     with open("data/news.json", "w", encoding="utf-8") as handle:
         json.dump(payload, handle, ensure_ascii=False, indent=2)
+    with open("data/market.json", "w", encoding="utf-8") as handle:
+        json.dump(fetch_market_snapshot(now), handle, ensure_ascii=False, indent=2)
     os.makedirs("reports", exist_ok=True)
     report_path = os.path.join("reports", now.strftime("%Y-%m-%d") + ".md")
     lines = ["# 雷传喆 · 中国宏观与 A 股每日信息底稿", "", f"生成时间（北京时间）：{now:%Y-%m-%d %H:%M}", "", "> 这是公开来源聚合与研究清单，不构成个性化投资建议。请回到原始公告和数据表核对。", "", "## 来源状态", "", "| 类别 | 来源 | 状态 | 链接 |", "|---|---|---|---|"]
