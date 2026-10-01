@@ -1,2 +1,230 @@
-{"updated_at":"未同步","timezone":"Asia/Shanghai","sources":[]}
-
+{
+  "updated_at": "2026-10-01T22:11+08:00",
+  "timezone": "Asia/Shanghai",
+  "sources": [
+    {
+      "id": "pbc",
+      "name": "中国人民银行",
+      "category": "中国宏观",
+      "url": "https://www.pbc.gov.cn/",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "nbs-data",
+      "name": "国家统计局数据",
+      "category": "中国宏观",
+      "url": "https://data.stats.gov.cn/",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "nbs-news",
+      "name": "国家统计局",
+      "category": "中国宏观",
+      "url": "https://www.stats.gov.cn/",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "gov-policy",
+      "name": "中国政府网政策",
+      "category": "政策",
+      "url": "https://www.gov.cn/zhengce/",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "ndrc",
+      "name": "国家发展改革委",
+      "category": "政策",
+      "url": "https://www.ndrc.gov.cn/",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "mof",
+      "name": "财政部",
+      "category": "财政",
+      "url": "https://www.mof.gov.cn/",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "customs",
+      "name": "海关总署",
+      "category": "外贸",
+      "url": "http://www.customs.gov.cn/",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "safe",
+      "name": "国家外汇管理局",
+      "category": "外汇",
+      "url": "https://www.safe.gov.cn/",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "csrc",
+      "name": "中国证监会",
+      "category": "监管",
+      "url": "https://www.csrc.gov.cn/",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "cninfo",
+      "name": "巨潮资讯",
+      "category": "A股披露",
+      "url": "https://www.cninfo.com.cn/",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "sse",
+      "name": "上海证券交易所",
+      "category": "A股披露",
+      "url": "https://www.sse.com.cn/",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "szse",
+      "name": "深圳证券交易所",
+      "category": "A股披露",
+      "url": "https://www.szse.cn/",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "bse",
+      "name": "北京证券交易所",
+      "category": "A股披露",
+      "url": "https://www.bse.cn/",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "chinabond",
+      "name": "中国债券信息网",
+      "category": "债券利率",
+      "url": "https://www.chinabond.com.cn/",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "shibor",
+      "name": "Shibor",
+      "category": "债券利率",
+      "url": "https://www.shibor.org/",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "fred",
+      "name": "FRED",
+      "category": "全球宏观",
+      "url": "https://fred.stlouisfed.org/",
+      "feed": "https://fred.stlouisfed.org/feeds/releases.xml",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "fed",
+      "name": "美联储",
+      "category": "全球宏观",
+      "url": "https://www.federalreserve.gov/",
+      "feed": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "bls",
+      "name": "美国劳工统计局",
+      "category": "全球宏观",
+      "url": "https://www.bls.gov/",
+      "feed": "https://www.bls.gov/feed/bls_latest.rss",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "bea",
+      "name": "美国经济分析局",
+      "category": "全球宏观",
+      "url": "https://www.bea.gov/",
+      "feed": "https://www.bea.gov/news/rss.xml",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "ecb",
+      "name": "欧洲央行",
+      "category": "全球宏观",
+      "url": "https://www.ecb.europa.eu/",
+      "feed": "https://www.ecb.europa.eu/rss/press.html",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "imf",
+      "name": "国际货币基金组织",
+      "category": "全球宏观",
+      "url": "https://www.imf.org/",
+      "feed": "https://www.imf.org/en/News/RSS",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "oecd",
+      "name": "OECD",
+      "category": "全球宏观",
+      "url": "https://www.oecd.org/",
+      "feed": "https://www.oecd.org/newsroom/rss.xml",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "worldbank",
+      "name": "世界银行",
+      "category": "全球宏观",
+      "url": "https://www.worldbank.org/en/news",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "sec",
+      "name": "美国 SEC",
+      "category": "全球监管",
+      "url": "https://www.sec.gov/",
+      "feed": "https://www.sec.gov/news/pressreleases.rss",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "treasury",
+      "name": "美国财政部",
+      "category": "全球宏观",
+      "url": "https://home.treasury.gov/news/press-releases",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "bis",
+      "name": "国际清算银行",
+      "category": "全球宏观",
+      "url": "https://www.bis.org/press/index.htm",
+      "status": "restricted",
+      "detail": "URLError"
+    },
+    {
+      "id": "tradingeconomics",
+      "name": "Trading Economics（辅助）",
+      "category": "数据工具",
+      "url": "https://tradingeconomics.com/",
+      "status": "restricted",
+      "detail": "URLError"
+    }
+  ]
+}
