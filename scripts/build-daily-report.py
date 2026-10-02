@@ -113,6 +113,7 @@ def build_report(report_date, data_dir="data", output_dir="reports"):
     statuses = load_json(data_dir / "source-status.json", {}).get("sources", news_payload.get("sources", []))
     news = news_payload.get("news", [])
     analysis = market_analysis(market)
+    advanced = market.get("advanced_analysis") or {}
     generated = now_bj()
     lines = [
         "# 雷传喆 · 每日金融信息研报",
@@ -156,16 +157,62 @@ def build_report(report_date, data_dir="data", output_dir="reports"):
         lines += ["", f"**{heading}：**"]
         assets = market.get(key) or []
         lines.append("；".join(f"{item.get('name')} {price(item.get('price'))}（{pct(item.get('pct'))}）" for item in assets) if assets else "当日未获取到该组报价。")
-    lines += ["", "## 二、基于当日信息的专业分析", "", "### 1. 指数与市场宽度", ""]
+    regime = advanced.get("regime") or {}
+    lines += [
+        "", "## 二、现代金融理论分析框架", "",
+        "本节采用证据优先的状态识别、因子归因和风险约束框架。它不对单只股票给出无数据支撑的确定性预测；缺少基本面或历史序列时明确标记为待补充。", "",
+        "### 1. 市场状态与证据强度", "",
+        f"- 当前状态：**{safe_md(regime.get('label') or '数据不足')}**；证据分数 {regime.get('score', '—')}/100；置信度 {safe_md(regime.get('confidence_label') or '待评估')}。",
+    ]
+    for signal in advanced.get("signals", []):
+        lines.append(f"- {safe_md(signal.get('name'))}：{safe_md(signal.get('value'))}；{safe_md(signal.get('interpretation'))}（限制：{safe_md(signal.get('caveat'))}）")
+    lines += ["", "### 2. 多因子透视", ""]
+    for factor in advanced.get("factor_lens", []):
+        score = factor.get("score")
+        score_text = f"，代理分数 {score}" if score is not None else "，暂不可评分"
+        lines.append(f"- **{safe_md(factor.get('name'))}**（{safe_md(factor.get('model'))}）：{safe_md(factor.get('signal'))}{score_text}。{safe_md(factor.get('note'))}")
+    lines += ["", "### 3. 情景与行动条件", ""]
+    for scenario in advanced.get("scenarios", []):
+        lines.append(f"- **{safe_md(scenario.get('name'))}**：触发条件为{safe_md(scenario.get('trigger'))}；对应动作是{safe_md(scenario.get('action'))}。")
+    risk = advanced.get("risk_metrics") or {}
+    lines += ["", "### 4. 风险约束", ""]
+    if risk.get("available"):
+        lines.append(f"- 滚动 {risk.get('observations')} 个观测：年化实现波动 {risk.get('realized_vol_annualized')}，95% Expected Shortfall {risk.get('expected_shortfall_95')}，最大回撤 {risk.get('max_drawdown')}。")
+    else:
+        lines.append(f"- 历史风险统计暂不可用：{safe_md(risk.get('note') or '等待滚动数据积累。')}")
+    session = advanced.get("session") or {}
+    lines += ["", "### 5. 交易日与数据质量", ""]
+    lines.append(f"- 交易日判断：{safe_md('是' if session.get('is_trading_day') is True else '否' if session.get('is_trading_day') is False else '未知')}；行情日期：{safe_md(session.get('quote_date') or '待补充')}；下一交易日：{safe_md(session.get('next_session') or '待补充')}。日历入口：[{session.get('calendar_url')}]({session.get('calendar_url')})。")
+    quality = advanced.get("data_quality") or {}
+    lines.append(f"- 数据质量：{safe_md(quality.get('label') or '待评估')}；当日已核验发布日期消息 {quality.get('news_verified_today', 0)} 条；基本面因子={safe_md('已接入' if quality.get('fundamentals') else '未接入')}，本地因子收益={safe_md('已接入' if quality.get('factor_returns') else '未接入')}。")
+    events = advanced.get("events") or []
+    lines += ["", "### 6. 事件传导链", ""]
+    if events:
+        for event in events:
+            lines.append(f"- **{safe_md(event.get('channel'))}**：[{safe_md(event.get('title'))}]({event.get('url')})；传导路径：{safe_md(event.get('pathway'))}；核验要求：{safe_md(event.get('check'))}。")
+    else:
+        lines.append("- 当日没有足够的可核验发行方日期事件触发传导假设；抓取时间不会被当作新闻发布日期。")
+    lines += ["", "### 7. 理论模型目录", ""]
+    for model in advanced.get("model_catalog", []):
+        lines.append(f"- **{safe_md(model.get('name'))}**（{safe_md(model.get('status'))}）：{safe_md(model.get('description'))}")
+    lines += ["", "## 三、基于当日信息的专业分析", "", "### 1. 指数与市场宽度", ""]
     lines += [f"- 主要指数中 {analysis['up']} 个上涨、{analysis['down']} 个下跌，平均涨跌幅 {pct(analysis['avg'])}；这说明指数表现并非完全同向。",
               f"- 市场宽度上涨占比为 {analysis['ratio']:.1f}% 。该指标低于 50% 时，短线赚钱效应需要更多确认，单看指数上涨容易高估市场强度。" if analysis['ratio'] is not None else "- 市场宽度缺少可用数据，暂不把指数变化外推为全市场机会。"]
     if analysis["strongest"]:
         lines.append("- 相对强势：" + "、".join(f"{item.get('name')} {pct(item.get('pct'))}" for item in analysis["strongest"]) + "。")
     if analysis["weakest"]:
         lines.append("- 相对弱势：" + "、".join(f"{item.get('name')} {pct(item.get('pct'))}" for item in analysis["weakest"]) + "。")
-    lines += ["", "### 2. 跨市场传导", "", "- 若海外股指走弱、能源价格上行而贵金属同步偏强，通常意味着增长预期、通胀扰动和避险需求同时存在；对高估值、高波动方向应提高估值与现金流要求。", "- 这只是变量之间的传导框架，不等于因果结论；下一交易日需用成交、北向/机构资金（如有可靠数据）和公司公告验证。", "", "### 3. 综合判断", "", f"**当前状态：{analysis['stance']}。** {analysis['tone']}", "", "## 三、下一交易日 A 股观察与建议", "", "### 基准情景：震荡中验证宽度", "", "- 开盘后先观察 30—60 分钟，不因单只股票或单条快讯追涨；重点看上涨占比能否稳定回到 50% 以上，以及沪深 300、上证指数是否与成交额同步改善。", "- 若宽度继续低于 50%、成长指数继续明显弱于大盘：降低高波动仓位，优先保留现金流稳定、估值有安全边际的方向，等待市场结构修复。", "- 若宽度升至 55% 以上、主要指数站回前收并伴随成交放大：可以分批研究宽基 ETF、盈利稳定行业和有真实订单支撑的公司，避免一次性满仓。", "- 若能源继续快速上行并压制风险偏好：把通胀、运输和制造成本作为财报核查项，谨慎追逐已经大幅上涨的主题。", "", "### 明日需要核对的事实", "", "1. 市场宽度是否改善，以及上涨是否由更多行业共同贡献。", "2. 主要指数成交额是否放大，领涨方向是否出现量价背离。", "3. 当日政策和公告是否有正式全文、执行细则或风险提示，而不是只依据标题和二手解读。", "", "## 四、长期投资建议（研究框架）", "", "- **核心仓位：** 以低成本、分散化的宽基指数和盈利质量较高的资产为主，采用分批投入和定期再平衡，减少对单一行业、单一公司和单一时点的依赖。", "- **卫星仓位：** 只配置自己能解释盈利来源、竞争壁垒、现金流和估值的行业或公司；主题仓位应设置上限，出现逻辑变化时按规则退出。", "- **风险控制：** 保留应急现金，不使用影响生活的资金和高杠杆；为单一持仓、行业暴露和最大回撤设定事先规则。", "- **验证周期：** 长期判断至少用多个季度的盈利、现金流、资本开支和政策执行数据验证，不因为一天的涨跌改写长期逻辑。", "", "## 五、信息来源与可追溯性", "", f"本次报告使用的数据快照：新闻 {safe_md(news_payload.get('updated_at'))}；行情 {safe_md(market.get('updated_at'))}；行情接口：{safe_md(market.get('provider'))}。", "", "| 来源 | 类别 | 状态 | 原始入口 |", "|---|---|---|---|"]
+    lines += ["", "### 2. 跨市场传导", "", "- 若海外股指走弱、能源价格上行而贵金属同步偏强，通常意味着增长预期、通胀扰动和避险需求同时存在；对高估值、高波动方向应提高估值与现金流要求。", "- 这只是变量之间的传导框架，不等于因果结论；下一交易日需用成交、北向/机构资金（如有可靠数据）和公司公告验证。", "", "### 3. 综合判断", "", f"**当前状态：{analysis['stance']}。** {analysis['tone']}", "", "## 四、下一交易日 A 股观察与建议", "", "### 基准情景：震荡中验证宽度", "", "- 开盘后先观察 30—60 分钟，不因单只股票或单条快讯追涨；重点看上涨占比能否稳定回到 50% 以上，以及沪深 300、上证指数是否与成交额同步改善。", "- 若宽度继续低于 50%、成长指数继续明显弱于大盘：降低高波动仓位，优先保留现金流稳定、估值有安全边际的方向，等待市场结构修复。", "- 若宽度升至 55% 以上、主要指数站回前收并伴随成交放大：可以分批研究宽基 ETF、盈利稳定行业和有真实订单支撑的公司，避免一次性满仓。", "- 若能源继续快速上行并压制风险偏好：把通胀、运输和制造成本作为财报核查项，谨慎追逐已经大幅上涨的主题。", "", "### 明日需要核对的事实", "", "1. 市场宽度是否改善，以及上涨是否由更多行业共同贡献。", "2. 主要指数成交额是否放大，领涨方向是否出现量价背离。", "3. 当日政策和公告是否有正式全文、执行细则或风险提示，而不是只依据标题和二手解读。", "", "## 五、长期投资建议（研究框架）", "", "- **核心仓位：** 以低成本、分散化的宽基指数和盈利质量较高的资产为主，采用分批投入和定期再平衡，减少对单一行业、单一公司和单一时点的依赖。", "- **卫星仓位：** 只配置自己能解释盈利来源、竞争壁垒、现金流和估值的行业或公司；主题仓位应设置上限，出现逻辑变化时按规则退出。", "- **风险控制：** 保留应急现金，不使用影响生活的资金和高杠杆；为单一持仓、行业暴露和最大回撤设定事先规则。", "- **验证周期：** 长期判断至少用多个季度的盈利、现金流、资本开支和政策执行数据验证，不因为一天的涨跌改写长期逻辑。", "", "## 六、信息来源与可追溯性", "", f"本次报告使用的数据快照：新闻 {safe_md(news_payload.get('updated_at'))}；行情 {safe_md(market.get('updated_at'))}；行情接口：{safe_md(market.get('provider'))}。", "", "| 来源 | 类别 | 状态 | 原始入口 |", "|---|---|---|---|"]
     for item in statuses:
         lines.append(f"| {safe_md(item.get('name'))} | {safe_md(item.get('category'))} | {safe_md(item.get('status'))} | [{item.get('url','')}]({item.get('url','')}) |")
+    lines += ["", "## 七、理论依据与方法来源", "", "本报告使用公开、可追溯的研究框架；引用用于说明模型边界，不代表模型对未来收益的保证。", ""]
+    lines.append("| 框架 | 原始资料 | 用途 |")
+    lines.append("|---|---|---|")
+    ref_map = {item.get("id"): item for item in advanced.get("references", [])}
+    for model in advanced.get("model_catalog", []):
+        ref = ref_map.get(model.get("reference"), {})
+        if ref:
+            lines.append(f"| {safe_md(model.get('name'))} | [{safe_md(ref.get('title'))}]({ref.get('url')}) | {safe_md(model.get('description'))} |")
     lines += ["", "## 附录：当日可追溯消息清单", "", "| 时间 | 类别 | 来源 | 标题 | 原文 |", "|---|---|---|---|---|"]
     for item in news:
         if date_in_item(item) not in (report_date, "") and any(date_in_item(x) == report_date for x in news):
@@ -193,3 +240,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
