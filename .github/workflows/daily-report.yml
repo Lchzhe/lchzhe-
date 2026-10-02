@@ -1,0 +1,29 @@
+name: Build daily finance report
+on:
+  schedule:
+    - cron: "59 15 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: daily-finance-report
+  cancel-in-progress: false
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Refresh final public snapshots
+        run: python scripts/refresh-data.py
+      - name: Build full daily report
+        run: python scripts/build-daily-report.py
+      - name: Commit report and snapshots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/source-status.json data/news.json data/market.json reports/
+          git diff --cached --quiet || git commit -m "Build daily finance report"
+          git push
