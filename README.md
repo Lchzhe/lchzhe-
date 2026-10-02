@@ -14,4 +14,4 @@ GitHub Pages 静态站点入口：`index.html`。页面每 60 秒自动读取 `d
 
 `reports/YYYY-MM-DD.md` 和 `reports/latest.md` 由独立的 GitHub Actions 在北京时间 23:59 生成，包含当日重要信息、市场快照、专业分析、次日 A 股观察、长期投资研究框架和可追溯原文链接。
 
-`scripts/sync-daily-report.ps1` 会把前一日的报告同步到 `D:/C/桌面/雷传喆的资料/每日金融信息研报`；可在 Windows 任务计划程序中设置每天 23:59 运行。
+`scripts/sync-daily-report.ps1` 会把当天 23:59 生成的报告同步到 `D:/C/桌面/雷传喆的资料/每日金融信息研报`；可在 Windows 任务计划程序中设置每天 23:59 运行。
