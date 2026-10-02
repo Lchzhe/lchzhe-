@@ -1,6 +1,6 @@
 $ErrorActionPreference = "Stop"
 $reportDir = "D:\C\桌面\雷传喆的资料\每日金融信息研报"
-$reportDate = (Get-Date).AddDays(-1).ToString("yyyy-MM-dd")
+$reportDate = (Get-Date).ToString("yyyy-MM-dd")
 $reportName = "$reportDate-每日金融信息研报.md"
 $reportUri = "https://raw.githubusercontent.com/Lchzhe/lchzhe-/main/reports/$reportDate.md"
 New-Item -ItemType Directory -Path $reportDir -Force | Out-Null
