@@ -3,6 +3,11 @@ on:
   schedule:
     - cron: "59 15 * * *"
   workflow_dispatch:
+    inputs:
+      report_date:
+        description: "可选：手动测试时指定报告日期（YYYY-MM-DD）"
+        required: false
+        type: string
 permissions:
   contents: write
 concurrency:
@@ -19,7 +24,15 @@ jobs:
       - name: Refresh final public snapshots
         run: python scripts/refresh-data.py
       - name: Build full daily report
-        run: python scripts/build-daily-report.py
+        env:
+          REPORT_DATE: ${{ inputs.report_date }}
+        run: |
+          if [ -n "$REPORT_DATE" ]; then
+            python scripts/build-daily-report.py --date "$REPORT_DATE"
+          else
+            REPORT_DATE=$(TZ=Asia/Shanghai date +%F)
+            python scripts/build-daily-report.py --date "$REPORT_DATE"
+          fi
       - name: Commit report and snapshots
         run: |
           git config user.name "github-actions[bot]"
