@@ -5,9 +5,12 @@ import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone, timedelta
 from html.parser import HTMLParser
+from pathlib import Path
 from urllib.parse import urljoin, urlparse
 from urllib.request import Request, urlopen
 import xml.etree.ElementTree as ET
+
+from financial_analysis import build_analysis, completed_rows, is_trading_day
 
 BEIJING = timezone(timedelta(hours=8))
 USER_AGENT = "lchzhe-finance-radar/2.0 (+https://github.com/Lchzhe/lchzhe-)"
@@ -135,29 +138,74 @@ def fetch_market_snapshot(now):
         codes = ",".join(item["code"] for item in items)
         return fetch_market_group(items, f"https://qt.gtimg.cn/q={codes}")
     indexes = read_group(MARKET_INDEXES)
-    global_assets = read_group(MARKET_GLOBAL)
-    commodities = read_group(MARKET_COMMODITIES)
-    valid_pcts = [item["pct"] for item in indexes if item.get("pct") is not None]
-    avg_pct = sum(valid_pcts) / len(valid_pcts) if valid_pcts else None
-    weather = round(max(0, min(100, 50 + avg_pct * 8)), 1) if avg_pct is not None else None
     return {
-        "updated_at": now.isoformat(timespec="minutes"),
-        "timezone": "Asia/Shanghai",
-        "provider": "腾讯行情公开接口",
-        "indices": indexes,
-        "global": global_assets,
-        "commodities": commodities,
-        "weather": weather,
-        "average_index_pct": round(avg_pct, 3) if avg_pct is not None else None,
+        "updated_at": now.isoformat(timespec="minutes"), "timezone": "Asia/Shanghai",
+        "provider": "腾讯行情公开接口", "indices": indexes,
+        "global": read_group(MARKET_GLOBAL), "commodities": read_group(MARKET_COMMODITIES),
         "breadth": fetch_market_breadth(),
-        "sentiment": {"available": False, "label": "等待涨跌停与连板接口", "url": "https://quote.eastmoney.com/center/gridlist.html#limit_up_pool"},
-        "analysis": {
-            "stance": "数据同步中",
-            "tone": "综合研判只描述公开数据，不构成投资建议",
-            "watch": ["先观察主要指数是否同向、成交是否放大，再回到政策和公司原文核对。"],
-            "risks": ["行情接口可能延迟或暂时不可用；请以交易所和上市公司原始披露为准。"],
-        },
     }
+
+
+def fetch_history(item, now):
+    code = item["code"]
+    url = f"https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param={code},day,,,400,qfq"
+    request = Request(url, headers={"User-Agent": "Mozilla/5.0", "Referer": "https://finance.qq.com/"})
+    with urlopen(request, timeout=20) as response:
+        payload = json.loads(response.read(2_000_000).decode("utf-8"))
+    series = (payload.get("data") or {}).get(code) or {}
+    raw_rows = series.get("day") or series.get("qfqday") or []
+    rows = []
+    for row in raw_rows:
+        if len(row) < 6:
+            continue
+        close = number(row[2])
+        if close is None or close <= 0:
+            continue
+        rows.append({"date": row[0], "close": close, "volume": number(row[5])})
+    rows = completed_rows(rows, now)
+    if not rows:
+        raise ValueError("empty history")
+    return {"code": code, "name": item["name"], "source": "腾讯历史日线", "url": url,
+            "fetched_at": now.isoformat(timespec="minutes"), "rows": rows[-400:]}
+
+
+def refresh_histories(path, now):
+    history = read_json(path, {})
+    if not isinstance(history, dict):
+        history = {}
+    series = history.setdefault("series", {})
+    pending = []
+    for item in MARKET_INDEXES:
+        if item["code"].startswith("hk"):
+            continue
+        cached = series.get(item["code"], {})
+        fetched = cached.get("fetched_at", "")
+        if cached.get("rows") and fetched[:10] == now.date().isoformat():
+            # Repeat after the session closes if today's cache was built before 15:00.
+            if now.hour < 15 or cached["rows"][-1]["date"] == now.date().isoformat() or is_trading_day(now.date()) is False:
+                continue
+        pending.append(item)
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        futures = {pool.submit(fetch_history, item, now): item for item in pending}
+        for future in as_completed(futures):
+            item = futures[future]
+            try:
+                series[item["code"]] = future.result()
+            except Exception as exc:
+                old = series.get(item["code"])
+                if old:
+                    old["fetch_error"] = type(exc).__name__
+    history["format_version"] = 2
+    history["updated_at"] = now.isoformat(timespec="minutes")
+    path.write_text(json.dumps(history, ensure_ascii=False, indent=2), encoding="utf-8")
+    return history
+
+
+def read_json(path, fallback):
+    try:
+        return json.loads(Path(path).read_text(encoding="utf-8-sig"))
+    except (OSError, json.JSONDecodeError):
+        return fallback
 
 
 def clean(text):
@@ -219,7 +267,8 @@ def parse_feed(raw, source):
             date_node = item.find("{*}published")
         if date_node is None:
             date_node = item.find("{*}updated")
-        result.append({"title": title, "url": link, "source": source["name"], "category": source["category"], "published_at": node_text(date_node) or now_bj().isoformat(timespec="minutes"), "summary": "来自公开原始来源的最新发布。"})
+        published = node_text(date_node)
+        result.append({"title": title, "url": link, "source": source["name"], "category": source["category"], "published_at": published or now_bj().isoformat(timespec="minutes"), "date_quality": "publisher" if published else "unknown", "summary": "来自公开原始来源的最新发布。"})
     return result
 
 
@@ -235,7 +284,9 @@ def parse_html(raw, source):
         if any(x in title.lower() for x in ("首页", "登录", "注册", "联系我们", "网站地图", "返回顶部")):
             continue
         seen.add(link)
-        result.append({"title": title, "url": link, "source": source["name"], "category": source["category"], "published_at": now_bj().isoformat(timespec="minutes"), "summary": "打开原文查看完整公告、数据表或政策文件。"})
+        date_match = re.search(r"(20\d{2})[-/]?(\d{2})[-/]?(\d{2})", link)
+        published = "-".join(date_match.groups()) if date_match else now_bj().isoformat(timespec="minutes")
+        result.append({"title": title, "url": link, "source": source["name"], "category": source["category"], "published_at": published, "date_quality": "url_date" if date_match else "unknown", "summary": "打开原文查看完整公告、数据表或政策文件。"})
         if len(result) >= 5:
             break
     return result
@@ -247,10 +298,10 @@ def collect(source):
         status, content_type, raw = fetch(target)
         items = parse_feed(raw, source) if source.get("feed") or "xml" in content_type else parse_html(raw, source)
         if not items:
-            items = [{"title": f"查看{source['name']}最新发布", "url": source["url"], "source": source["name"], "category": source["category"], "published_at": now_bj().isoformat(timespec="minutes"), "summary": "该来源未提供可机器读取的列表，点击进入官网查看最新内容。"}]
+            items = [{"title": f"查看{source['name']}最新发布", "url": source["url"], "source": source["name"], "category": source["category"], "published_at": now_bj().isoformat(timespec="minutes"), "date_quality": "source_entry", "item_type": "source_entry", "summary": "该来源未提供可机器读取的列表，点击进入官网查看最新内容。"}]
         return {"source": source, "status": "reachable" if 200 <= status < 400 else f"http-{status}", "detail": str(status), "items": items}
     except Exception as exc:
-        return {"source": source, "status": "restricted", "detail": type(exc).__name__, "items": [{"title": f"打开{source['name']}官网", "url": source["url"], "source": source["name"], "category": source["category"], "published_at": now_bj().isoformat(timespec="minutes"), "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"}]}
+        return {"source": source, "status": "restricted", "detail": type(exc).__name__, "items": [{"title": f"打开{source['name']}官网", "url": source["url"], "source": source["name"], "category": source["category"], "published_at": now_bj().isoformat(timespec="minutes"), "date_quality": "source_entry", "item_type": "source_entry", "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"}]}
 
 
 def main():
@@ -265,10 +316,26 @@ def main():
         json.dump({"updated_at": payload["updated_at"], "timezone": payload["timezone"], "sources": statuses}, handle, ensure_ascii=False, indent=2)
     with open("data/news.json", "w", encoding="utf-8") as handle:
         json.dump(payload, handle, ensure_ascii=False, indent=2)
+    history = refresh_histories(Path("data/market-history.json"), now)
+    market = fetch_market_snapshot(now)
+    previous = read_json("data/market.json", {})
+    if not market.get("indices") and previous.get("indices"):
+        market = previous
+        market["data_stale"] = True
+        market["stale_reason"] = "本次接口未返回有效指数，沿用最近一次有效快照。"
+    advanced = build_analysis(market, history, news, now)
+    market["advanced_analysis"] = advanced
+    market["analysis"] = {
+        "stance": advanced["regime"]["label"],
+        "tone": f"数据覆盖：{advanced['regime']['quality_label']}；{advanced['methodology'][0]}",
+        "watch": [signal["interpretation"] for signal in advanced["signals"] if signal["status"] == "available"][:3],
+        "risks": advanced["methodology"][1:],
+    }
     with open("data/market.json", "w", encoding="utf-8") as handle:
-        json.dump(fetch_market_snapshot(now), handle, ensure_ascii=False, indent=2)
+        json.dump(market, handle, ensure_ascii=False, indent=2)
 
 
 
 if __name__ == "__main__":
     main()
+
