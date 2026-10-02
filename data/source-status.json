@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T08:34+08:00",
+  "updated_at": "2026-10-02T10:15+08:00",
   "timezone": "Asia/Shanghai",
   "sources": [
     {
@@ -31,16 +31,16 @@
       "name": "中国政府网政策",
       "category": "政策",
       "url": "https://www.gov.cn/zhengce/",
-      "status": "reachable",
-      "detail": "200"
+      "status": "restricted",
+      "detail": "URLError"
     },
     {
       "id": "ndrc",
       "name": "国家发展改革委",
       "category": "政策",
       "url": "https://www.ndrc.gov.cn/",
-      "status": "reachable",
-      "detail": "200"
+      "status": "restricted",
+      "detail": "URLError"
     },
     {
       "id": "mof",
@@ -55,8 +55,8 @@
       "name": "海关总署",
       "category": "外贸",
       "url": "http://www.customs.gov.cn/",
-      "status": "restricted",
-      "detail": "HTTPError"
+      "status": "reachable",
+      "detail": "200"
     },
     {
       "id": "safe",
@@ -95,8 +95,8 @@
       "name": "深圳证券交易所",
       "category": "A股披露",
       "url": "https://www.szse.cn/",
-      "status": "restricted",
-      "detail": "URLError"
+      "status": "reachable",
+      "detail": "200"
     },
     {
       "id": "bse",
@@ -190,8 +190,8 @@
       "name": "世界银行",
       "category": "全球宏观",
       "url": "https://www.worldbank.org/en/news",
-      "status": "reachable",
-      "detail": "200"
+      "status": "restricted",
+      "detail": "URLError"
     },
     {
       "id": "sec",
