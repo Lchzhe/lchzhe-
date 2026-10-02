@@ -20,7 +20,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/source-status.json data/news.json data/market.json reports/
+          git add data/source-status.json data/news.json data/market.json data/market-history.json reports/
           git diff --cached --quiet || git commit -m "Refresh source status and daily report"
           git push
 
