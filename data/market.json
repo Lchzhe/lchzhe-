@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T08:34+08:00",
+  "updated_at": "2026-10-02T10:15+08:00",
   "timezone": "Asia/Shanghai",
   "provider": "腾讯行情公开接口",
   "indices": [
@@ -98,13 +98,13 @@
       "code": "hkHSI",
       "name": "恒生指数",
       "url": "https://quote.eastmoney.com/gb/hkHSI.html",
-      "price": 24613.27,
-      "prev": 24523.57,
-      "chg": 89.7,
-      "pct": 0.37,
-      "high": 24637.65,
-      "low": 24332.64,
-      "observed": "2026/09/30 18:31:27",
+      "price": 23974.06,
+      "prev": 24613.27,
+      "chg": -639.21,
+      "pct": -2.6,
+      "high": 24099.73,
+      "low": 23922.45,
+      "observed": "2026/10/02 10:00:19",
       "source": "腾讯行情"
     }
   ],
@@ -154,67 +154,389 @@
       "code": "hf_XAU",
       "name": "伦敦金",
       "url": "https://quote.eastmoney.com/globalfuture/GC00.html",
-      "price": 4165.22,
+      "price": 4153.51,
       "prev": 4177.27,
-      "chg": -12.05,
-      "pct": -0.29,
+      "chg": -23.76,
+      "pct": -0.57,
       "high": 4183.65,
-      "low": 4160.02,
-      "observed": "08:33:00",
+      "low": 4133.68,
+      "observed": "10:14:00",
       "source": "腾讯行情"
     },
     {
       "code": "hf_CL",
       "name": "纽约原油",
       "url": "https://quote.eastmoney.com/globalfuture/CL00.html",
-      "price": 93.01,
+      "price": 92.81,
       "prev": 92.87,
-      "chg": 0.14,
-      "pct": 0.15,
+      "chg": -0.06,
+      "pct": -0.06,
       "high": 93.51,
-      "low": 92.87,
-      "observed": "08:34:00",
+      "low": 92.64,
+      "observed": "10:15:01",
       "source": "腾讯行情"
     },
     {
       "code": "hf_SI",
       "name": "伦敦银",
       "url": "https://quote.eastmoney.com/globalfuture/SI00.html",
-      "price": 61.12,
+      "price": 60.86,
       "prev": 61.17,
-      "chg": -0.05,
-      "pct": -0.09,
+      "chg": -0.31,
+      "pct": -0.52,
       "high": 61.54,
-      "low": 61.05,
-      "observed": "08:33:47",
+      "low": 60.53,
+      "observed": "10:15:00",
       "source": "腾讯行情"
     }
   ],
-  "weather": 48.8,
-  "average_index_pct": -0.155,
   "breadth": {
-    "available": true,
-    "up": 2393,
-    "down": 2730,
-    "flat": 167,
-    "total": 5290,
-    "ratio": 45.2,
-    "label": "沪深主要成分估算",
-    "url": "https://push2.eastmoney.com/api/qt/ulist.np/get?fltt=2&fields=f104,f105,f106&secids=1.000001,0.399001"
-  },
-  "sentiment": {
     "available": false,
-    "label": "等待涨跌停与连板接口",
-    "url": "https://quote.eastmoney.com/center/gridlist.html#limit_up_pool"
+    "label": "等待市场宽度接口",
+    "url": "https://quote.eastmoney.com/center/gridlist.html#hs_a_board"
+  },
+  "advanced_analysis": {
+    "framework_version": "3.0-research",
+    "generated_at": "2026-10-02T10:15+08:00",
+    "regime": {
+      "code": "mixed",
+      "label": "信号分化，保持观察",
+      "score": null,
+      "confidence": null,
+      "confidence_label": "未校准概率",
+      "quality_label": "部分可用",
+      "covered": 3,
+      "total": 4
+    },
+    "session": {
+      "is_trading_day": false,
+      "next_session": "2026-10-08",
+      "quote_date": "2026-09-30",
+      "calendar_url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml",
+      "calendar_year": 2026
+    },
+    "signals": [
+      {
+        "name": "A股指数截面",
+        "status": "available",
+        "value": "7个指数均值 -0.23% · 分化 1.05个百分点",
+        "interpretation": "描述最近行情；指数相互重叠，均值不代表可投资组合。",
+        "caveat": "港股单列，不计入A股截面。"
+      },
+      {
+        "name": "市场宽度",
+        "status": "missing",
+        "value": "待补充",
+        "interpretation": "以接口覆盖范围为准；55%/45%为研究规则阈值，尚未完成收益检验。",
+        "caveat": "等待市场宽度接口"
+      },
+      {
+        "name": "中期趋势",
+        "status": "available",
+        "value": "沪深300距60日均线 -5.34%",
+        "interpretation": "根据已完成交易日收盘计算，与宽度共同作描述性状态识别。",
+        "caveat": "未训练HMM，也未给出上涨概率。"
+      },
+      {
+        "name": "样本与时间",
+        "status": "available",
+        "value": "历史截至 2026-09-30 · 399个日收益",
+        "interpretation": "收盘历史剔除未收盘当日；重复抓取和休市日不新增观测。",
+        "caveat": "抓取时间与交易日期分开记录。"
+      }
+    ],
+    "factor_lens": [
+      {
+        "name": "市场敏感度 β",
+        "model": "线性市场回归",
+        "status": "computed",
+        "score": null,
+        "signal": "相对于沪深300的日收益敏感度",
+        "note": "下表提供对齐交易日回归；未扣无风险利率，未输出 CAPM 预期收益或 alpha。"
+      },
+      {
+        "name": "12—1 月动量",
+        "model": "动量研究中的价格描述指标",
+        "status": "computed",
+        "score": null,
+        "signal": "+2.03%",
+        "note": "沪深300第t-21日收盘 / 第t-252日收盘 - 1；排除最近21个交易日，不是 Carhart 横截面因子收益。"
+      },
+      {
+        "name": "估值与现金流",
+        "model": "DCF / 相对估值",
+        "status": "missing",
+        "score": null,
+        "signal": "公司财务与预测数据待接入",
+        "note": "需要 FCFF/FCFE、净债务、折现率和增长情景；暂不生成目标价。"
+      },
+      {
+        "name": "盈利与投资",
+        "model": "Fama-French 五因子",
+        "status": "missing",
+        "score": null,
+        "signal": "A股本地因子组合待接入",
+        "note": "需要时点一致的账面价值、盈利、资产增长、规模、无风险利率与因子收益；未拟合五因子回归。"
+      },
+      {
+        "name": "滚动风险",
+        "model": "历史波动 / ES / 回撤",
+        "status": "computed",
+        "score": null,
+        "signal": "63日年化波动 +19.94%",
+        "note": "ES 使用全体250日收益的最差5%尾部，包括所有损益；一日95%研究口径，不等同银行监管ES。"
+      }
+    ],
+    "risk_metrics": {
+      "observations": 399,
+      "start": "2025-02-13",
+      "end": "2026-09-30",
+      "momentum_12_1": 0.02030195938284507,
+      "distance_ma60": -0.05344686637995599,
+      "realized_vol_annualized": 0.19943889212820334,
+      "expected_shortfall_95": 0.026817321881726797,
+      "max_drawdown": 0.1420846460038816,
+      "risk_observations": 250,
+      "available": true,
+      "note": "波动用最近63个收盘收益，ES与回撤用最近250个收盘收益；均为价格指数历史估计，未含股息、交易成本或持仓。",
+      "benchmark": "沪深300",
+      "price_basis": "价格指数，非总收益指数"
+    },
+    "asset_metrics": [
+      {
+        "name": "上证指数",
+        "code": "sh000001",
+        "observations": 252,
+        "start": "2025-02-13",
+        "end": "2026-09-30",
+        "momentum_12_1": 0.03258645253205539,
+        "distance_ma60": -0.015843109276526324,
+        "realized_vol_annualized": 0.1572445350574425,
+        "expected_shortfall_95": 0.022986929492482433,
+        "max_drawdown": 0.11276655423481519,
+        "risk_observations": 250,
+        "available": true,
+        "note": "波动用最近63个收盘收益，ES与回撤用最近250个收盘收益；均为价格指数历史估计，未含股息、交易成本或持仓。",
+        "beta": 0.7517296318374369,
+        "correlation": 0.9304316569749518
+      },
+      {
+        "name": "深证成指",
+        "code": "sz399001",
+        "observations": 252,
+        "start": "2025-02-13",
+        "end": "2026-09-30",
+        "momentum_12_1": 0.07759863506735853,
+        "distance_ma60": -0.07415314687416286,
+        "realized_vol_annualized": 0.3112099540182231,
+        "expected_shortfall_95": 0.03781365757773745,
+        "max_drawdown": 0.2146129180027485,
+        "risk_observations": 250,
+        "available": true,
+        "note": "波动用最近63个收盘收益，ES与回撤用最近250个收盘收益；均为价格指数历史估计，未含股息、交易成本或持仓。",
+        "beta": 1.3575169393849036,
+        "correlation": 0.945147321186617
+      },
+      {
+        "name": "创业板指",
+        "code": "sz399006",
+        "observations": 252,
+        "start": "2025-02-13",
+        "end": "2026-09-30",
+        "momentum_12_1": 0.12148667071078667,
+        "distance_ma60": -0.09633743829787278,
+        "realized_vol_annualized": 0.4287281126196525,
+        "expected_shortfall_95": 0.04931607354573404,
+        "max_drawdown": 0.28287118680509327,
+        "risk_observations": 250,
+        "available": true,
+        "note": "波动用最近63个收盘收益，ES与回撤用最近250个收盘收益；均为价格指数历史估计，未含股息、交易成本或持仓。",
+        "beta": 1.7366518769149404,
+        "correlation": 0.9035630656595122
+      },
+      {
+        "name": "科创50",
+        "code": "sh000688",
+        "observations": 252,
+        "start": "2025-02-13",
+        "end": "2026-09-30",
+        "momentum_12_1": 0.2566323485526709,
+        "distance_ma60": -0.10140746275245704,
+        "realized_vol_annualized": 0.5202672760656287,
+        "expected_shortfall_95": 0.057086342503120134,
+        "max_drawdown": 0.3078048426983595,
+        "risk_observations": 250,
+        "available": true,
+        "note": "波动用最近63个收盘收益，ES与回撤用最近250个收盘收益；均为价格指数历史估计，未含股息、交易成本或持仓。",
+        "beta": 1.8398696431529333,
+        "correlation": 0.7868784311859589
+      },
+      {
+        "name": "北证50",
+        "code": "bj899050",
+        "observations": 0,
+        "start": "2026-09-30",
+        "end": "2026-09-30",
+        "momentum_12_1": null,
+        "distance_ma60": null,
+        "realized_vol_annualized": null,
+        "expected_shortfall_95": null,
+        "max_drawdown": null,
+        "risk_observations": 0,
+        "available": false,
+        "note": "波动用最近63个收盘收益，ES与回撤用最近250个收盘收益；均为价格指数历史估计，未含股息、交易成本或持仓。",
+        "beta": null,
+        "correlation": null
+      },
+      {
+        "name": "沪深300",
+        "code": "sh000300",
+        "observations": 252,
+        "start": "2025-02-13",
+        "end": "2026-09-30",
+        "momentum_12_1": 0.02030195938284507,
+        "distance_ma60": -0.05344686637995599,
+        "realized_vol_annualized": 0.19943889212820334,
+        "expected_shortfall_95": 0.026817321881726797,
+        "max_drawdown": 0.1420846460038816,
+        "risk_observations": 250,
+        "available": true,
+        "note": "波动用最近63个收盘收益，ES与回撤用最近250个收盘收益；均为价格指数历史估计，未含股息、交易成本或持仓。",
+        "beta": 1.0,
+        "correlation": 1.0
+      },
+      {
+        "name": "中证500",
+        "code": "sh000905",
+        "observations": 252,
+        "start": "2025-02-13",
+        "end": "2026-09-30",
+        "momentum_12_1": 0.11415145095665635,
+        "distance_ma60": -0.04681880002945171,
+        "realized_vol_annualized": 0.3126290244680397,
+        "expected_shortfall_95": 0.0389472644442965,
+        "max_drawdown": 0.19064639069555256,
+        "risk_observations": 250,
+        "available": true,
+        "note": "波动用最近63个收盘收益，ES与回撤用最近250个收盘收益；均为价格指数历史估计，未含股息、交易成本或持仓。",
+        "beta": 1.3068727272171197,
+        "correlation": 0.890982758286224
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "基准情景",
+        "trigger": "趋势、宽度或消息证据未形成一致方向",
+        "action": "观察成交与政策执行，复核现有风险暴露；长期按现金流、估值和分散程度研究。",
+        "priority": "base"
+      },
+      {
+        "name": "改善情景",
+        "trigger": "趋势转强且上涨占比≥55%，后续成交与盈利信息支持",
+        "action": "将低成本宽基和盈利质量稳定的方向列入研究，分批评估；未核验信息不触发自动买入。",
+        "priority": "upside"
+      },
+      {
+        "name": "压力情景",
+        "trigger": "趋势转弱且上涨占比<45%，或公司现金流/治理出现恶化",
+        "action": "复核集中度、杠杆、流动性和回撤承受能力；减少超过自身预算的风险暴露。",
+        "priority": "downside"
+      }
+    ],
+    "events": [],
+    "model_catalog": [
+      {
+        "name": "DCF与资本成本",
+        "status": "待数据",
+        "description": "现金流与折现率匹配、终值敏感性、净债务和每股价值；接入财报后再估值。",
+        "reference": "dcf"
+      },
+      {
+        "name": "多因子资产定价",
+        "status": "待数据",
+        "description": "FF5与动量用于归因；本地A股因子序列与发表时点一致后才估计暴露和残差。",
+        "reference": "ff"
+      },
+      {
+        "name": "风险与组合",
+        "status": "部分启用",
+        "description": "已计算历史风险和β/相关性；组合优化需持仓、资产池、成本和风险预算，尚未运行。",
+        "reference": "lw"
+      },
+      {
+        "name": "宏观金融传导",
+        "status": "研究框架",
+        "description": "需求、信用、通胀与利率经现金流/折现率传导；未取得发布值、预期值和历史样本时不输出惊喜指数。",
+        "reference": "macro"
+      },
+      {
+        "name": "金融机器学习",
+        "status": "研究储备",
+        "description": "非线性交互模型须经时序划分、滚动样本外评估、成本扣减和数据泄漏审查；尚未训练，不输出AI胜率。",
+        "reference": "ml"
+      }
+    ],
+    "references": [
+      {
+        "id": "ff",
+        "title": "Fama & French (2015) · A five-factor asset pricing model",
+        "url": "https://doi.org/10.1016/j.jfineco.2014.10.010"
+      },
+      {
+        "id": "carhart",
+        "title": "Carhart (1997) · On Persistence in Mutual Fund Performance",
+        "url": "https://doi.org/10.1111/j.1540-6261.1997.tb03808.x"
+      },
+      {
+        "id": "dcf",
+        "title": "Damodaran · Discounted cash flow valuation inputs",
+        "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/lectures/dcfinput.html"
+      },
+      {
+        "id": "lw",
+        "title": "Ledoit & Wolf (2004) · Covariance shrinkage",
+        "url": "https://www.ledoit.net/Well-conditioned2004.pdf"
+      },
+      {
+        "id": "es",
+        "title": "BIS · Basel Framework, MAR33",
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/mar"
+      },
+      {
+        "id": "macro",
+        "title": "Federal Reserve (2023) · Financial conditions and growth",
+        "url": "https://www.federalreserve.gov/econres/notes/feds-notes/a-new-index-to-measure-us-financial-conditions-20230630.html"
+      },
+      {
+        "id": "ml",
+        "title": "Kelly & Xiu (2023) · Financial Machine Learning",
+        "url": "https://www.nber.org/papers/w31502"
+      }
+    ],
+    "data_quality": {
+      "label": "部分可用",
+      "stale": false,
+      "fundamentals": false,
+      "factor_returns": false,
+      "news_verified_today": 0
+    },
+    "methodology": [
+      "60日趋势与宽度是透明研究规则，阈值未回测，不代表预测胜率。",
+      "价格指数日收益用于β、波动、ES和回撤；未含股息、成本或个人持仓。",
+      "基本面与本地因子缺失时停用DCF目标价和五因子回归；机器学习模型尚未训练。"
+    ]
   },
   "analysis": {
-    "stance": "数据同步中",
-    "tone": "综合研判只描述公开数据，不构成投资建议",
+    "stance": "信号分化，保持观察",
+    "tone": "数据覆盖：部分可用；60日趋势与宽度是透明研究规则，阈值未回测，不代表预测胜率。",
     "watch": [
-      "先观察主要指数是否同向、成交是否放大，再回到政策和公司原文核对。"
+      "描述最近行情；指数相互重叠，均值不代表可投资组合。",
+      "根据已完成交易日收盘计算，与宽度共同作描述性状态识别。",
+      "收盘历史剔除未收盘当日；重复抓取和休市日不新增观测。"
     ],
     "risks": [
-      "行情接口可能延迟或暂时不可用；请以交易所和上市公司原始披露为准。"
+      "价格指数日收益用于β、波动、ES和回撤；未含股息、成本或个人持仓。",
+      "基本面与本地因子缺失时停用DCF目标价和五因子回归；机器学习模型尚未训练。"
     ]
   }
 }
