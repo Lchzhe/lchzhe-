@@ -267,17 +267,8 @@ def main():
         json.dump(payload, handle, ensure_ascii=False, indent=2)
     with open("data/market.json", "w", encoding="utf-8") as handle:
         json.dump(fetch_market_snapshot(now), handle, ensure_ascii=False, indent=2)
-    os.makedirs("reports", exist_ok=True)
-    report_path = os.path.join("reports", now.strftime("%Y-%m-%d") + ".md")
-    lines = ["# 雷传喆 · 中国宏观与 A 股每日信息底稿", "", f"生成时间（北京时间）：{now:%Y-%m-%d %H:%M}", "", "> 这是公开来源聚合与研究清单，不构成个性化投资建议。请回到原始公告和数据表核对。", "", "## 来源状态", "", "| 类别 | 来源 | 状态 | 链接 |", "|---|---|---|---|"]
-    lines += [f"| {item['category']} | {item['name']} | {item['status']} | {item['url']} |" for item in statuses]
-    lines += ["", "## 最新可追溯条目", ""]
-    lines += [f"- [{item['title']}]({item['url']}) · {item['source']} · {item['category']}" for item in news[:40]]
-    lines += ["", "## 研究顺序", "", "1. 先读政策与流动性，再看价格、景气和公司披露。", "2. 每条结论分成事实、推断、待验证三栏。", "3. 投资决策前回到原始来源核对时间、口径和修订说明。", ""]
-    with open(report_path, "w", encoding="utf-8") as handle:
-        handle.write("\n".join(lines))
+
 
 
 if __name__ == "__main__":
     main()
-
