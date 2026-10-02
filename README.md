@@ -1,6 +1,6 @@
 # 中国宏观与 A 股信息雷达
 
-GitHub Pages 静态站点入口：`index.html`。页面每 60 秒自动读取 `data/news.json`，不需要手动刷新；GitHub Actions 每 5 分钟抓取公开网页和 RSS/Atom feed，并为每条消息保留原文链接。
+GitHub Pages 静态站点入口：`index.html`。页面每 60 秒自动读取 `data/news.json` 和 `data/market.json`，无需手动刷新；GitHub Actions 每 5 分钟抓取公开网页、RSS/Atom 和行情接口，并为每条消息保留原文链接。
 
 ## 本地预览
 
@@ -8,9 +8,10 @@ GitHub Pages 静态站点入口：`index.html`。页面每 60 秒自动读取 `d
 
 ## GitHub Pages
 
-将仓库发布目录设置为根目录 `/(root)`，并启用 HTTPS。自定义域名需要在仓库 Pages 设置及 DNS 中完成绑定。
+将仓库发布目录设置为根目录 `/(root)`，并启用 HTTPS。
 
 ## 每日研报
 
-`reports/YYYY-MM-DD.md` 会由 GitHub Actions 在北京时间 20:00 生成研究底稿；`tools/daily-finance-report.ps1` 可在有权限的 Windows 账户下把底稿复制到本地资料文件夹。
+`reports/YYYY-MM-DD.md` 和 `reports/latest.md` 由独立的 GitHub Actions 在北京时间 23:59 生成，包含当日重要信息、市场快照、专业分析、次日 A 股观察、长期投资研究框架和可追溯原文链接。
 
+`scripts/sync-daily-report.ps1` 会把前一日的报告同步到 `D:/C/桌面/雷传喆的资料/每日金融信息研报`；可在 Windows 任务计划程序中设置每天 23:59 运行。
