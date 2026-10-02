@@ -177,6 +177,7 @@ def build_report(report_date, data_dir="data", output_dir="reports"):
     output_dir.mkdir(parents=True, exist_ok=True)
     destination = output_dir / f"{report_date}.md"
     destination.write_text("\n".join(lines), encoding="utf-8")
+    (output_dir / "latest.md").write_text("\n".join(lines), encoding="utf-8")
     return destination
 
 
