@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T03:48+08:00",
+  "updated_at": "2026-10-06T06:20+08:00",
   "timezone": "Asia/Shanghai",
   "sources": [
     {
@@ -71,8 +71,8 @@
       "name": "中国证监会",
       "category": "监管",
       "url": "https://www.csrc.gov.cn/",
-      "status": "restricted",
-      "detail": "URLError"
+      "status": "reachable",
+      "detail": "200"
     },
     {
       "id": "cninfo",
