@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T06:20+08:00",
+  "updated_at": "2026-10-06T07:20+08:00",
   "timezone": "Asia/Shanghai",
   "sources": [
     {
@@ -55,8 +55,8 @@
       "name": "海关总署",
       "category": "外贸",
       "url": "http://www.customs.gov.cn/",
-      "status": "restricted",
-      "detail": "HTTPError"
+      "status": "reachable",
+      "detail": "200"
     },
     {
       "id": "safe",
