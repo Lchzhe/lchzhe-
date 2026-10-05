@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T10:08+08:00",
+  "updated_at": "2026-10-05T16:55+08:00",
   "timezone": "Asia/Shanghai",
   "provider": "腾讯行情公开接口",
   "indices": [
@@ -65,7 +65,7 @@
       "pct": 0.7,
       "high": 1056.84,
       "low": 1036.13,
-      "observed": "20260930153439",
+      "observed": "20260930153430",
       "source": "腾讯行情"
     },
     {
@@ -98,13 +98,13 @@
       "code": "hkHSI",
       "name": "恒生指数",
       "url": "https://quote.eastmoney.com/gb/hkHSI.html",
-      "price": 23921.68,
+      "price": 24040.34,
       "prev": 23972.29,
-      "chg": -50.61,
-      "pct": -0.21,
-      "high": 24005.47,
+      "chg": 68.05,
+      "pct": 0.28,
+      "high": 24040.34,
       "low": 23835.68,
-      "observed": "2026/10/05 09:53:58",
+      "observed": "2026/10/05 16:42:03",
       "source": "腾讯行情"
     }
   ],
@@ -154,39 +154,39 @@
       "code": "hf_XAU",
       "name": "伦敦金",
       "url": "https://quote.eastmoney.com/globalfuture/GC00.html",
-      "price": 4161.98,
+      "price": 4164.31,
       "prev": 4139.28,
-      "chg": 22.7,
-      "pct": 0.55,
-      "high": 4162.98,
-      "low": 4132.78,
-      "observed": "10:08:00",
+      "chg": 25.03,
+      "pct": 0.6,
+      "high": 4170.2,
+      "low": 4124.8,
+      "observed": "16:56:00",
       "source": "腾讯行情"
     },
     {
       "code": "hf_CL",
       "name": "纽约原油",
       "url": "https://quote.eastmoney.com/globalfuture/CL00.html",
-      "price": 89.97,
+      "price": 90.75,
       "prev": 91.11,
-      "chg": -1.14,
-      "pct": -1.25,
+      "chg": -0.36,
+      "pct": -0.39,
       "high": 91.88,
-      "low": 89.91,
-      "observed": "10:09:01",
+      "low": 89.31,
+      "observed": "16:57:04",
       "source": "腾讯行情"
     },
     {
       "code": "hf_SI",
       "name": "伦敦银",
       "url": "https://quote.eastmoney.com/globalfuture/SI00.html",
-      "price": 61.8,
+      "price": 62.01,
       "prev": 60.41,
-      "chg": 1.39,
-      "pct": 2.29,
-      "high": 62.02,
+      "chg": 1.6,
+      "pct": 2.64,
+      "high": 62.15,
       "low": 60.65,
-      "observed": "10:08:44",
+      "observed": "16:56:37",
       "source": "腾讯行情"
     }
   ],
@@ -202,7 +202,7 @@
   },
   "advanced_analysis": {
     "framework_version": "3.0-research",
-    "generated_at": "2026-10-05T10:08+08:00",
+    "generated_at": "2026-10-05T16:55+08:00",
     "regime": {
       "code": "mixed",
       "label": "信号分化，保持观察",
@@ -523,7 +523,7 @@
       "stale": false,
       "fundamentals": false,
       "factor_returns": false,
-      "news_verified_today": 0
+      "news_verified_today": 1
     },
     "methodology": [
       "60日趋势与宽度是透明研究规则，阈值未回测，不代表预测胜率。",
