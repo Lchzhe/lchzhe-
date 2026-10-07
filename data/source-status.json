@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T14:32+08:00",
+  "updated_at": "2026-10-07T21:48+08:00",
   "timezone": "Asia/Shanghai",
   "sources": [
     {
@@ -55,8 +55,8 @@
       "name": "海关总署",
       "category": "外贸",
       "url": "http://www.customs.gov.cn/",
-      "status": "reachable",
-      "detail": "200"
+      "status": "restricted",
+      "detail": "HTTPError"
     },
     {
       "id": "safe",
@@ -87,8 +87,8 @@
       "name": "上海证券交易所",
       "category": "A股披露",
       "url": "https://www.sse.com.cn/",
-      "status": "reachable",
-      "detail": "200"
+      "status": "restricted",
+      "detail": "URLError"
     },
     {
       "id": "szse",
