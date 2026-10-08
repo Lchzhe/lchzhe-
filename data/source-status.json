@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T07:45+08:00",
+  "updated_at": "2026-10-08T10:59+08:00",
   "timezone": "Asia/Shanghai",
   "sources": [
     {
@@ -87,8 +87,8 @@
       "name": "上海证券交易所",
       "category": "A股披露",
       "url": "https://www.sse.com.cn/",
-      "status": "reachable",
-      "detail": "200"
+      "status": "restricted",
+      "detail": "HTTPError"
     },
     {
       "id": "szse",
