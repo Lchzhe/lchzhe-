@@ -5,7 +5,7 @@
       "name": "深证成指",
       "source": "腾讯历史日线",
       "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399001,day,,,400,qfq",
-      "fetched_at": "2026-10-09T16:58+08:00",
+      "fetched_at": "2026-10-10T01:36+08:00",
       "rows": [
         {
           "date": "2025-02-17",
@@ -2014,7 +2014,7 @@
       "name": "创业板指",
       "source": "腾讯历史日线",
       "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399006,day,,,400,qfq",
-      "fetched_at": "2026-10-09T16:58+08:00",
+      "fetched_at": "2026-10-10T01:36+08:00",
       "rows": [
         {
           "date": "2025-02-17",
@@ -4023,7 +4023,7 @@
       "name": "上证指数",
       "source": "腾讯历史日线",
       "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000001,day,,,400,qfq",
-      "fetched_at": "2026-10-09T16:58+08:00",
+      "fetched_at": "2026-10-10T01:36+08:00",
       "rows": [
         {
           "date": "2025-02-17",
@@ -6032,7 +6032,7 @@
       "name": "科创50",
       "source": "腾讯历史日线",
       "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000688,day,,,400,qfq",
-      "fetched_at": "2026-10-09T16:58+08:00",
+      "fetched_at": "2026-10-10T01:36+08:00",
       "rows": [
         {
           "date": "2025-02-17",
@@ -8041,7 +8041,7 @@
       "name": "北证50",
       "source": "腾讯历史日线",
       "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=bj899050,day,,,400,qfq",
-      "fetched_at": "2026-10-09T16:58+08:00",
+      "fetched_at": "2026-10-10T01:36+08:00",
       "rows": [
         {
           "date": "2026-10-09",
@@ -8055,7 +8055,7 @@
       "name": "沪深300",
       "source": "腾讯历史日线",
       "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000300,day,,,400,qfq",
-      "fetched_at": "2026-10-09T16:58+08:00",
+      "fetched_at": "2026-10-10T01:36+08:00",
       "rows": [
         {
           "date": "2025-02-17",
@@ -10064,7 +10064,7 @@
       "name": "中证500",
       "source": "腾讯历史日线",
       "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000905,day,,,400,qfq",
-      "fetched_at": "2026-10-09T16:58+08:00",
+      "fetched_at": "2026-10-10T01:36+08:00",
       "rows": [
         {
           "date": "2025-02-17",
@@ -12070,5 +12070,5 @@
     }
   },
   "format_version": 2,
-  "updated_at": "2026-10-09T23:51+08:00"
+  "updated_at": "2026-10-10T01:36+08:00"
 }
