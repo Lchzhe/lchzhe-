@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T04:07+08:00",
+  "updated_at": "2026-10-11T07:30+08:00",
   "timezone": "Asia/Shanghai",
   "provider": "腾讯行情公开接口",
   "indices": [
@@ -65,7 +65,7 @@
       "pct": 2.49,
       "high": 1039.35,
       "low": 993.95,
-      "observed": "20261009153530",
+      "observed": "20261009153542",
       "source": "腾讯行情"
     },
     {
@@ -202,7 +202,7 @@
   },
   "advanced_analysis": {
     "framework_version": "3.0-research",
-    "generated_at": "2026-10-11T04:07+08:00",
+    "generated_at": "2026-10-11T07:30+08:00",
     "regime": {
       "code": "mixed",
       "label": "信号分化，保持观察",
