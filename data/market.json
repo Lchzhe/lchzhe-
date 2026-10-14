@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T16:09+08:00",
+  "updated_at": "2026-10-14T21:39+08:00",
   "timezone": "Asia/Shanghai",
   "provider": "腾讯行情公开接口",
   "indices": [
@@ -13,7 +13,7 @@
       "pct": -0.88,
       "high": 3811.81,
       "low": 3761.96,
-      "observed": "20261014160901",
+      "observed": "20261014161401",
       "source": "腾讯行情"
     },
     {
@@ -26,7 +26,7 @@
       "pct": -1.97,
       "high": 12383.62,
       "low": 12097.5,
-      "observed": "20261014160851",
+      "observed": "20261014161451",
       "source": "腾讯行情"
     },
     {
@@ -39,7 +39,7 @@
       "pct": -3.1,
       "high": 2962.73,
       "low": 2863.71,
-      "observed": "20261014160906",
+      "observed": "20261014161406",
       "source": "腾讯行情"
     },
     {
@@ -52,7 +52,7 @@
       "pct": -3.29,
       "high": 1429.38,
       "low": 1378.01,
-      "observed": "20261014160913",
+      "observed": "20261014161413",
       "source": "腾讯行情"
     },
     {
@@ -65,7 +65,7 @@
       "pct": -0.66,
       "high": 1032.68,
       "low": 1001.39,
-      "observed": "20261014153401",
+      "observed": "20261014153358",
       "source": "腾讯行情"
     },
     {
@@ -78,7 +78,7 @@
       "pct": -1.36,
       "high": 4281.46,
       "low": 4214.01,
-      "observed": "20261014160913",
+      "observed": "20261014161413",
       "source": "腾讯行情"
     },
     {
@@ -91,20 +91,20 @@
       "pct": -1.48,
       "high": 7120.11,
       "low": 6969.02,
-      "observed": "20261014160913",
+      "observed": "20261014161413",
       "source": "腾讯行情"
     },
     {
       "code": "hkHSI",
       "name": "恒生指数",
       "url": "https://quote.eastmoney.com/gb/hkHSI.html",
-      "price": 24291.7,
+      "price": 24314.17,
       "prev": 24345.22,
-      "chg": -53.52,
-      "pct": -0.22,
+      "chg": -31.05,
+      "pct": -0.13,
       "high": 24524.63,
       "low": 24115.0,
-      "observed": "2026/10/14 15:54:24",
+      "observed": "2026/10/14 18:31:25",
       "source": "腾讯行情"
     }
   ],
@@ -113,39 +113,39 @@
       "code": "usDJI",
       "name": "道琼斯",
       "url": "https://quote.eastmoney.com/gb/.DJI.html",
-      "price": 51670.1,
-      "prev": 51850.55,
-      "chg": -180.45,
-      "pct": -0.35,
-      "high": 52317.32,
-      "low": 51587.67,
-      "observed": "2026-10-13 16:41:55",
+      "price": 51833.11,
+      "prev": 51670.1,
+      "chg": 163.01,
+      "pct": 0.32,
+      "high": 51861.24,
+      "low": 51556.11,
+      "observed": "2026-10-14 09:39:41",
       "source": "腾讯行情"
     },
     {
       "code": "usIXIC",
       "name": "纳斯达克",
       "url": "https://quote.eastmoney.com/gb/.IXIC.html",
-      "price": 27204.38,
-      "prev": 27245.9,
-      "chg": -41.52,
-      "pct": -0.15,
-      "high": 27277.88,
-      "low": 27116.08,
-      "observed": "2026-10-13 17:15:59",
+      "price": 27068.65,
+      "prev": 27204.38,
+      "chg": -135.73,
+      "pct": -0.5,
+      "high": 27075.99,
+      "low": 27007.74,
+      "observed": "2026-10-14 09:39:40",
       "source": "腾讯行情"
     },
     {
       "code": "usINX",
       "name": "标普500",
       "url": "https://quote.eastmoney.com/gb/.INX.html",
-      "price": 7805.45,
-      "prev": 7807.24,
-      "chg": -1.79,
-      "pct": -0.02,
-      "high": 7814.15,
-      "low": 7786.11,
-      "observed": "2026-10-13 16:33:03",
+      "price": 7780.9,
+      "prev": 7805.45,
+      "chg": -24.55,
+      "pct": -0.31,
+      "high": 7782.22,
+      "low": 7767.53,
+      "observed": "2026-10-14 09:39:40",
       "source": "腾讯行情"
     }
   ],
@@ -154,58 +154,63 @@
       "code": "hf_XAU",
       "name": "伦敦金",
       "url": "https://quote.eastmoney.com/globalfuture/GC00.html",
-      "price": 4152.95,
+      "price": 4102.48,
       "prev": 4161.0,
-      "chg": -8.05,
-      "pct": -0.19,
+      "chg": -58.52,
+      "pct": -1.41,
       "high": 4170.25,
-      "low": 4143.26,
-      "observed": "16:08:00",
+      "low": 4079.56,
+      "observed": "21:38:00",
       "source": "腾讯行情"
     },
     {
       "code": "hf_CL",
       "name": "纽约原油",
       "url": "https://quote.eastmoney.com/globalfuture/CL00.html",
-      "price": 94.1,
+      "price": 95.45,
       "prev": 94.14,
-      "chg": -0.04,
-      "pct": -0.05,
-      "high": 95.41,
-      "low": 94.06,
-      "observed": "16:09:07",
+      "chg": 1.31,
+      "pct": 1.39,
+      "high": 95.99,
+      "low": 93.97,
+      "observed": "21:39:07",
       "source": "腾讯行情"
     },
     {
       "code": "hf_SI",
       "name": "伦敦银",
       "url": "https://quote.eastmoney.com/globalfuture/SI00.html",
-      "price": 59.0,
+      "price": 57.25,
       "prev": 59.52,
-      "chg": -0.52,
-      "pct": -0.89,
+      "chg": -2.27,
+      "pct": -3.82,
       "high": 59.59,
-      "low": 58.62,
-      "observed": "16:09:07",
+      "low": 56.76,
+      "observed": "21:39:06",
       "source": "腾讯行情"
     }
   ],
   "breadth": {
-    "available": false,
-    "label": "等待市场宽度接口",
-    "url": "https://quote.eastmoney.com/center/gridlist.html#hs_a_board"
+    "available": true,
+    "up": 937,
+    "down": 4262,
+    "flat": 92,
+    "total": 5291,
+    "ratio": 17.7,
+    "label": "沪深主要成分估算",
+    "url": "https://push2.eastmoney.com/api/qt/ulist.np/get?fltt=2&fields=f104,f105,f106&secids=1.000001,0.399001"
   },
   "advanced_analysis": {
     "framework_version": "3.0-research",
-    "generated_at": "2026-10-14T16:09+08:00",
+    "generated_at": "2026-10-14T21:39+08:00",
     "regime": {
-      "code": "mixed",
-      "label": "信号分化，保持观察",
+      "code": "weakening",
+      "label": "趋势与宽度同向走弱",
       "score": null,
       "confidence": null,
       "confidence_label": "未校准概率",
-      "quality_label": "部分可用",
-      "covered": 3,
+      "quality_label": "较完整",
+      "covered": 4,
       "total": 4
     },
     "session": {
@@ -225,10 +230,10 @@
       },
       {
         "name": "市场宽度",
-        "status": "missing",
-        "value": "待补充",
+        "status": "available",
+        "value": "上涨占比 17.7%",
         "interpretation": "以接口覆盖范围为准；55%/45%为研究规则阈值，尚未完成收益检验。",
-        "caveat": "等待市场宽度接口"
+        "caveat": "沪深主要成分估算"
       },
       {
         "name": "中期趋势",
@@ -514,11 +519,11 @@
       }
     ],
     "data_quality": {
-      "label": "部分可用",
+      "label": "较完整",
       "stale": false,
       "fundamentals": false,
       "factor_returns": false,
-      "news_verified_today": 3
+      "news_verified_today": 6
     },
     "methodology": [
       "60日趋势与宽度是透明研究规则，阈值未回测，不代表预测胜率。",
@@ -527,12 +532,12 @@
     ]
   },
   "analysis": {
-    "stance": "信号分化，保持观察",
-    "tone": "数据覆盖：部分可用；60日趋势与宽度是透明研究规则，阈值未回测，不代表预测胜率。",
+    "stance": "趋势与宽度同向走弱",
+    "tone": "数据覆盖：较完整；60日趋势与宽度是透明研究规则，阈值未回测，不代表预测胜率。",
     "watch": [
       "描述最近行情；指数相互重叠，均值不代表可投资组合。",
-      "根据已完成交易日收盘计算，与宽度共同作描述性状态识别。",
-      "收盘历史剔除未收盘当日；重复抓取和休市日不新增观测。"
+      "以接口覆盖范围为准；55%/45%为研究规则阈值，尚未完成收益检验。",
+      "根据已完成交易日收盘计算，与宽度共同作描述性状态识别。"
     ],
     "risks": [
       "价格指数日收益用于β、波动、ES和回撤；未含股息、成本或个人持仓。",
