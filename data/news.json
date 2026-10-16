@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T14:22+08:00",
+  "updated_at": "2026-10-16T19:39+08:00",
   "timezone": "Asia/Shanghai",
   "refresh_interval_seconds": 60,
   "sources": [
@@ -56,8 +56,8 @@
       "name": "海关总署",
       "category": "外贸",
       "url": "http://www.customs.gov.cn/",
-      "status": "reachable",
-      "detail": "200"
+      "status": "restricted",
+      "detail": "HTTPError"
     },
     {
       "id": "safe",
@@ -72,8 +72,8 @@
       "name": "中国证监会",
       "category": "监管",
       "url": "https://www.csrc.gov.cn/",
-      "status": "reachable",
-      "detail": "200"
+      "status": "restricted",
+      "detail": "URLError"
     },
     {
       "id": "cninfo",
@@ -88,8 +88,8 @@
       "name": "上海证券交易所",
       "category": "A股披露",
       "url": "https://www.sse.com.cn/",
-      "status": "reachable",
-      "detail": "200"
+      "status": "restricted",
+      "detail": "HTTPError"
     },
     {
       "id": "szse",
@@ -234,8 +234,26 @@
       "url": "https://www.pbc.gov.cn/en/3688006/index.html",
       "source": "中国人民银行",
       "category": "中国宏观",
-      "published_at": "2026-10-16T14:22+08:00",
+      "published_at": "2026-10-16T19:39+08:00",
       "date_quality": "unknown",
+      "summary": "打开原文查看完整公告、数据表或政策文件。"
+    },
+    {
+      "title": "中国人民银行行长潘功胜会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲中央银行行长拉加德、欧元集团...",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026101618323611588/index.html",
+      "source": "中国人民银行",
+      "category": "中国宏观",
+      "published_at": "2026-10-16",
+      "date_quality": "url_date",
+      "summary": "打开原文查看完整公告、数据表或政策文件。"
+    },
+    {
+      "title": "中国人民银行行长潘功胜出席新兴市场研讨会",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026101614165534664/index.html",
+      "source": "中国人民银行",
+      "category": "中国宏观",
+      "published_at": "2026-10-16",
+      "date_quality": "url_date",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
     {
@@ -257,29 +275,11 @@
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
     {
-      "title": "第十五届中日韩央行行长会议在曼谷举行",
-      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026101418371517078/index.html",
-      "source": "中国人民银行",
-      "category": "中国宏观",
-      "published_at": "2026-10-14",
-      "date_quality": "url_date",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
-    },
-    {
-      "title": "2026年前三季度金融统计数据报告",
-      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026101415422529740/index.html",
-      "source": "中国人民银行",
-      "category": "中国宏观",
-      "published_at": "2026-10-14",
-      "date_quality": "url_date",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
-    },
-    {
       "title": "查看国家统计局数据最新发布",
       "url": "https://data.stats.gov.cn/",
       "source": "国家统计局数据",
       "category": "中国宏观",
-      "published_at": "2026-10-16T14:22+08:00",
+      "published_at": "2026-10-16T19:39+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源未提供可机器读取的列表，点击进入官网查看最新内容。"
@@ -289,7 +289,7 @@
       "url": "https://www.stats.gov.cn/zt_18555/zthd/sjtjr/tjr17/index.html",
       "source": "国家统计局",
       "category": "中国宏观",
-      "published_at": "2026-10-16T14:22+08:00",
+      "published_at": "2026-10-16T19:39+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -298,7 +298,7 @@
       "url": "https://www.stats.gov.cn/zt_18555/ztfx/sswjjshfzcjbg/index.html",
       "source": "国家统计局",
       "category": "中国宏观",
-      "published_at": "2026-10-16T14:22+08:00",
+      "published_at": "2026-10-16T19:39+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -307,7 +307,7 @@
       "url": "https://www.stats.gov.cn/zt_18555/zdtjgz/zgnypc/d4cnypc/",
       "source": "国家统计局",
       "category": "中国宏观",
-      "published_at": "2026-10-16T14:22+08:00",
+      "published_at": "2026-10-16T19:39+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -316,7 +316,7 @@
       "url": "https://www.stats.gov.cn/zt_18555/zdtjgz/cydc/2025cydc/",
       "source": "国家统计局",
       "category": "中国宏观",
-      "published_at": "2026-10-16T14:22+08:00",
+      "published_at": "2026-10-16T19:39+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -334,7 +334,7 @@
       "url": "https://www.gov.cn/zhengce/202610/content_7082820.htm",
       "source": "中国政府网政策",
       "category": "政策",
-      "published_at": "2026-10-16T14:22+08:00",
+      "published_at": "2026-10-16T19:39+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -343,7 +343,7 @@
       "url": "https://www.gov.cn/zhengce/content/202610/content_7082737.htm",
       "source": "中国政府网政策",
       "category": "政策",
-      "published_at": "2026-10-16T14:22+08:00",
+      "published_at": "2026-10-16T19:39+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -352,7 +352,7 @@
       "url": "https://www.gov.cn/zhengce/content/202609/content_7082492.htm",
       "source": "中国政府网政策",
       "category": "政策",
-      "published_at": "2026-10-16T14:22+08:00",
+      "published_at": "2026-10-16T19:39+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -361,7 +361,7 @@
       "url": "https://www.gov.cn/zhengce/content/202609/content_7082378.htm",
       "source": "中国政府网政策",
       "category": "政策",
-      "published_at": "2026-10-16T14:22+08:00",
+      "published_at": "2026-10-16T19:39+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -370,7 +370,7 @@
       "url": "https://www.gov.cn/zhengce/202609/content_7082364.htm",
       "source": "中国政府网政策",
       "category": "政策",
-      "published_at": "2026-10-16T14:22+08:00",
+      "published_at": "2026-10-16T19:39+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -424,55 +424,20 @@
       "url": "https://www.mof.gov.cn/",
       "source": "财政部",
       "category": "财政",
-      "published_at": "2026-10-16T14:22+08:00",
+      "published_at": "2026-10-16T19:39+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源未提供可机器读取的列表，点击进入官网查看最新内容。"
     },
     {
-      "title": "《求是》杂志发表习近平总书记重要文章 以更高标准、更实举措推进全面从严治党",
-      "url": "http://www.customs.gov.cn/customs/2026-10/16/article_2026101609395966006.html",
+      "title": "打开海关总署官网",
+      "url": "http://www.customs.gov.cn/",
       "source": "海关总署",
       "category": "外贸",
-      "published_at": "2026-10-16",
-      "date_quality": "url_date",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
-    },
-    {
-      "title": "孙梅君 署长、党委书记",
-      "url": "http://www.customs.gov.cn/customs/302249/hgzssldzj/6327982/6327983/index.html",
-      "source": "海关总署",
-      "category": "外贸",
-      "published_at": "2026-10-16T14:22+08:00",
-      "date_quality": "unknown",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
-    },
-    {
-      "title": "王 林 中央纪委国家监委驻海关总署纪检监察组组长、海关总署党委委员",
-      "url": "http://www.customs.gov.cn/customs/302249/hgzssldzj/4033175/4033177/index.html",
-      "source": "海关总署",
-      "category": "外贸",
-      "published_at": "2026-10-16T14:22+08:00",
-      "date_quality": "unknown",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
-    },
-    {
-      "title": "吴海平 副署长、党委委员",
-      "url": "http://www.customs.gov.cn/customs/302249/hgzssldzj/5597864/5597865/index.html",
-      "source": "海关总署",
-      "category": "外贸",
-      "published_at": "2026-10-16T14:22+08:00",
-      "date_quality": "unknown",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
-    },
-    {
-      "title": "王 军 副署长、党委委员",
-      "url": "http://www.customs.gov.cn/customs/302249/hgzssldzj/6546034/6546035/index.html",
-      "source": "海关总署",
-      "category": "外贸",
-      "published_at": "2026-10-16T14:22+08:00",
-      "date_quality": "unknown",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
+      "published_at": "2026-10-16T19:39+08:00",
+      "date_quality": "source_entry",
+      "item_type": "source_entry",
+      "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
     },
     {
       "title": "国家外汇管理局外汇研究中心博士后科研工作站公开招收博士...",
@@ -520,146 +485,76 @@
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
     {
-      "title": "吴清主席会见阿联酋穆巴达拉投资公司首席执行官兼董事总经理哈勒敦",
-      "url": "https://www.csrc.gov.cn/csrc/c106311/c7664121/content.shtml",
+      "title": "打开中国证监会官网",
+      "url": "https://www.csrc.gov.cn/",
       "source": "中国证监会",
       "category": "监管",
-      "published_at": "2026-10-16T14:22+08:00",
-      "date_quality": "unknown",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
-    },
-    {
-      "title": "中国证监会召开资本市场和金融形势专家座谈会",
-      "url": "https://www.csrc.gov.cn/csrc/c100028/c7663814/content.shtml",
-      "source": "中国证监会",
-      "category": "监管",
-      "published_at": "2026-10-16T14:22+08:00",
-      "date_quality": "unknown",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
-    },
-    {
-      "title": "中国证监会就《公开募集证券投资基金运作管理办法（征求意见稿）》及配套规则公开征求意见",
-      "url": "https://www.csrc.gov.cn/csrc/c100028/c7663393/content.shtml",
-      "source": "中国证监会",
-      "category": "监管",
-      "published_at": "2026-10-16T14:22+08:00",
-      "date_quality": "unknown",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
-    },
-    {
-      "title": "湖北证监局原党委书记、局长王广幼被开除党籍",
-      "url": "https://www.csrc.gov.cn/csrc/c100028/c7661513/content.shtml",
-      "source": "中国证监会",
-      "category": "监管",
-      "published_at": "2026-10-16T14:22+08:00",
-      "date_quality": "unknown",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
-    },
-    {
-      "title": "中国证监会拟对17起案件线索的“吹哨人”给予奖励",
-      "url": "https://www.csrc.gov.cn/csrc/c100028/c7659506/content.shtml",
-      "source": "中国证监会",
-      "category": "监管",
-      "published_at": "2026-10-16T14:22+08:00",
-      "date_quality": "unknown",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
+      "published_at": "2026-10-16T19:41+08:00",
+      "date_quality": "source_entry",
+      "item_type": "source_entry",
+      "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
     },
     {
       "title": "2026年半年度权益分派实施公告",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=688507&orgId=nssc1000827&announcementId=1225607762&announcementTime=2026-10-16",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=688247&orgId=9900046770&announcementId=1225609635&announcementTime=2026-10-17",
       "source": "巨潮资讯",
       "category": "A股披露",
-      "published_at": "2026-10-16",
+      "published_at": "2026-10-17",
       "date_quality": "url_date",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
     {
-      "title": "关于股票交易停牌核查结果、股票交易风险提示暨复牌的公告",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600825&orgId=gssh0600825&announcementId=1225607741&announcementTime=2026-10-16",
+      "title": "2026年第一次临时股东会决议公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=688138&orgId=9900031655&announcementId=1225609596&announcementTime=2026-10-17",
       "source": "巨潮资讯",
       "category": "A股披露",
-      "published_at": "2026-10-16",
+      "published_at": "2026-10-17",
       "date_quality": "url_date",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
     {
-      "title": "第四届董事会独立董事专门会议第十次会议决议",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=688622&orgId=gfbj0871079&announcementId=1225607733&announcementTime=2026-10-16",
+      "title": "包钢股份2026年第四次临时股东会决议公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600010&orgId=gssh0600010&announcementId=1225609595&announcementTime=2026-10-17",
       "source": "巨潮资讯",
       "category": "A股披露",
-      "published_at": "2026-10-16",
+      "published_at": "2026-10-17",
       "date_quality": "url_date",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
     {
-      "title": "2026年第二次临时股东会决议公告",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002446&orgId=9900013369&announcementId=1225607725&announcementTime=2026-10-16",
+      "title": "自愿披露关于NW001获得药物临床试验批准通知书的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=688321&orgId=9900038965&announcementId=1225609594&announcementTime=2026-10-17",
       "source": "巨潮资讯",
       "category": "A股披露",
-      "published_at": "2026-10-16",
+      "published_at": "2026-10-17",
       "date_quality": "url_date",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
     {
-      "title": "关于重大诉讼的公告",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002717&orgId=9900023171&announcementId=1225607722&announcementTime=2026-10-16",
+      "title": "自愿披露关于子公司原料药获得上市申请批准通知书的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=688799&orgId=9900033718&announcementId=1225609592&announcementTime=2026-10-17",
       "source": "巨潮资讯",
       "category": "A股披露",
-      "published_at": "2026-10-16",
+      "published_at": "2026-10-17",
       "date_quality": "url_date",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
     {
-      "title": "吴清主席会见阿联酋穆巴达拉投资公司首席执行官兼董事总经理哈勒敦",
-      "url": "https://www.sse.com.cn/home/component/news/c/c_20261013_10834588.shtml",
+      "title": "打开上海证券交易所官网",
+      "url": "https://www.sse.com.cn/",
       "source": "上海证券交易所",
       "category": "A股披露",
-      "published_at": "2026-10-13",
-      "date_quality": "url_date",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
-    },
-    {
-      "title": "吸引境外中长期资金入市上交所举办“国际投资者赴境内调研上市公司”活动",
-      "url": "https://www.sse.com.cn/aboutus/mediacenter/hotandd/c/c_20260924_10833301.shtml",
-      "source": "上海证券交易所",
-      "category": "A股披露",
-      "published_at": "2026-09-24",
-      "date_quality": "url_date",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
-    },
-    {
-      "title": "第七届国际信息商会议在中国香港成功举办",
-      "url": "https://www.sse.com.cn/aboutus/mediacenter/hotandd/c/c_20260918_10832624.shtml",
-      "source": "上海证券交易所",
-      "category": "A股披露",
-      "published_at": "2026-09-18",
-      "date_quality": "url_date",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
-    },
-    {
-      "title": "中沙上市公司路演活动圆满举办",
-      "url": "https://www.sse.com.cn/aboutus/mediacenter/hotandd/c/c_20260908_10831625.shtml",
-      "source": "上海证券交易所",
-      "category": "A股披露",
-      "published_at": "2026-09-08",
-      "date_quality": "url_date",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
-    },
-    {
-      "title": "动能向新，结构向优，业绩向好",
-      "url": "https://www.sse.com.cn/aboutus/mediacenter/hotandd/c/c_20260830_10830362.shtml",
-      "source": "上海证券交易所",
-      "category": "A股披露",
-      "published_at": "2026-08-30",
-      "date_quality": "url_date",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
+      "published_at": "2026-10-16T19:39+08:00",
+      "date_quality": "source_entry",
+      "item_type": "source_entry",
+      "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
     },
     {
       "title": "打开深圳证券交易所官网",
       "url": "https://www.szse.cn/",
       "source": "深圳证券交易所",
       "category": "A股披露",
-      "published_at": "2026-10-16T14:22+08:00",
+      "published_at": "2026-10-16T19:39+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
@@ -674,6 +569,15 @@
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
     {
+      "title": "关于实施《北京证券交易所交易规则》相关条款的公告 北证公告〔2026〕43号本所2026年4月24日发布的《北京证券交易所交易规则》第4.5.1条至第4.5.4条关于风险警示股票及... 2026-10-16",
+      "url": "https://www.bse.cn/important_news/200029611.html",
+      "source": "北京证券交易所",
+      "category": "A股披露",
+      "published_at": "2000-29-61",
+      "date_quality": "url_date",
+      "summary": "打开原文查看完整公告、数据表或政策文件。"
+    },
+    {
       "title": "关于举办领航·2026年第2期北交所上市公司独立董事专项培训的通知 各上市公司：为帮助上市公司独立董事更好理解最新监管政策，增强合规意识，提高履职水平，推动提高上市公司质量，北... 2026-10-12",
       "url": "https://www.bse.cn/important_news/200029588.html",
       "source": "北京证券交易所",
@@ -683,29 +587,20 @@
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
     {
-      "title": "关于调整北京证券交易所第二届证券发行承销自律委员会委员名单的公告 北证公告〔2026〕39号根据《北京证券交易所证券发行承销自律委员会管理细则》（北证公告〔2026〕38号）等规定，经履... 2026-09-18",
-      "url": "https://www.bse.cn/important_news/200029481.html",
+      "title": "2026-10-16 920196 南方乳业",
+      "url": "https://www.bse.cn/issue_report_meeting/200029606.html",
       "source": "北京证券交易所",
       "category": "A股披露",
-      "published_at": "2000-29-48",
+      "published_at": "2000-29-60",
       "date_quality": "url_date",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
     {
-      "title": "2026-10-09 920157 宇特光电",
-      "url": "https://www.bse.cn/issue_report_meeting/200029581.html",
+      "title": "2026-10-15 920162 莫森泰克",
+      "url": "https://www.bse.cn/issue_report_meeting/200029603.html",
       "source": "北京证券交易所",
       "category": "A股披露",
-      "published_at": "2000-29-58",
-      "date_quality": "url_date",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
-    },
-    {
-      "title": "2026-09-29 920202 安达股份",
-      "url": "https://www.bse.cn/issue_report_meeting/200029503.html",
-      "source": "北京证券交易所",
-      "category": "A股披露",
-      "published_at": "2000-29-50",
+      "published_at": "2000-29-60",
       "date_quality": "url_date",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -728,11 +623,11 @@
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
     {
-      "title": "中债收益率曲线和指数日评2026年10月15日",
-      "url": "https://www.chinabond.com.cn/xxwsy/sy_zdgz_ath/202610/t20261015_855455455.html",
+      "title": "中债收益率曲线和指数日评2026年10月16日",
+      "url": "https://www.chinabond.com.cn/xxwsy/sy_zdgz_ath/202610/t20261016_855458619.html",
       "source": "中国债券信息网",
       "category": "债券利率",
-      "published_at": "2026-10-15",
+      "published_at": "2026-10-16",
       "date_quality": "url_date",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -746,11 +641,11 @@
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
     {
-      "title": "中央国债登记结算有限责任公司关于调整大额支付系统自动质押融资业务受理时间的通知",
-      "url": "https://www.chinabond.com.cn/xxwsy/sy_zdgz_ath/202609/t20260920_855417350.html",
+      "title": "2027年《债券》期刊征订",
+      "url": "https://www.chinabond.com.cn/xxwsy/sy_zdgz_ath/202609/t20260915_855405412.html",
       "source": "中国债券信息网",
       "category": "债券利率",
-      "published_at": "2026-09-20",
+      "published_at": "2026-09-15",
       "date_quality": "url_date",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -759,7 +654,7 @@
       "url": "https://www.shibor.org/",
       "source": "Shibor",
       "category": "债券利率",
-      "published_at": "2026-10-16T14:22+08:00",
+      "published_at": "2026-10-16T19:39+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
@@ -769,7 +664,7 @@
       "url": "https://fred.stlouisfed.org/",
       "source": "FRED",
       "category": "全球宏观",
-      "published_at": "2026-10-16T14:22+08:00",
+      "published_at": "2026-10-16T19:39+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
@@ -887,7 +782,7 @@
       "url": "https://www.bls.gov/",
       "source": "美国劳工统计局",
       "category": "全球宏观",
-      "published_at": "2026-10-16T14:22+08:00",
+      "published_at": "2026-10-16T19:39+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
@@ -897,7 +792,7 @@
       "url": "https://www.bea.gov/",
       "source": "美国经济分析局",
       "category": "全球宏观",
-      "published_at": "2026-10-16T14:22+08:00",
+      "published_at": "2026-10-16T19:39+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
@@ -955,6 +850,116 @@
       "published_at": "Tue, 06 Oct 2026 15:00:00 +0200",
       "date_quality": "publisher",
       "summary": "来自公开原始来源的最新发布。"
+    },
+    {
+      "title": "Piero Cipollone: Money in the digital age: digital euro, tokenisation and the role of central banks",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261006~0da978f159.en.html",
+      "source": "欧洲央行",
+      "category": "全球宏观",
+      "published_at": "Tue, 06 Oct 2026 15:00:00 +0200",
+      "date_quality": "publisher",
+      "summary": "来自公开原始来源的最新发布。"
+    },
+    {
+      "title": "Philip R. Lane: Interview with Ansa",
+      "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261006~bc94400297.en.html",
+      "source": "欧洲央行",
+      "category": "全球宏观",
+      "published_at": "Tue, 06 Oct 2026 09:00:00 +0200",
+      "date_quality": "publisher",
+      "summary": "来自公开原始来源的最新发布。"
+    },
+    {
+      "title": "Philip R. Lane: Diagnostic Challenges for ECB Monetary Policy",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261005~1d8d998ef4.en.html",
+      "source": "欧洲央行",
+      "category": "全球宏观",
+      "published_at": "Mon, 05 Oct 2026 10:00:00 +0200",
+      "date_quality": "publisher",
+      "summary": "来自公开原始来源的最新发布。"
+    },
+    {
+      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+      "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261002~54c6b5672b.en.html",
+      "source": "欧洲央行",
+      "category": "全球宏观",
+      "published_at": "Fri, 02 Oct 2026 15:00:00 +0200",
+      "date_quality": "publisher",
+      "summary": "来自公开原始来源的最新发布。"
+    },
+    {
+      "title": "Boris Vujčić: Resilience, integration and competitiveness: building the future of European banking",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261002_1~419efe18e0.en.html",
+      "source": "欧洲央行",
+      "category": "全球宏观",
+      "published_at": "Fri, 02 Oct 2026 13:30:00 +0200",
+      "date_quality": "publisher",
+      "summary": "来自公开原始来源的最新发布。"
+    },
+    {
+      "title": "Isabel Schnabel: Central banks on-chain",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261001_1~a0be67193b.en.pdf",
+      "source": "欧洲央行",
+      "category": "全球宏观",
+      "published_at": "Thu, 01 Oct 2026 17:30:00 +0200",
+      "date_quality": "publisher",
+      "summary": "来自公开原始来源的最新发布。"
+    },
+    {
+      "title": "打开国际货币基金组织官网",
+      "url": "https://www.imf.org/",
+      "source": "国际货币基金组织",
+      "category": "全球宏观",
+      "published_at": "2026-10-16T19:39+08:00",
+      "date_quality": "source_entry",
+      "item_type": "source_entry",
+      "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
+    },
+    {
+      "title": "打开OECD官网",
+      "url": "https://www.oecd.org/",
+      "source": "OECD",
+      "category": "全球宏观",
+      "published_at": "2026-10-16T19:39+08:00",
+      "date_quality": "source_entry",
+      "item_type": "source_entry",
+      "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
+    },
+    {
+      "title": "https://www.worldbank.org/ext/en/home",
+      "url": "https://www.worldbank.org/ext/en/home",
+      "source": "世界银行",
+      "category": "全球宏观",
+      "published_at": "2026-10-16T19:39+08:00",
+      "date_quality": "unknown",
+      "summary": "打开原文查看完整公告、数据表或政策文件。"
+    },
+    {
+      "title": "https://www.worldbank.org/ext/en/news",
+      "url": "https://www.worldbank.org/ext/en/news",
+      "source": "世界银行",
+      "category": "全球宏观",
+      "published_at": "2026-10-16T19:39+08:00",
+      "date_quality": "unknown",
+      "summary": "打开原文查看完整公告、数据表或政策文件。"
+    },
+    {
+      "title": "https://www.worldbank.org/en/news/press-release/2026/10/12/world-bank-group-launches-philanthropy-hub-to-unlock-capital-knowledge-and-network",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/10/12/world-bank-group-launches-philanthropy-hub-to-unlock-capital-knowledge-and-network",
+      "source": "世界银行",
+      "category": "全球宏观",
+      "published_at": "2026-10-12",
+      "date_quality": "url_date",
+      "summary": "打开原文查看完整公告、数据表或政策文件。"
+    },
+    {
+      "title": "Media Contacts",
+      "url": "https://www.worldbank.org/en/news/contacts",
+      "source": "世界银行",
+      "category": "全球宏观",
+      "published_at": "2026-10-16T19:39+08:00",
+      "date_quality": "unknown",
+      "summary": "打开原文查看完整公告、数据表或政策文件。"
     }
   ]
 }
