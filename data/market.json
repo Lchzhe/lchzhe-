@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T03:36+08:00",
+  "updated_at": "2026-10-19T05:48+08:00",
   "timezone": "Asia/Shanghai",
   "provider": "腾讯行情公开接口",
   "indices": [
@@ -65,7 +65,7 @@
       "pct": -1.81,
       "high": 990.09,
       "low": 946.22,
-      "observed": "20261016153401",
+      "observed": "20261016153349",
       "source": "腾讯行情"
     },
     {
@@ -167,13 +167,13 @@
       "code": "hf_CL",
       "name": "纽约原油",
       "url": "https://quote.eastmoney.com/globalfuture/CL00.html",
-      "price": 101.85,
-      "prev": 97.97,
-      "chg": 3.88,
-      "pct": 3.96,
-      "high": 101.9,
-      "low": 96.85,
-      "observed": "04:59:58",
+      "price": 99.07,
+      "prev": 96.5,
+      "chg": 2.57,
+      "pct": 2.67,
+      "high": 99.34,
+      "low": 95.29,
+      "observed": "04:59:59",
       "source": "腾讯行情"
     },
     {
@@ -202,7 +202,7 @@
   },
   "advanced_analysis": {
     "framework_version": "3.0-research",
-    "generated_at": "2026-10-19T03:36+08:00",
+    "generated_at": "2026-10-19T05:48+08:00",
     "regime": {
       "code": "mixed",
       "label": "信号分化，保持观察",
