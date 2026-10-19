@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T22:05+08:00",
+  "updated_at": "2026-10-20T01:50+08:00",
   "timezone": "Asia/Shanghai",
   "provider": "腾讯行情公开接口",
   "indices": [
@@ -65,7 +65,7 @@
       "pct": -0.41,
       "high": 958.02,
       "low": 930.22,
-      "observed": "20261019153432",
+      "observed": "20261019153441",
       "source": "腾讯行情"
     },
     {
@@ -113,39 +113,39 @@
       "code": "usDJI",
       "name": "道琼斯",
       "url": "https://quote.eastmoney.com/gb/.DJI.html",
-      "price": 51946.6,
+      "price": 52013.63,
       "prev": 52002.41,
-      "chg": -55.81,
-      "pct": -0.11,
-      "high": 52001.19,
+      "chg": 11.22,
+      "pct": 0.02,
+      "high": 52134.58,
       "low": 51863.8,
-      "observed": "2026-10-19 10:05:00",
+      "observed": "2026-10-19 13:50:21",
       "source": "腾讯行情"
     },
     {
       "code": "usIXIC",
       "name": "纳斯达克",
       "url": "https://quote.eastmoney.com/gb/.IXIC.html",
-      "price": 26363.08,
+      "price": 26434.29,
       "prev": 26140.03,
-      "chg": 223.05,
-      "pct": 0.85,
-      "high": 26446.52,
+      "chg": 294.26,
+      "pct": 1.13,
+      "high": 26613.15,
       "low": 26344.67,
-      "observed": "2026-10-19 10:04:59",
+      "observed": "2026-10-19 13:50:20",
       "source": "腾讯行情"
     },
     {
       "code": "usINX",
       "name": "标普500",
       "url": "https://quote.eastmoney.com/gb/.INX.html",
-      "price": 7689.22,
+      "price": 7696.83,
       "prev": 7659.44,
-      "chg": 29.78,
-      "pct": 0.39,
-      "high": 7706.27,
+      "chg": 37.39,
+      "pct": 0.49,
+      "high": 7731.18,
       "low": 7684.79,
-      "observed": "2026-10-19 10:04:59",
+      "observed": "2026-10-19 13:50:20",
       "source": "腾讯行情"
     }
   ],
@@ -154,39 +154,39 @@
       "code": "hf_XAU",
       "name": "伦敦金",
       "url": "https://quote.eastmoney.com/globalfuture/GC00.html",
-      "price": 4148.3,
+      "price": 4144.58,
       "prev": 4164.05,
-      "chg": -15.75,
-      "pct": -0.38,
+      "chg": -19.47,
+      "pct": -0.47,
       "high": 4190.26,
-      "low": 4143.38,
-      "observed": "22:04:00",
+      "low": 4136.48,
+      "observed": "01:49:00",
       "source": "腾讯行情"
     },
     {
       "code": "hf_CL",
       "name": "纽约原油",
       "url": "https://quote.eastmoney.com/globalfuture/CL00.html",
-      "price": 97.46,
+      "price": 99.52,
       "prev": 99.02,
-      "chg": -1.56,
-      "pct": -1.58,
-      "high": 99.24,
+      "chg": 0.5,
+      "pct": 0.51,
+      "high": 99.54,
       "low": 96.72,
-      "observed": "22:05:02",
+      "observed": "01:50:04",
       "source": "腾讯行情"
     },
     {
       "code": "hf_SI",
       "name": "伦敦银",
       "url": "https://quote.eastmoney.com/globalfuture/SI00.html",
-      "price": 57.27,
+      "price": 57.3,
       "prev": 57.3,
-      "chg": -0.03,
-      "pct": -0.07,
+      "chg": 0.0,
+      "pct": 0.0,
       "high": 58.01,
       "low": 56.9,
-      "observed": "22:05:01",
+      "observed": "01:49:50",
       "source": "腾讯行情"
     }
   ],
@@ -202,7 +202,7 @@
   },
   "advanced_analysis": {
     "framework_version": "3.0-research",
-    "generated_at": "2026-10-19T22:05+08:00",
+    "generated_at": "2026-10-20T01:50+08:00",
     "regime": {
       "code": "weakening",
       "label": "趋势与宽度同向走弱",
@@ -215,7 +215,7 @@
     },
     "session": {
       "is_trading_day": true,
-      "next_session": "2026-10-20",
+      "next_session": "2026-10-21",
       "quote_date": "2026-10-19",
       "calendar_url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml",
       "calendar_year": 2026
@@ -448,17 +448,7 @@
         "priority": "downside"
       }
     ],
-    "events": [
-      {
-        "title": "财政部办公厅关于开展2026年10月份国债做市支持操作有关事宜的通知",
-        "source": "中国债券信息网",
-        "url": "https://www.chinabond.com.cn/xxwsy/sy_zdgz_ath/202610/t20261019_855462060.html",
-        "channel": "财政与需求",
-        "pathway": "财政支出 / 需求 → 收入、利润率和资金周转",
-        "check": "核对预算规模、落地时间及收入确认；政策方向与盈利兑现分开判断。",
-        "evidence": "标题触发的研究假设，尚未完成全文核验"
-      }
-    ],
+    "events": [],
     "model_catalog": [
       {
         "name": "DCF与资本成本",
@@ -533,7 +523,7 @@
       "stale": false,
       "fundamentals": false,
       "factor_returns": false,
-      "news_verified_today": 10
+      "news_verified_today": 5
     },
     "methodology": [
       "60日趋势与宽度是透明研究规则，阈值未回测，不代表预测胜率。",
