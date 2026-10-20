@@ -1,6 +1,6 @@
 # 雷传喆 · 每日金融信息研报
 
-**报告日期：2026-10-20**　**生成时间（北京时间）：2026-10-20 04:54**
+**报告日期：2026-10-21**　**生成时间（北京时间）：2026-10-21 03:50**
 
 > 本报告把公开信息、行情快照和条件化研究判断分开呈现。建议先核对原文，再结合自己的风险承受能力决策；内容不构成个性化投资建议或收益承诺。
 
@@ -8,64 +8,64 @@
 
 ### 1. 中国宏观与政策
 
-- **第十七届中国统计开放日**（[国家统计局](https://www.stats.gov.cn/zt_18555/zthd/sjtjr/tjr17/index.html)，2026-10-20T04:53+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
-- **非凡 "十四五" 奋进新征程—— "十四五" 经济社会发展成就报告**（[国家统计局](https://www.stats.gov.cn/zt_18555/ztfx/sswjjshfzcjbg/index.html)，2026-10-20T04:53+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
-- **第四次全国农业普查**（[国家统计局](https://www.stats.gov.cn/zt_18555/zdtjgz/zgnypc/d4cnypc/)，2026-10-20T04:53+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
-- **2025年全国1%人口抽样调查**（[国家统计局](https://www.stats.gov.cn/zt_18555/zdtjgz/cydc/2025cydc/)，2026-10-20T04:53+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
-- **中共中央 国务院关于发展新质生产力的意见**（[中国政府网政策](https://www.gov.cn/zhengce/202610/content_7082820.htm)，2026-10-20T04:53+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
-- **国务院关于《国家残疾预防行动计划（2026—2030年）》的批复**（[中国政府网政策](https://www.gov.cn/zhengce/content/202610/content_7082737.htm)，2026-10-20T04:53+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
-- **国务院办公厅关于发展体育赛事激发消费活力的意见**（[中国政府网政策](https://www.gov.cn/zhengce/content/202609/content_7082492.htm)，2026-10-20T04:53+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
-- **国务院关于《医疗康复护理扩容提升工程实施方案》的批复**（[中国政府网政策](https://www.gov.cn/zhengce/content/202609/content_7082378.htm)，2026-10-20T04:53+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
-- **中办国办印发《文化遗产保护传承“十五五”规划》**（[中国政府网政策](https://www.gov.cn/zhengce/202609/content_7082364.htm)，2026-10-20T04:53+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
-- **打开海关总署官网**（[海关总署](http://www.customs.gov.cn/)，2026-10-20T04:53+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
+- **第十七届中国统计开放日**（[国家统计局](https://www.stats.gov.cn/zt_18555/zthd/sjtjr/tjr17/index.html)，2026-10-21T03:50+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
+- **非凡 "十四五" 奋进新征程—— "十四五" 经济社会发展成就报告**（[国家统计局](https://www.stats.gov.cn/zt_18555/ztfx/sswjjshfzcjbg/index.html)，2026-10-21T03:50+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
+- **第四次全国农业普查**（[国家统计局](https://www.stats.gov.cn/zt_18555/zdtjgz/zgnypc/d4cnypc/)，2026-10-21T03:50+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
+- **2025年全国1%人口抽样调查**（[国家统计局](https://www.stats.gov.cn/zt_18555/zdtjgz/cydc/2025cydc/)，2026-10-21T03:50+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
+- **中共中央 国务院关于发展新质生产力的意见**（[中国政府网政策](https://www.gov.cn/zhengce/202610/content_7082820.htm)，2026-10-21T03:50+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
+- **国务院关于《国家残疾预防行动计划（2026—2030年）》的批复**（[中国政府网政策](https://www.gov.cn/zhengce/content/202610/content_7082737.htm)，2026-10-21T03:50+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
+- **国务院办公厅关于发展体育赛事激发消费活力的意见**（[中国政府网政策](https://www.gov.cn/zhengce/content/202609/content_7082492.htm)，2026-10-21T03:50+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
+- **国务院关于《医疗康复护理扩容提升工程实施方案》的批复**（[中国政府网政策](https://www.gov.cn/zhengce/content/202609/content_7082378.htm)，2026-10-21T03:50+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
+- **中办国办印发《文化遗产保护传承“十五五”规划》**（[中国政府网政策](https://www.gov.cn/zhengce/202609/content_7082364.htm)，2026-10-21T03:50+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
+- **打开海关总署官网**（[海关总署](http://www.customs.gov.cn/)，2026-10-21T03:50+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
 
 ### 2. A 股披露与监管
 
-- **统筹发展和安全 坚持开放与合作 奋力谱写资本市场“十五五”高质量发展新篇章——吴清主席在2026金融街论坛年会上的主题演讲**（[中国证监会](https://www.csrc.gov.cn/csrc/c106311/c7665578/content.shtml)，2026-10-20T04:53+08:00）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
-- **中国证监会就《证券市场先行赔付指导意见》公开征求意见**（[中国证监会](https://www.csrc.gov.cn/csrc/c100028/c7665462/content.shtml)，2026-10-20T04:53+08:00）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
-- **中国证监会有关部门负责人就《违规转让证券案件行政处罚实施规则》答记者问**（[中国证监会](https://www.csrc.gov.cn/csrc/c100028/c7665427/content.shtml)，2026-10-20T04:53+08:00）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
-- **中国证监会发布《违规转让证券案件行政处罚实施规则》**（[中国证监会](https://www.csrc.gov.cn/csrc/c100028/c7665425/content.shtml)，2026-10-20T04:53+08:00）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
-- **吴清主席会见阿联酋穆巴达拉投资公司首席执行官兼董事总经理哈勒敦**（[中国证监会](https://www.csrc.gov.cn/csrc/c106311/c7664121/content.shtml)，2026-10-20T04:53+08:00）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
-- **关于前期会计差错更正的公告**（[巨潮资讯](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600735&orgId=gssh0600735&announcementId=1225611491&announcementTime=2026-10-20)，2026-10-20）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
-- **2026年第三次临时股东会决议公告**（[巨潮资讯](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300702&orgId=9900026797&announcementId=1225611489&announcementTime=2026-10-20)，2026-10-20）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
-- **600461 2026-044 江西洪城环境股份有限公司关于“洪城转债”到期兑付暨摘牌的第一次提示性公告的更正公告**（[巨潮资讯](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600461&orgId=gssh0600461&announcementId=1225611488&announcementTime=2026-10-20)，2026-10-20）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
-- **关于终止筹划重大事项暨公司复牌的公告**（[巨潮资讯](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603759&orgId=9900041834&announcementId=1225611487&announcementTime=2026-10-20)，2026-10-20）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
-- **江苏天目湖旅游股份有限公司关于召开2026年第一次临时股东会的通知**（[巨潮资讯](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603136&orgId=9900032263&announcementId=1225611482&announcementTime=2026-10-20)，2026-10-20）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
+- **统筹发展和安全 坚持开放与合作 奋力谱写资本市场“十五五”高质量发展新篇章——吴清主席在2026金融街论坛年会上的主题演讲**（[中国证监会](https://www.csrc.gov.cn/csrc/c106311/c7665578/content.shtml)，2026-10-21T03:50+08:00）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
+- **中国证监会就《证券市场先行赔付指导意见》公开征求意见**（[中国证监会](https://www.csrc.gov.cn/csrc/c100028/c7665462/content.shtml)，2026-10-21T03:50+08:00）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
+- **中国证监会有关部门负责人就《违规转让证券案件行政处罚实施规则》答记者问**（[中国证监会](https://www.csrc.gov.cn/csrc/c100028/c7665427/content.shtml)，2026-10-21T03:50+08:00）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
+- **中国证监会发布《违规转让证券案件行政处罚实施规则》**（[中国证监会](https://www.csrc.gov.cn/csrc/c100028/c7665425/content.shtml)，2026-10-21T03:50+08:00）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
+- **吴清主席会见阿联酋穆巴达拉投资公司首席执行官兼董事总经理哈勒敦**（[中国证监会](https://www.csrc.gov.cn/csrc/c106311/c7664121/content.shtml)，2026-10-21T03:50+08:00）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
+- **南威软件：股票交易异常波动公告**（[巨潮资讯](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603636&orgId=9900023642&announcementId=1225613364&announcementTime=2026-10-21)，2026-10-21）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
+- **安阳钢铁股份有限公司2026年度向特定对象发行A股股票募集说明书（修订稿）**（[巨潮资讯](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600569&orgId=gssh0600569&announcementId=1225613321&announcementTime=2026-10-21)，2026-10-21）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
+- **关于股东部分股份将被司法拍卖的提示性公告**（[巨潮资讯](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002607&orgId=9900021221&announcementId=1225613319&announcementTime=2026-10-21)，2026-10-21）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
+- **关于公司董事长增持公司股份计划实施进展暨增持时间过半的公告**（[巨潮资讯](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002879&orgId=9900031441&announcementId=1225613314&announcementTime=2026-10-21)，2026-10-21）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
+- **关于为子公司提供担保的进展公告**（[巨潮资讯](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002815&orgId=9900023139&announcementId=1225613313&announcementTime=2026-10-21)，2026-10-21）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
 
 ### 3. 全球宏观与跨市场
 
-- **打开FRED官网**（[FRED](https://fred.stlouisfed.org/)，2026-10-20T04:53+08:00）：作为外部变量观察，重点核对其对利率、美元、能源和风险偏好的传导路径。
-- **Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank**（[美联储](https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm)，Fri, 16 Oct 2026 15:00:00 GMT）：作为外部变量观察，重点核对其对利率、美元、能源和风险偏好的传导路径。
-- **Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026**（[美联储](https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm)，Tue, 13 Oct 2026 18:00:00 GMT）：作为外部变量观察，重点核对其对利率、美元、能源和风险偏好的传导路径。
-- **Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families**（[美联储](https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm)，Fri, 9 Oct 2026 14:00:00 GMT）：作为外部变量观察，重点核对其对利率、美元、能源和风险偏好的传导路径。
-- **Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering**（[美联储](https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm)，Thu, 8 Oct 2026 20:30:00 GMT）：作为外部变量观察，重点核对其对利率、美元、能源和风险偏好的传导路径。
-- **Minutes of the Federal Open Market Committee, September 15-16, 2026**（[美联储](https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm)，Wed, 7 Oct 2026 18:00:00 GMT）：作为外部变量观察，重点核对其对利率、美元、能源和风险偏好的传导路径。
-- **Federal Reserve Board announces approval of application by Isabella Bank Corporation**（[美联储](https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm)，Mon, 5 Oct 2026 20:30:00 GMT）：作为外部变量观察，重点核对其对利率、美元、能源和风险偏好的传导路径。
-- **Federal Reserve Board announces approval of application by Fleur Capital Corporation**（[美联储](https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm)，Fri, 2 Oct 2026 20:45:00 GMT）：作为外部变量观察，重点核对其对利率、美元、能源和风险偏好的传导路径。
-- **Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O**（[美联储](https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm)，Fri, 2 Oct 2026 20:00:00 GMT）：作为外部变量观察，重点核对其对利率、美元、能源和风险偏好的传导路径。
-- **Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.**（[美联储](https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm)，Fri, 2 Oct 2026 15:00:00 GMT）：作为外部变量观察，重点核对其对利率、美元、能源和风险偏好的传导路径。
+- **打开FRED官网**（[FRED](https://fred.stlouisfed.org/)，2026-10-21T03:50+08:00）：作为外部变量观察，重点核对其对利率、美元、能源和风险偏好的传导路径。
+- **打开美联储官网**（[美联储](https://www.federalreserve.gov/)，2026-10-21T03:50+08:00）：作为外部变量观察，重点核对其对利率、美元、能源和风险偏好的传导路径。
+- **打开美国劳工统计局官网**（[美国劳工统计局](https://www.bls.gov/)，2026-10-21T03:50+08:00）：作为外部变量观察，重点核对其对利率、美元、能源和风险偏好的传导路径。
+- **打开美国经济分析局官网**（[美国经济分析局](https://www.bea.gov/)，2026-10-21T03:50+08:00）：作为外部变量观察，重点核对其对利率、美元、能源和风险偏好的传导路径。
+- **Frank Elderson: Interview with Die Presse**（[欧洲央行](https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261020~97e2e4bc38.en.html)，Tue, 20 Oct 2026 09:00:00 +0200）：作为外部变量观察，重点核对其对利率、美元、能源和风险偏好的传导路径。
+- **Frank Elderson: From climate and nature risks to economic resilience and competitiveness**（[欧洲央行](https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261019~f0a3e053de.en.html)，Mon, 19 Oct 2026 08:00:00 +0200）：作为外部变量观察，重点核对其对利率、美元、能源和风险偏好的传导路径。
+- **Christine Lagarde: IMFC Statement**（[欧洲央行](https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html)，Sat, 17 Oct 2026 07:00:00 +0200）：作为外部变量观察，重点核对其对利率、美元、能源和风险偏好的传导路径。
+- **Frank Elderson: Ensuring resilience in the face of uncertainty**（[欧洲央行](https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261014~e4ca33588e.en.html)，Wed, 14 Oct 2026 02:00:00 +0200）：作为外部变量观察，重点核对其对利率、美元、能源和风险偏好的传导路径。
+- **Philip R. Lane: The AI opportunity for Europe**（[欧洲央行](https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261013~9db9bf4fd6.en.html)，Tue, 13 Oct 2026 20:30:00 +0200）：作为外部变量观察，重点核对其对利率、美元、能源和风险偏好的传导路径。
+- **Meeting of 9-10 September 2026**（[欧洲央行](https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261008~a10153d090.en.html)，Thu, 08 Oct 2026 13:30:00 +0200）：作为外部变量观察，重点核对其对利率、美元、能源和风险偏好的传导路径。
 
 ### 4. 当日市场快照
 
 | 资产 | 收盘/最新 | 涨跌幅 | 数据来源 |
 |---|---:|---:|---|
-| [上证指数](https://quote.eastmoney.com/zs000001.html) | 3,730.92 | +0.39% | 腾讯行情 |
-| [深证成指](https://quote.eastmoney.com/zs399001.html) | 11,817.42 | +0.13% | 腾讯行情 |
-| [创业板指](https://quote.eastmoney.com/zs399006.html) | 2,746.29 | -0.94% | 腾讯行情 |
-| [科创50](https://quote.eastmoney.com/zs000688.html) | 1,329.19 | -2.17% | 腾讯行情 |
-| [北证50](https://quote.eastmoney.com/bj899050.html) | 946.15 | -0.41% | 腾讯行情 |
-| [沪深300](https://quote.eastmoney.com/zs000300.html) | 4,174.53 | +0.09% | 腾讯行情 |
-| [中证500](https://quote.eastmoney.com/zs000905.html) | 6,800.66 | +0.41% | 腾讯行情 |
-| [恒生指数](https://quote.eastmoney.com/gb/hkHSI.html) | 24,186.83 | +0.52% | 腾讯行情 |
+| [上证指数](https://quote.eastmoney.com/zs000001.html) | 3,735.37 | +0.12% | 腾讯行情 |
+| [深证成指](https://quote.eastmoney.com/zs399001.html) | 11,801.29 | -0.14% | 腾讯行情 |
+| [创业板指](https://quote.eastmoney.com/zs399006.html) | 2,739.20 | -0.26% | 腾讯行情 |
+| [科创50](https://quote.eastmoney.com/zs000688.html) | 1,342.42 | +1.00% | 腾讯行情 |
+| [北证50](https://quote.eastmoney.com/bj899050.html) | 982.87 | +3.88% | 腾讯行情 |
+| [沪深300](https://quote.eastmoney.com/zs000300.html) | 4,152.11 | -0.54% | 腾讯行情 |
+| [中证500](https://quote.eastmoney.com/zs000905.html) | 6,841.44 | +0.60% | 腾讯行情 |
+| [恒生指数](https://quote.eastmoney.com/gb/hkHSI.html) | 23,867.74 | -1.32% | 腾讯行情 |
 
 **市场宽度：**
-上涨 2229 家、下跌 2893 家、平盘 168 家，上涨占比 42.1%；口径为沪深主要成分估算。
+上涨 3456 家、下跌 1700 家、平盘 138 家，上涨占比 65.3%；口径为沪深主要成分估算。
 
 **海外指数：**
-道琼斯 51,966.03（-0.07%）；纳斯达克 26,430.89（+1.11%）；标普500 7,690.73（+0.41%）
+道琼斯 52,448.36（+0.93%）；纳斯达克 26,407.98（-0.09%）；标普500 7,708.69（+0.23%）
 
 **大宗商品：**
-伦敦金 4,138.39（-0.62%）；纽约原油 98.50（-0.53%）；伦敦银 57.16（-0.25%）
+伦敦金 4,122.78（-0.43%）；纽约原油 97.91（-0.64%）；伦敦银 58.03（+1.32%）
 
 ## 二、现代金融理论分析框架
 
@@ -73,19 +73,19 @@
 
 ### 1. 市场状态与证据强度
 
-- 当前状态：**趋势与宽度同向走弱**；证据分数 None/100；置信度 未校准概率。
-- A股指数截面：7个指数均值 -0.36% · 分化 0.93个百分点；描述最近行情；指数相互重叠，均值不代表可投资组合。（限制：港股单列，不计入A股截面。）
-- 市场宽度：上涨占比 42.1%；以接口覆盖范围为准；55%/45%为研究规则阈值，尚未完成收益检验。（限制：沪深主要成分估算）
-- 中期趋势：沪深300距60日均线 -7.99%；根据已完成交易日收盘计算，与宽度共同作描述性状态识别。（限制：未训练HMM，也未给出上涨概率。）
-- 样本与时间：历史截至 2026-10-19 · 399个日收益；收盘历史剔除未收盘当日；重复抓取和休市日不新增观测。（限制：抓取时间与交易日期分开记录。）
+- 当前状态：**信号分化，保持观察**；证据分数 None/100；置信度 未校准概率。
+- A股指数截面：7个指数均值 +0.67% · 分化 1.51个百分点；描述最近行情；指数相互重叠，均值不代表可投资组合。（限制：港股单列，不计入A股截面。）
+- 市场宽度：上涨占比 65.3%；以接口覆盖范围为准；55%/45%为研究规则阈值，尚未完成收益检验。（限制：沪深主要成分估算）
+- 中期趋势：沪深300距60日均线 -8.33%；根据已完成交易日收盘计算，与宽度共同作描述性状态识别。（限制：未训练HMM，也未给出上涨概率。）
+- 样本与时间：历史截至 2026-10-20 · 399个日收益；收盘历史剔除未收盘当日；重复抓取和休市日不新增观测。（限制：抓取时间与交易日期分开记录。）
 
 ### 2. 多因子透视
 
 - **市场敏感度 β**（线性市场回归）：相对于沪深300的日收益敏感度，暂不可评分。下表提供对齐交易日回归；未扣无风险利率，未输出 CAPM 预期收益或 alpha。
-- **12—1 月动量**（动量研究中的价格描述指标）：-0.98%，暂不可评分。沪深300第t-21日收盘 / 第t-252日收盘 - 1；排除最近21个交易日，不是 Carhart 横截面因子收益。
+- **12—1 月动量**（动量研究中的价格描述指标）：-0.88%，暂不可评分。沪深300第t-21日收盘 / 第t-252日收盘 - 1；排除最近21个交易日，不是 Carhart 横截面因子收益。
 - **估值与现金流**（DCF / 相对估值）：公司财务与预测数据待接入，暂不可评分。需要 FCFF/FCFE、净债务、折现率和增长情景；暂不生成目标价。
 - **盈利与投资**（Fama-French 五因子）：A股本地因子组合待接入，暂不可评分。需要时点一致的账面价值、盈利、资产增长、规模、无风险利率与因子收益；未拟合五因子回归。
-- **滚动风险**（历史波动 / ES / 回撤）：63日年化波动 +18.18%，暂不可评分。ES 使用全体250日收益的最差5%尾部，包括所有损益；一日95%研究口径，不等同银行监管ES。
+- **滚动风险**（历史波动 / ES / 回撤）：63日年化波动 +18.20%，暂不可评分。ES 使用全体250日收益的最差5%尾部，包括所有损益；一日95%研究口径，不等同银行监管ES。
 
 ### 3. 情景与行动条件
 
@@ -95,11 +95,11 @@
 
 ### 4. 风险约束
 
-- 滚动 399 个观测：年化实现波动 0.1818474881388049，95% Expected Shortfall 0.026817321881726797，最大回撤 0.17662253985445653。
+- 滚动 399 个观测：年化实现波动 0.18196217718966248，95% Expected Shortfall 0.026817321881726797，最大回撤 0.17936976002340077。
 
 ### 5. 交易日与数据质量
 
-- 交易日判断：是；行情日期：2026-10-19；下一交易日：2026-10-21。日历入口：[https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml](https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml)。
+- 交易日判断：是；行情日期：2026-10-20；下一交易日：2026-10-22。日历入口：[https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml](https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml)。
 - 数据质量：较完整；当日已核验发布日期消息 5 条；基本面因子=未接入，本地因子收益=未接入。
 
 ### 6. 事件传导链
@@ -118,10 +118,10 @@
 
 ### 1. 指数与市场宽度
 
-- 主要指数中 5 个上涨、3 个下跌，平均涨跌幅 —；这说明指数表现并非完全同向。
-- 市场宽度上涨占比为 42.1% 。该指标低于 50% 时，短线赚钱效应需要更多确认，单看指数上涨容易高估市场强度。
-- 相对强势：恒生指数 +0.52%、中证500 +0.41%、上证指数 +0.39%。
-- 相对弱势：科创50 -2.17%、创业板指 -0.94%、北证50 -0.41%。
+- 主要指数中 4 个上涨、4 个下跌，平均涨跌幅 —；这说明指数表现并非完全同向。
+- 市场宽度上涨占比为 65.3% 。该指标低于 50% 时，短线赚钱效应需要更多确认，单看指数上涨容易高估市场强度。
+- 相对强势：北证50 +3.88%、科创50 +1.00%、中证500 +0.60%。
+- 相对弱势：恒生指数 -1.32%、沪深300 -0.54%、创业板指 -0.26%。
 
 ### 2. 跨市场传导
 
@@ -156,7 +156,7 @@
 
 ## 六、信息来源与可追溯性
 
-本次报告使用的数据快照：新闻 2026-10-20T04:53+08:00；行情 2026-10-20T04:53+08:00；行情接口：腾讯行情公开接口。
+本次报告使用的数据快照：新闻 2026-10-21T03:50+08:00；行情 2026-10-21T03:50+08:00；行情接口：腾讯行情公开接口。
 
 | 来源 | 类别 | 状态 | 原始入口 |
 |---|---|---|---|
@@ -170,13 +170,13 @@
 | 国家外汇管理局 | 外汇 | reachable | [https://www.safe.gov.cn/](https://www.safe.gov.cn/) |
 | 中国证监会 | 监管 | reachable | [https://www.csrc.gov.cn/](https://www.csrc.gov.cn/) |
 | 巨潮资讯 | A股披露 | reachable | [https://www.cninfo.com.cn/](https://www.cninfo.com.cn/) |
-| 上海证券交易所 | A股披露 | restricted | [https://www.sse.com.cn/](https://www.sse.com.cn/) |
+| 上海证券交易所 | A股披露 | reachable | [https://www.sse.com.cn/](https://www.sse.com.cn/) |
 | 深圳证券交易所 | A股披露 | restricted | [https://www.szse.cn/](https://www.szse.cn/) |
 | 北京证券交易所 | A股披露 | reachable | [https://www.bse.cn/](https://www.bse.cn/) |
 | 中国债券信息网 | 债券利率 | reachable | [https://www.chinabond.com.cn/](https://www.chinabond.com.cn/) |
 | Shibor | 债券利率 | restricted | [https://www.shibor.org/](https://www.shibor.org/) |
 | FRED | 全球宏观 | restricted | [https://fred.stlouisfed.org/](https://fred.stlouisfed.org/) |
-| 美联储 | 全球宏观 | reachable | [https://www.federalreserve.gov/](https://www.federalreserve.gov/) |
+| 美联储 | 全球宏观 | restricted | [https://www.federalreserve.gov/](https://www.federalreserve.gov/) |
 | 美国劳工统计局 | 全球宏观 | restricted | [https://www.bls.gov/](https://www.bls.gov/) |
 | 美国经济分析局 | 全球宏观 | restricted | [https://www.bea.gov/](https://www.bea.gov/) |
 | 欧洲央行 | 全球宏观 | reachable | [https://www.ecb.europa.eu/](https://www.ecb.europa.eu/) |
@@ -204,47 +204,36 @@
 
 | 时间 | 类别 | 来源 | 标题 | 原文 |
 |---|---|---|---|---|
-| 2026-10-20T04:53+08:00 | 中国宏观 | 中国人民银行 | [English Version](https://www.pbc.gov.cn/en/3688006/index.html) | https://www.pbc.gov.cn/en/3688006/index.html |
-| 2026-10-20T04:53+08:00 | 中国宏观 | 国家统计局数据 | [查看国家统计局数据最新发布](https://data.stats.gov.cn/) | https://data.stats.gov.cn/ |
-| 2026-10-20T04:53+08:00 | 中国宏观 | 国家统计局 | [第十七届中国统计开放日](https://www.stats.gov.cn/zt_18555/zthd/sjtjr/tjr17/index.html) | https://www.stats.gov.cn/zt_18555/zthd/sjtjr/tjr17/index.html |
-| 2026-10-20T04:53+08:00 | 中国宏观 | 国家统计局 | [非凡 "十四五" 奋进新征程—— "十四五" 经济社会发展成就报告](https://www.stats.gov.cn/zt_18555/ztfx/sswjjshfzcjbg/index.html) | https://www.stats.gov.cn/zt_18555/ztfx/sswjjshfzcjbg/index.html |
-| 2026-10-20T04:53+08:00 | 中国宏观 | 国家统计局 | [第四次全国农业普查](https://www.stats.gov.cn/zt_18555/zdtjgz/zgnypc/d4cnypc/) | https://www.stats.gov.cn/zt_18555/zdtjgz/zgnypc/d4cnypc/ |
-| 2026-10-20T04:53+08:00 | 中国宏观 | 国家统计局 | [2025年全国1%人口抽样调查](https://www.stats.gov.cn/zt_18555/zdtjgz/cydc/2025cydc/) | https://www.stats.gov.cn/zt_18555/zdtjgz/cydc/2025cydc/ |
-| 2026-10-20T04:53+08:00 | 政策 | 中国政府网政策 | [中共中央 国务院关于发展新质生产力的意见](https://www.gov.cn/zhengce/202610/content_7082820.htm) | https://www.gov.cn/zhengce/202610/content_7082820.htm |
-| 2026-10-20T04:53+08:00 | 政策 | 中国政府网政策 | [国务院关于《国家残疾预防行动计划（2026—2030年）》的批复](https://www.gov.cn/zhengce/content/202610/content_7082737.htm) | https://www.gov.cn/zhengce/content/202610/content_7082737.htm |
-| 2026-10-20T04:53+08:00 | 政策 | 中国政府网政策 | [国务院办公厅关于发展体育赛事激发消费活力的意见](https://www.gov.cn/zhengce/content/202609/content_7082492.htm) | https://www.gov.cn/zhengce/content/202609/content_7082492.htm |
-| 2026-10-20T04:53+08:00 | 政策 | 中国政府网政策 | [国务院关于《医疗康复护理扩容提升工程实施方案》的批复](https://www.gov.cn/zhengce/content/202609/content_7082378.htm) | https://www.gov.cn/zhengce/content/202609/content_7082378.htm |
-| 2026-10-20T04:53+08:00 | 政策 | 中国政府网政策 | [中办国办印发《文化遗产保护传承“十五五”规划》](https://www.gov.cn/zhengce/202609/content_7082364.htm) | https://www.gov.cn/zhengce/202609/content_7082364.htm |
-| 2026-10-20T04:53+08:00 | 财政 | 财政部 | [查看财政部最新发布](https://www.mof.gov.cn/) | https://www.mof.gov.cn/ |
-| 2026-10-20T04:53+08:00 | 外贸 | 海关总署 | [打开海关总署官网](http://www.customs.gov.cn/) | http://www.customs.gov.cn/ |
-| 2026-10-20T04:53+08:00 | 监管 | 中国证监会 | [统筹发展和安全 坚持开放与合作 奋力谱写资本市场“十五五”高质量发展新篇章——吴清主席在2026金融街论坛年会上的主题演讲](https://www.csrc.gov.cn/csrc/c106311/c7665578/content.shtml) | https://www.csrc.gov.cn/csrc/c106311/c7665578/content.shtml |
-| 2026-10-20T04:53+08:00 | 监管 | 中国证监会 | [中国证监会就《证券市场先行赔付指导意见》公开征求意见](https://www.csrc.gov.cn/csrc/c100028/c7665462/content.shtml) | https://www.csrc.gov.cn/csrc/c100028/c7665462/content.shtml |
-| 2026-10-20T04:53+08:00 | 监管 | 中国证监会 | [中国证监会有关部门负责人就《违规转让证券案件行政处罚实施规则》答记者问](https://www.csrc.gov.cn/csrc/c100028/c7665427/content.shtml) | https://www.csrc.gov.cn/csrc/c100028/c7665427/content.shtml |
-| 2026-10-20T04:53+08:00 | 监管 | 中国证监会 | [中国证监会发布《违规转让证券案件行政处罚实施规则》](https://www.csrc.gov.cn/csrc/c100028/c7665425/content.shtml) | https://www.csrc.gov.cn/csrc/c100028/c7665425/content.shtml |
-| 2026-10-20T04:53+08:00 | 监管 | 中国证监会 | [吴清主席会见阿联酋穆巴达拉投资公司首席执行官兼董事总经理哈勒敦](https://www.csrc.gov.cn/csrc/c106311/c7664121/content.shtml) | https://www.csrc.gov.cn/csrc/c106311/c7664121/content.shtml |
-| 2026-10-20 | A股披露 | 巨潮资讯 | [关于前期会计差错更正的公告](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600735&orgId=gssh0600735&announcementId=1225611491&announcementTime=2026-10-20) | https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600735&orgId=gssh0600735&announcementId=1225611491&announcementTime=2026-10-20 |
-| 2026-10-20 | A股披露 | 巨潮资讯 | [2026年第三次临时股东会决议公告](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300702&orgId=9900026797&announcementId=1225611489&announcementTime=2026-10-20) | https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300702&orgId=9900026797&announcementId=1225611489&announcementTime=2026-10-20 |
-| 2026-10-20 | A股披露 | 巨潮资讯 | [600461 2026-044 江西洪城环境股份有限公司关于“洪城转债”到期兑付暨摘牌的第一次提示性公告的更正公告](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600461&orgId=gssh0600461&announcementId=1225611488&announcementTime=2026-10-20) | https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600461&orgId=gssh0600461&announcementId=1225611488&announcementTime=2026-10-20 |
-| 2026-10-20 | A股披露 | 巨潮资讯 | [关于终止筹划重大事项暨公司复牌的公告](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603759&orgId=9900041834&announcementId=1225611487&announcementTime=2026-10-20) | https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603759&orgId=9900041834&announcementId=1225611487&announcementTime=2026-10-20 |
-| 2026-10-20 | A股披露 | 巨潮资讯 | [江苏天目湖旅游股份有限公司关于召开2026年第一次临时股东会的通知](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603136&orgId=9900032263&announcementId=1225611482&announcementTime=2026-10-20) | https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603136&orgId=9900032263&announcementId=1225611482&announcementTime=2026-10-20 |
-| 2026-10-20T04:53+08:00 | A股披露 | 上海证券交易所 | [打开上海证券交易所官网](https://www.sse.com.cn/) | https://www.sse.com.cn/ |
-| 2026-10-20T04:53+08:00 | A股披露 | 深圳证券交易所 | [打开深圳证券交易所官网](https://www.szse.cn/) | https://www.szse.cn/ |
-| 2026-10-20T04:53+08:00 | 债券利率 | Shibor | [打开Shibor官网](https://www.shibor.org/) | https://www.shibor.org/ |
-| 2026-10-20T04:53+08:00 | 全球宏观 | FRED | [打开FRED官网](https://fred.stlouisfed.org/) | https://fred.stlouisfed.org/ |
-| Fri, 16 Oct 2026 15:00:00 GMT | 全球宏观 | 美联储 | [Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank](https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm) | https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm |
-| Tue, 13 Oct 2026 18:00:00 GMT | 全球宏观 | 美联储 | [Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026](https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm) | https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm |
-| Fri, 9 Oct 2026 14:00:00 GMT | 全球宏观 | 美联储 | [Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families](https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm) | https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm |
-| Thu, 8 Oct 2026 20:30:00 GMT | 全球宏观 | 美联储 | [Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering](https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm) | https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm |
-| Wed, 7 Oct 2026 18:00:00 GMT | 全球宏观 | 美联储 | [Minutes of the Federal Open Market Committee, September 15-16, 2026](https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm) | https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm |
-| Mon, 5 Oct 2026 20:30:00 GMT | 全球宏观 | 美联储 | [Federal Reserve Board announces approval of application by Isabella Bank Corporation](https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm) | https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm |
-| Fri, 2 Oct 2026 20:45:00 GMT | 全球宏观 | 美联储 | [Federal Reserve Board announces approval of application by Fleur Capital Corporation](https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm) | https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm |
-| Fri, 2 Oct 2026 20:00:00 GMT | 全球宏观 | 美联储 | [Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O](https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm) | https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm |
-| Fri, 2 Oct 2026 15:00:00 GMT | 全球宏观 | 美联储 | [Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.](https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm) | https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm |
-| Wed, 30 Sep 2026 13:00:00 GMT | 全球宏观 | 美联储 | [Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements](https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm) | https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm |
-| Tue, 29 Sep 2026 20:00:00 GMT | 全球宏观 | 美联储 | [Agencies publish resolution plan feedback letters for 15 banking organizations](https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260929a.htm) | https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260929a.htm |
-| Fri, 25 Sep 2026 20:30:00 GMT | 全球宏观 | 美联储 | [Federal Reserve Board announces approval of application by Peoples Bancorp Inc.](https://www.federalreserve.gov/newsevents/pressreleases/orders20260925a.htm) | https://www.federalreserve.gov/newsevents/pressreleases/orders20260925a.htm |
-| 2026-10-20T04:53+08:00 | 全球宏观 | 美国劳工统计局 | [打开美国劳工统计局官网](https://www.bls.gov/) | https://www.bls.gov/ |
-| 2026-10-20T04:53+08:00 | 全球宏观 | 美国经济分析局 | [打开美国经济分析局官网](https://www.bea.gov/) | https://www.bea.gov/ |
+| 2026-10-21T03:50+08:00 | 中国宏观 | 中国人民银行 | [English Version](https://www.pbc.gov.cn/en/3688006/index.html) | https://www.pbc.gov.cn/en/3688006/index.html |
+| 2026-10-21T03:50+08:00 | 中国宏观 | 国家统计局数据 | [查看国家统计局数据最新发布](https://data.stats.gov.cn/) | https://data.stats.gov.cn/ |
+| 2026-10-21T03:50+08:00 | 中国宏观 | 国家统计局 | [第十七届中国统计开放日](https://www.stats.gov.cn/zt_18555/zthd/sjtjr/tjr17/index.html) | https://www.stats.gov.cn/zt_18555/zthd/sjtjr/tjr17/index.html |
+| 2026-10-21T03:50+08:00 | 中国宏观 | 国家统计局 | [非凡 "十四五" 奋进新征程—— "十四五" 经济社会发展成就报告](https://www.stats.gov.cn/zt_18555/ztfx/sswjjshfzcjbg/index.html) | https://www.stats.gov.cn/zt_18555/ztfx/sswjjshfzcjbg/index.html |
+| 2026-10-21T03:50+08:00 | 中国宏观 | 国家统计局 | [第四次全国农业普查](https://www.stats.gov.cn/zt_18555/zdtjgz/zgnypc/d4cnypc/) | https://www.stats.gov.cn/zt_18555/zdtjgz/zgnypc/d4cnypc/ |
+| 2026-10-21T03:50+08:00 | 中国宏观 | 国家统计局 | [2025年全国1%人口抽样调查](https://www.stats.gov.cn/zt_18555/zdtjgz/cydc/2025cydc/) | https://www.stats.gov.cn/zt_18555/zdtjgz/cydc/2025cydc/ |
+| 2026-10-21T03:50+08:00 | 政策 | 中国政府网政策 | [中共中央 国务院关于发展新质生产力的意见](https://www.gov.cn/zhengce/202610/content_7082820.htm) | https://www.gov.cn/zhengce/202610/content_7082820.htm |
+| 2026-10-21T03:50+08:00 | 政策 | 中国政府网政策 | [国务院关于《国家残疾预防行动计划（2026—2030年）》的批复](https://www.gov.cn/zhengce/content/202610/content_7082737.htm) | https://www.gov.cn/zhengce/content/202610/content_7082737.htm |
+| 2026-10-21T03:50+08:00 | 政策 | 中国政府网政策 | [国务院办公厅关于发展体育赛事激发消费活力的意见](https://www.gov.cn/zhengce/content/202609/content_7082492.htm) | https://www.gov.cn/zhengce/content/202609/content_7082492.htm |
+| 2026-10-21T03:50+08:00 | 政策 | 中国政府网政策 | [国务院关于《医疗康复护理扩容提升工程实施方案》的批复](https://www.gov.cn/zhengce/content/202609/content_7082378.htm) | https://www.gov.cn/zhengce/content/202609/content_7082378.htm |
+| 2026-10-21T03:50+08:00 | 政策 | 中国政府网政策 | [中办国办印发《文化遗产保护传承“十五五”规划》](https://www.gov.cn/zhengce/202609/content_7082364.htm) | https://www.gov.cn/zhengce/202609/content_7082364.htm |
+| 2026-10-21T03:50+08:00 | 财政 | 财政部 | [查看财政部最新发布](https://www.mof.gov.cn/) | https://www.mof.gov.cn/ |
+| 2026-10-21T03:50+08:00 | 外贸 | 海关总署 | [打开海关总署官网](http://www.customs.gov.cn/) | http://www.customs.gov.cn/ |
+| 2026-10-21T03:50+08:00 | 监管 | 中国证监会 | [统筹发展和安全 坚持开放与合作 奋力谱写资本市场“十五五”高质量发展新篇章——吴清主席在2026金融街论坛年会上的主题演讲](https://www.csrc.gov.cn/csrc/c106311/c7665578/content.shtml) | https://www.csrc.gov.cn/csrc/c106311/c7665578/content.shtml |
+| 2026-10-21T03:50+08:00 | 监管 | 中国证监会 | [中国证监会就《证券市场先行赔付指导意见》公开征求意见](https://www.csrc.gov.cn/csrc/c100028/c7665462/content.shtml) | https://www.csrc.gov.cn/csrc/c100028/c7665462/content.shtml |
+| 2026-10-21T03:50+08:00 | 监管 | 中国证监会 | [中国证监会有关部门负责人就《违规转让证券案件行政处罚实施规则》答记者问](https://www.csrc.gov.cn/csrc/c100028/c7665427/content.shtml) | https://www.csrc.gov.cn/csrc/c100028/c7665427/content.shtml |
+| 2026-10-21T03:50+08:00 | 监管 | 中国证监会 | [中国证监会发布《违规转让证券案件行政处罚实施规则》](https://www.csrc.gov.cn/csrc/c100028/c7665425/content.shtml) | https://www.csrc.gov.cn/csrc/c100028/c7665425/content.shtml |
+| 2026-10-21T03:50+08:00 | 监管 | 中国证监会 | [吴清主席会见阿联酋穆巴达拉投资公司首席执行官兼董事总经理哈勒敦](https://www.csrc.gov.cn/csrc/c106311/c7664121/content.shtml) | https://www.csrc.gov.cn/csrc/c106311/c7664121/content.shtml |
+| 2026-10-21 | A股披露 | 巨潮资讯 | [南威软件：股票交易异常波动公告](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603636&orgId=9900023642&announcementId=1225613364&announcementTime=2026-10-21) | https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603636&orgId=9900023642&announcementId=1225613364&announcementTime=2026-10-21 |
+| 2026-10-21 | A股披露 | 巨潮资讯 | [安阳钢铁股份有限公司2026年度向特定对象发行A股股票募集说明书（修订稿）](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600569&orgId=gssh0600569&announcementId=1225613321&announcementTime=2026-10-21) | https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600569&orgId=gssh0600569&announcementId=1225613321&announcementTime=2026-10-21 |
+| 2026-10-21 | A股披露 | 巨潮资讯 | [关于股东部分股份将被司法拍卖的提示性公告](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002607&orgId=9900021221&announcementId=1225613319&announcementTime=2026-10-21) | https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002607&orgId=9900021221&announcementId=1225613319&announcementTime=2026-10-21 |
+| 2026-10-21 | A股披露 | 巨潮资讯 | [关于公司董事长增持公司股份计划实施进展暨增持时间过半的公告](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002879&orgId=9900031441&announcementId=1225613314&announcementTime=2026-10-21) | https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002879&orgId=9900031441&announcementId=1225613314&announcementTime=2026-10-21 |
+| 2026-10-21 | A股披露 | 巨潮资讯 | [关于为子公司提供担保的进展公告](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002815&orgId=9900023139&announcementId=1225613313&announcementTime=2026-10-21) | https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002815&orgId=9900023139&announcementId=1225613313&announcementTime=2026-10-21 |
+| 2026-10-21T03:50+08:00 | A股披露 | 深圳证券交易所 | [打开深圳证券交易所官网](https://www.szse.cn/) | https://www.szse.cn/ |
+| 2026-10-21T03:50+08:00 | 债券利率 | Shibor | [打开Shibor官网](https://www.shibor.org/) | https://www.shibor.org/ |
+| 2026-10-21T03:50+08:00 | 全球宏观 | FRED | [打开FRED官网](https://fred.stlouisfed.org/) | https://fred.stlouisfed.org/ |
+| 2026-10-21T03:50+08:00 | 全球宏观 | 美联储 | [打开美联储官网](https://www.federalreserve.gov/) | https://www.federalreserve.gov/ |
+| 2026-10-21T03:50+08:00 | 全球宏观 | 美国劳工统计局 | [打开美国劳工统计局官网](https://www.bls.gov/) | https://www.bls.gov/ |
+| 2026-10-21T03:50+08:00 | 全球宏观 | 美国经济分析局 | [打开美国经济分析局官网](https://www.bea.gov/) | https://www.bea.gov/ |
+| Tue, 20 Oct 2026 09:00:00 +0200 | 全球宏观 | 欧洲央行 | [Frank Elderson: Interview with Die Presse](https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261020~97e2e4bc38.en.html) | https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261020~97e2e4bc38.en.html |
 | Mon, 19 Oct 2026 08:00:00 +0200 | 全球宏观 | 欧洲央行 | [Frank Elderson: From climate and nature risks to economic resilience and competitiveness](https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261019~f0a3e053de.en.html) | https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261019~f0a3e053de.en.html |
 | Sat, 17 Oct 2026 07:00:00 +0200 | 全球宏观 | 欧洲央行 | [Christine Lagarde: IMFC Statement](https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html) | https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html |
 | Wed, 14 Oct 2026 02:00:00 +0200 | 全球宏观 | 欧洲央行 | [Frank Elderson: Ensuring resilience in the face of uncertainty](https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261014~e4ca33588e.en.html) | https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261014~e4ca33588e.en.html |
@@ -256,9 +245,14 @@
 | Tue, 06 Oct 2026 15:00:00 +0200 | 全球宏观 | 欧洲央行 | [Piero Cipollone: Money in the digital age: digital euro, tokenisation and the role of central banks](https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261006~0da978f159.en.html) | https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261006~0da978f159.en.html |
 | Tue, 06 Oct 2026 09:00:00 +0200 | 全球宏观 | 欧洲央行 | [Philip R. Lane: Interview with Ansa](https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261006~bc94400297.en.html) | https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261006~bc94400297.en.html |
 | Mon, 05 Oct 2026 10:00:00 +0200 | 全球宏观 | 欧洲央行 | [Philip R. Lane: Diagnostic Challenges for ECB Monetary Policy](https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261005~1d8d998ef4.en.html) | https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261005~1d8d998ef4.en.html |
-| Fri, 02 Oct 2026 15:00:00 +0200 | 全球宏观 | 欧洲央行 | [Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)](https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261002~54c6b5672b.en.html) | https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261002~54c6b5672b.en.html |
-| 2026-10-20T04:53+08:00 | 全球宏观 | 国际货币基金组织 | [打开国际货币基金组织官网](https://www.imf.org/) | https://www.imf.org/ |
-| 2026-10-20T04:53+08:00 | 全球宏观 | OECD | [打开OECD官网](https://www.oecd.org/) | https://www.oecd.org/ |
+| 2026-10-21T03:50+08:00 | 全球宏观 | 国际货币基金组织 | [打开国际货币基金组织官网](https://www.imf.org/) | https://www.imf.org/ |
+| 2026-10-21T03:50+08:00 | 全球宏观 | OECD | [打开OECD官网](https://www.oecd.org/) | https://www.oecd.org/ |
+| 2026-10-21T03:50+08:00 | 全球宏观 | 世界银行 | [https://www.worldbank.org/ext/en/home](https://www.worldbank.org/ext/en/home) | https://www.worldbank.org/ext/en/home |
+| 2026-10-21T03:50+08:00 | 全球宏观 | 世界银行 | [https://www.worldbank.org/ext/en/news](https://www.worldbank.org/ext/en/news) | https://www.worldbank.org/ext/en/news |
+| 2026-10-21T03:50+08:00 | 全球宏观 | 世界银行 | [Media Contacts](https://www.worldbank.org/en/news/contacts) | https://www.worldbank.org/en/news/contacts |
+| 2026-10-21T03:50+08:00 | 全球宏观 | 世界银行 | [See All Press Releases](https://www.worldbank.org/en/news/all?displayconttype_exact=Press+Release&lang_exact=English&qterm=) | https://www.worldbank.org/en/news/all?displayconttype_exact=Press+Release&lang_exact=English&qterm= |
+| Tue, 20 Oct 2026 09:25:16 -0400 | 全球监管 | 美国 SEC | [SEC and AMF Announce Supervisory MOU To Enhance Cooperation for Investment Advisers and Investment Service Providers](https://www.sec.gov/newsroom/press-releases/2026-108-sec-amf-announce-supervisory-mou-enhance-cooperation-investment-advisers-investment-service) | https://www.sec.gov/newsroom/press-releases/2026-108-sec-amf-announce-supervisory-mou-enhance-cooperation-investment-advisers-investment-service |
+| Tue, 20 Oct 2026 08:51:00 -0400 | 全球监管 | 美国 SEC | [SEC, FSA Hold Autumn Financial Regulatory Dialogue](https://www.sec.gov/newsroom/press-releases/2026-107-sec-fsa-hold-autumn-financial-regulatory-dialogue) | https://www.sec.gov/newsroom/press-releases/2026-107-sec-fsa-hold-autumn-financial-regulatory-dialogue |
 
 ## 免责声明
 
