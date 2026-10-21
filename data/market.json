@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T20:14+08:00",
+  "updated_at": "2026-10-22T00:10+08:00",
   "timezone": "Asia/Shanghai",
   "provider": "腾讯行情公开接口",
   "indices": [
@@ -65,7 +65,7 @@
       "pct": -0.72,
       "high": 987.89,
       "low": 969.59,
-      "observed": "20261021153407",
+      "observed": "20261021153419",
       "source": "腾讯行情"
     },
     {
@@ -113,39 +113,39 @@
       "code": "usDJI",
       "name": "道琼斯",
       "url": "https://quote.eastmoney.com/gb/.DJI.html",
-      "price": 52495.88,
-      "prev": 51966.03,
-      "chg": 529.85,
-      "pct": 1.02,
-      "high": 52689.81,
-      "low": 51910.92,
-      "observed": "2026-10-20 16:46:03",
+      "price": 52624.15,
+      "prev": 52495.88,
+      "chg": 128.27,
+      "pct": 0.24,
+      "high": 52711.93,
+      "low": 52392.28,
+      "observed": "2026-10-21 12:13:00",
       "source": "腾讯行情"
     },
     {
       "code": "usIXIC",
       "name": "纳斯达克",
       "url": "https://quote.eastmoney.com/gb/.IXIC.html",
-      "price": 26424.82,
-      "prev": 26430.89,
-      "chg": -6.07,
-      "pct": -0.02,
-      "high": 26601.72,
-      "low": 26179.74,
-      "observed": "2026-10-20 17:15:59",
+      "price": 26699.59,
+      "prev": 26424.82,
+      "chg": 274.77,
+      "pct": 1.04,
+      "high": 26734.78,
+      "low": 26507.07,
+      "observed": "2026-10-21 12:13:00",
       "source": "腾讯行情"
     },
     {
       "code": "usINX",
       "name": "标普500",
       "url": "https://quote.eastmoney.com/gb/.INX.html",
-      "price": 7712.57,
-      "prev": 7690.73,
-      "chg": 21.84,
-      "pct": 0.28,
-      "high": 7748.42,
-      "low": 7668.03,
-      "observed": "2026-10-20 16:45:45",
+      "price": 7750.16,
+      "prev": 7712.57,
+      "chg": 37.59,
+      "pct": 0.49,
+      "high": 7755.21,
+      "low": 7709.34,
+      "observed": "2026-10-21 12:13:00",
       "source": "腾讯行情"
     }
   ],
@@ -154,39 +154,39 @@
       "code": "hf_XAU",
       "name": "伦敦金",
       "url": "https://quote.eastmoney.com/globalfuture/GC00.html",
-      "price": 4137.09,
+      "price": 4130.9,
       "prev": 4125.08,
-      "chg": 12.01,
-      "pct": 0.29,
+      "chg": 5.82,
+      "pct": 0.14,
       "high": 4141.73,
       "low": 4106.15,
-      "observed": "20:14:00",
+      "observed": "00:12:00",
       "source": "腾讯行情"
     },
     {
       "code": "hf_CL",
       "name": "纽约原油",
       "url": "https://quote.eastmoney.com/globalfuture/CL00.html",
-      "price": 98.35,
+      "price": 97.13,
       "prev": 97.82,
-      "chg": 0.53,
-      "pct": 0.54,
+      "chg": -0.69,
+      "pct": -0.71,
       "high": 100.4,
-      "low": 97.91,
-      "observed": "20:15:03",
+      "low": 96.63,
+      "observed": "00:13:02",
       "source": "腾讯行情"
     },
     {
       "code": "hf_SI",
       "name": "伦敦银",
       "url": "https://quote.eastmoney.com/globalfuture/SI00.html",
-      "price": 57.65,
+      "price": 57.57,
       "prev": 58.0,
-      "chg": -0.35,
-      "pct": -0.61,
+      "chg": -0.43,
+      "pct": -0.73,
       "high": 58.41,
       "low": 57.22,
-      "observed": "20:14:57",
+      "observed": "00:12:49",
       "source": "腾讯行情"
     }
   ],
@@ -202,7 +202,7 @@
   },
   "advanced_analysis": {
     "framework_version": "3.0-research",
-    "generated_at": "2026-10-21T20:14+08:00",
+    "generated_at": "2026-10-22T00:10+08:00",
     "regime": {
       "code": "weakening",
       "label": "趋势与宽度同向走弱",
@@ -215,7 +215,7 @@
     },
     "session": {
       "is_trading_day": true,
-      "next_session": "2026-10-22",
+      "next_session": "2026-10-23",
       "quote_date": "2026-10-21",
       "calendar_url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml",
       "calendar_year": 2026
@@ -448,7 +448,17 @@
         "priority": "downside"
       }
     ],
-    "events": [],
+    "events": [
+      {
+        "title": "杭州长川科技股份有限公司2026年前三季度业绩预告",
+        "source": "巨潮资讯",
+        "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300604&orgId=9900031824&announcementId=1225614937&announcementTime=2026-10-22",
+        "channel": "公司与治理",
+        "pathway": "现金流、股本或治理变化 → 估值与风险溢价",
+        "check": "核对正式公告与财务影响；风险警示、诉讼和减持先列入风险清单。",
+        "evidence": "标题触发的研究假设，尚未完成全文核验"
+      }
+    ],
     "model_catalog": [
       {
         "name": "DCF与资本成本",
@@ -523,7 +533,7 @@
       "stale": false,
       "fundamentals": false,
       "factor_returns": false,
-      "news_verified_today": 3
+      "news_verified_today": 5
     },
     "methodology": [
       "60日趋势与宽度是透明研究规则，阈值未回测，不代表预测胜率。",
