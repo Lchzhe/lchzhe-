@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T14:30+08:00",
+  "updated_at": "2026-10-21T20:14+08:00",
   "timezone": "Asia/Shanghai",
   "sources": [
     {
@@ -7,8 +7,8 @@
       "name": "中国人民银行",
       "category": "中国宏观",
       "url": "https://www.pbc.gov.cn/",
-      "status": "reachable",
-      "detail": "200"
+      "status": "restricted",
+      "detail": "URLError"
     },
     {
       "id": "nbs-data",
@@ -71,8 +71,8 @@
       "name": "中国证监会",
       "category": "监管",
       "url": "https://www.csrc.gov.cn/",
-      "status": "reachable",
-      "detail": "200"
+      "status": "restricted",
+      "detail": "URLError"
     },
     {
       "id": "cninfo",
