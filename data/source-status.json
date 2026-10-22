@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T07:36+08:00",
+  "updated_at": "2026-10-22T09:48+08:00",
   "timezone": "Asia/Shanghai",
   "sources": [
     {
@@ -15,8 +15,8 @@
       "name": "国家统计局数据",
       "category": "中国宏观",
       "url": "https://data.stats.gov.cn/",
-      "status": "reachable",
-      "detail": "200"
+      "status": "restricted",
+      "detail": "URLError"
     },
     {
       "id": "nbs-news",
@@ -55,8 +55,8 @@
       "name": "海关总署",
       "category": "外贸",
       "url": "http://www.customs.gov.cn/",
-      "status": "reachable",
-      "detail": "200"
+      "status": "restricted",
+      "detail": "HTTPError"
     },
     {
       "id": "safe",
@@ -71,8 +71,8 @@
       "name": "中国证监会",
       "category": "监管",
       "url": "https://www.csrc.gov.cn/",
-      "status": "reachable",
-      "detail": "200"
+      "status": "restricted",
+      "detail": "URLError"
     },
     {
       "id": "cninfo",
