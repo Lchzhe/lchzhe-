@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T20:22+08:00",
+  "updated_at": "2026-10-23T00:09+08:00",
   "timezone": "Asia/Shanghai",
   "refresh_interval_seconds": 60,
   "sources": [
@@ -56,8 +56,8 @@
       "name": "海关总署",
       "category": "外贸",
       "url": "http://www.customs.gov.cn/",
-      "status": "reachable",
-      "detail": "200"
+      "status": "restricted",
+      "detail": "HTTPError"
     },
     {
       "id": "safe",
@@ -234,7 +234,7 @@
       "url": "https://www.pbc.gov.cn/en/3688006/index.html",
       "source": "中国人民银行",
       "category": "中国宏观",
-      "published_at": "2026-10-22T20:22+08:00",
+      "published_at": "2026-10-23T00:09+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -279,7 +279,7 @@
       "url": "https://data.stats.gov.cn/",
       "source": "国家统计局数据",
       "category": "中国宏观",
-      "published_at": "2026-10-22T20:22+08:00",
+      "published_at": "2026-10-23T00:09+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源未提供可机器读取的列表，点击进入官网查看最新内容。"
@@ -289,7 +289,7 @@
       "url": "https://www.stats.gov.cn/zt_18555/zthd/sjtjr/tjr17/index.html",
       "source": "国家统计局",
       "category": "中国宏观",
-      "published_at": "2026-10-22T20:22+08:00",
+      "published_at": "2026-10-23T00:09+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -298,7 +298,7 @@
       "url": "https://www.stats.gov.cn/zt_18555/ztfx/sswjjshfzcjbg/index.html",
       "source": "国家统计局",
       "category": "中国宏观",
-      "published_at": "2026-10-22T20:22+08:00",
+      "published_at": "2026-10-23T00:09+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -307,7 +307,7 @@
       "url": "https://www.stats.gov.cn/zt_18555/zdtjgz/zgnypc/d4cnypc/",
       "source": "国家统计局",
       "category": "中国宏观",
-      "published_at": "2026-10-22T20:22+08:00",
+      "published_at": "2026-10-23T00:09+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -316,7 +316,7 @@
       "url": "https://www.stats.gov.cn/zt_18555/zdtjgz/cydc/2025cydc/",
       "source": "国家统计局",
       "category": "中国宏观",
-      "published_at": "2026-10-22T20:22+08:00",
+      "published_at": "2026-10-23T00:09+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -334,7 +334,7 @@
       "url": "https://www.gov.cn/zhengce/202610/content_7083930.htm",
       "source": "中国政府网政策",
       "category": "政策",
-      "published_at": "2026-10-22T20:22+08:00",
+      "published_at": "2026-10-23T00:09+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -343,7 +343,7 @@
       "url": "https://www.gov.cn/zhengce/202610/content_7082820.htm",
       "source": "中国政府网政策",
       "category": "政策",
-      "published_at": "2026-10-22T20:22+08:00",
+      "published_at": "2026-10-23T00:09+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -352,7 +352,7 @@
       "url": "https://www.gov.cn/zhengce/content/202610/content_7082737.htm",
       "source": "中国政府网政策",
       "category": "政策",
-      "published_at": "2026-10-22T20:22+08:00",
+      "published_at": "2026-10-23T00:09+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -361,7 +361,7 @@
       "url": "https://www.gov.cn/zhengce/content/202609/content_7082492.htm",
       "source": "中国政府网政策",
       "category": "政策",
-      "published_at": "2026-10-22T20:22+08:00",
+      "published_at": "2026-10-23T00:09+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -370,7 +370,7 @@
       "url": "https://www.gov.cn/zhengce/content/202609/content_7082378.htm",
       "source": "中国政府网政策",
       "category": "政策",
-      "published_at": "2026-10-22T20:22+08:00",
+      "published_at": "2026-10-23T00:09+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -424,55 +424,20 @@
       "url": "https://www.mof.gov.cn/",
       "source": "财政部",
       "category": "财政",
-      "published_at": "2026-10-22T20:22+08:00",
+      "published_at": "2026-10-23T00:09+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源未提供可机器读取的列表，点击进入官网查看最新内容。"
     },
     {
-      "title": "习近平致信祝贺中央社会主义学院建院70周年强调 持续加强政治培训广泛凝聚政治共识 更好服务党和国家工作大局 王沪宁出席庆祝大会并讲话",
-      "url": "http://www.customs.gov.cn/customs/2026-10/21/article_2026102110070480224.html",
+      "title": "打开海关总署官网",
+      "url": "http://www.customs.gov.cn/",
       "source": "海关总署",
       "category": "外贸",
-      "published_at": "2026-10-21",
-      "date_quality": "url_date",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
-    },
-    {
-      "title": "孙梅君 署长、党委书记",
-      "url": "http://www.customs.gov.cn/customs/302249/hgzssldzj/6327982/6327983/index.html",
-      "source": "海关总署",
-      "category": "外贸",
-      "published_at": "2026-10-22T20:22+08:00",
-      "date_quality": "unknown",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
-    },
-    {
-      "title": "王 林 中央纪委国家监委驻海关总署纪检监察组组长、海关总署党委委员",
-      "url": "http://www.customs.gov.cn/customs/302249/hgzssldzj/4033175/4033177/index.html",
-      "source": "海关总署",
-      "category": "外贸",
-      "published_at": "2026-10-22T20:22+08:00",
-      "date_quality": "unknown",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
-    },
-    {
-      "title": "吴海平 副署长、党委委员",
-      "url": "http://www.customs.gov.cn/customs/302249/hgzssldzj/5597864/5597865/index.html",
-      "source": "海关总署",
-      "category": "外贸",
-      "published_at": "2026-10-22T20:22+08:00",
-      "date_quality": "unknown",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
-    },
-    {
-      "title": "王 军 副署长、党委委员",
-      "url": "http://www.customs.gov.cn/customs/302249/hgzssldzj/6546034/6546035/index.html",
-      "source": "海关总署",
-      "category": "外贸",
-      "published_at": "2026-10-22T20:22+08:00",
-      "date_quality": "unknown",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
+      "published_at": "2026-10-23T00:09+08:00",
+      "date_quality": "source_entry",
+      "item_type": "source_entry",
+      "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
     },
     {
       "title": "国家外汇管理局副局长、新闻发言人李斌就2026年9月外...",
@@ -524,7 +489,7 @@
       "url": "https://www.csrc.gov.cn/csrc/c106311/c7665578/content.shtml",
       "source": "中国证监会",
       "category": "监管",
-      "published_at": "2026-10-22T20:22+08:00",
+      "published_at": "2026-10-23T00:09+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -533,7 +498,7 @@
       "url": "https://www.csrc.gov.cn/csrc/c106311/c7666065/content.shtml",
       "source": "中国证监会",
       "category": "监管",
-      "published_at": "2026-10-22T20:22+08:00",
+      "published_at": "2026-10-23T00:09+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -542,7 +507,7 @@
       "url": "https://www.csrc.gov.cn/csrc/c100028/c7665462/content.shtml",
       "source": "中国证监会",
       "category": "监管",
-      "published_at": "2026-10-22T20:22+08:00",
+      "published_at": "2026-10-23T00:09+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -551,7 +516,7 @@
       "url": "https://www.csrc.gov.cn/csrc/c100028/c7665427/content.shtml",
       "source": "中国证监会",
       "category": "监管",
-      "published_at": "2026-10-22T20:22+08:00",
+      "published_at": "2026-10-23T00:09+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -560,13 +525,13 @@
       "url": "https://www.csrc.gov.cn/csrc/c100028/c7665425/content.shtml",
       "source": "中国证监会",
       "category": "监管",
-      "published_at": "2026-10-22T20:22+08:00",
+      "published_at": "2026-10-23T00:09+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
     {
-      "title": "百济神州有限公司自愿披露关于公司举行业绩电话会议的公告",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=688235&orgId=9900037454&announcementId=1225617510&announcementTime=2026-10-23",
+      "title": "江苏龙蟠科技集团股份有限公司第五届董事会第十八次会议决议公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603906&orgId=9900030660&announcementId=1225617585&announcementTime=2026-10-23",
       "source": "巨潮资讯",
       "category": "A股披露",
       "published_at": "2026-10-23",
@@ -574,8 +539,8 @@
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
     {
-      "title": "东方证券股份有限公司关于发行股份及支付现金购买资产暨关联交易报告书（上会稿）修订说明的公告",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600958&orgId=qsgn0000065&announcementId=1225617503&announcementTime=2026-10-23",
+      "title": "双良节能系统股份有限公司关于召开2026年第四次临时股东会的通知",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600481&orgId=gssh0600481&announcementId=1225617582&announcementTime=2026-10-23",
       "source": "巨潮资讯",
       "category": "A股披露",
       "published_at": "2026-10-23",
@@ -583,8 +548,8 @@
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
     {
-      "title": "关于公司职工代表董事辞任暨补选职工代表董事的公告",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600525&orgId=gssh0600525&announcementId=1225617501&announcementTime=2026-10-23",
+      "title": "晶合集成2026年第一次临时股东会决议公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=688249&orgId=9900048182&announcementId=1225617551&announcementTime=2026-10-23",
       "source": "巨潮资讯",
       "category": "A股披露",
       "published_at": "2026-10-23",
@@ -592,8 +557,8 @@
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
     {
-      "title": "天马科技关于公司及子公司新增金融机构借款及票据逾期暨借款展期情况的公告",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603668&orgId=9900029592&announcementId=1225617477&announcementTime=2026-10-23",
+      "title": "海南双成药业股份有限公司关于董事、高级管理人员减持计划期限届满暨实施情况的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002693&orgId=9900022952&announcementId=1225617549&announcementTime=2026-10-23",
       "source": "巨潮资讯",
       "category": "A股披露",
       "published_at": "2026-10-23",
@@ -601,8 +566,8 @@
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
     {
-      "title": "2026年第二次临时股东会决议公告",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=001319&orgId=9900047223&announcementId=1225617473&announcementTime=2026-10-23",
+      "title": "2026年第三季度报告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=688793&orgId=gfbj0837027&announcementId=1225617548&announcementTime=2026-10-23",
       "source": "巨潮资讯",
       "category": "A股披露",
       "published_at": "2026-10-23",
@@ -659,7 +624,7 @@
       "url": "https://www.szse.cn/",
       "source": "深圳证券交易所",
       "category": "A股披露",
-      "published_at": "2026-10-22T20:22+08:00",
+      "published_at": "2026-10-23T00:09+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
@@ -759,7 +724,7 @@
       "url": "https://www.shibor.org/",
       "source": "Shibor",
       "category": "债券利率",
-      "published_at": "2026-10-22T20:22+08:00",
+      "published_at": "2026-10-23T00:09+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
@@ -769,7 +734,7 @@
       "url": "https://fred.stlouisfed.org/",
       "source": "FRED",
       "category": "全球宏观",
-      "published_at": "2026-10-22T20:22+08:00",
+      "published_at": "2026-10-23T00:09+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
@@ -887,7 +852,7 @@
       "url": "https://www.bls.gov/",
       "source": "美国劳工统计局",
       "category": "全球宏观",
-      "published_at": "2026-10-22T20:22+08:00",
+      "published_at": "2026-10-23T00:09+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
@@ -897,7 +862,7 @@
       "url": "https://www.bea.gov/",
       "source": "美国经济分析局",
       "category": "全球宏观",
-      "published_at": "2026-10-22T20:22+08:00",
+      "published_at": "2026-10-23T00:09+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
@@ -953,6 +918,42 @@
       "source": "欧洲央行",
       "category": "全球宏观",
       "published_at": "Wed, 14 Oct 2026 02:00:00 +0200",
+      "date_quality": "publisher",
+      "summary": "来自公开原始来源的最新发布。"
+    },
+    {
+      "title": "Philip R. Lane: The AI opportunity for Europe",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261013~9db9bf4fd6.en.html",
+      "source": "欧洲央行",
+      "category": "全球宏观",
+      "published_at": "Tue, 13 Oct 2026 20:30:00 +0200",
+      "date_quality": "publisher",
+      "summary": "来自公开原始来源的最新发布。"
+    },
+    {
+      "title": "Meeting of 9-10 September 2026",
+      "url": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261008~a10153d090.en.html",
+      "source": "欧洲央行",
+      "category": "全球宏观",
+      "published_at": "Thu, 08 Oct 2026 13:30:00 +0200",
+      "date_quality": "publisher",
+      "summary": "来自公开原始来源的最新发布。"
+    },
+    {
+      "title": "Piero Cipollone: Interview with Corriere della Sera",
+      "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261008~3184e7d0d0.en.html",
+      "source": "欧洲央行",
+      "category": "全球宏观",
+      "published_at": "Thu, 08 Oct 2026 08:00:00 +0200",
+      "date_quality": "publisher",
+      "summary": "来自公开原始来源的最新发布。"
+    },
+    {
+      "title": "Results of the September 2026 survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD)",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261007~6447350434.en.html",
+      "source": "欧洲央行",
+      "category": "全球宏观",
+      "published_at": "Wed, 07 Oct 2026 10:00:00 +0200",
       "date_quality": "publisher",
       "summary": "来自公开原始来源的最新发布。"
     }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T20:22+08:00",
+  "updated_at": "2026-10-23T00:09+08:00",
   "timezone": "Asia/Shanghai",
   "provider": "腾讯行情公开接口",
   "indices": [
@@ -65,7 +65,7 @@
       "pct": -0.93,
       "high": 986.35,
       "low": 963.74,
-      "observed": "20261022153342",
+      "observed": "20261022153339",
       "source": "腾讯行情"
     },
     {
@@ -113,39 +113,39 @@
       "code": "usDJI",
       "name": "道琼斯",
       "url": "https://quote.eastmoney.com/gb/.DJI.html",
-      "price": 52856.09,
-      "prev": 52495.88,
-      "chg": 360.21,
-      "pct": 0.69,
-      "high": 52860.11,
-      "low": 52392.28,
-      "observed": "2026-10-21 16:36:48",
+      "price": 52848.42,
+      "prev": 52856.09,
+      "chg": -7.67,
+      "pct": -0.01,
+      "high": 52855.93,
+      "low": 52508.38,
+      "observed": "2026-10-22 12:09:19",
       "source": "腾讯行情"
     },
     {
       "code": "usIXIC",
       "name": "纳斯达克",
       "url": "https://quote.eastmoney.com/gb/.IXIC.html",
-      "price": 26702.86,
-      "prev": 26424.82,
-      "chg": 278.04,
-      "pct": 1.05,
-      "high": 26778.9,
-      "low": 26507.07,
-      "observed": "2026-10-21 17:15:59",
+      "price": 26158.98,
+      "prev": 26702.86,
+      "chg": -543.88,
+      "pct": -2.04,
+      "high": 26359.41,
+      "low": 26065.99,
+      "observed": "2026-10-22 12:09:19",
       "source": "腾讯行情"
     },
     {
       "code": "usINX",
       "name": "标普500",
       "url": "https://quote.eastmoney.com/gb/.INX.html",
-      "price": 7757.17,
-      "prev": 7712.57,
-      "chg": 44.6,
-      "pct": 0.58,
-      "high": 7770.4,
-      "low": 7709.34,
-      "observed": "2026-10-21 16:31:21",
+      "price": 7675.84,
+      "prev": 7757.17,
+      "chg": -81.33,
+      "pct": -1.05,
+      "high": 7702.94,
+      "low": 7646.05,
+      "observed": "2026-10-22 12:09:19",
       "source": "腾讯行情"
     }
   ],
@@ -154,39 +154,39 @@
       "code": "hf_XAU",
       "name": "伦敦金",
       "url": "https://quote.eastmoney.com/globalfuture/GC00.html",
-      "price": 4065.16,
+      "price": 4046.85,
       "prev": 4141.1,
-      "chg": -75.94,
-      "pct": -1.83,
+      "chg": -94.25,
+      "pct": -2.28,
       "high": 4143.89,
-      "low": 4057.33,
-      "observed": "20:21:00",
+      "low": 4044.68,
+      "observed": "00:08:00",
       "source": "腾讯行情"
     },
     {
       "code": "hf_CL",
       "name": "纽约原油",
       "url": "https://quote.eastmoney.com/globalfuture/CL00.html",
-      "price": 99.4,
+      "price": 98.68,
       "prev": 97.15,
-      "chg": 2.25,
-      "pct": 2.31,
+      "chg": 1.53,
+      "pct": 1.58,
       "high": 100.09,
       "low": 97.72,
-      "observed": "20:22:02",
+      "observed": "00:09:01",
       "source": "腾讯行情"
     },
     {
       "code": "hf_SI",
       "name": "伦敦银",
       "url": "https://quote.eastmoney.com/globalfuture/SI00.html",
-      "price": 55.86,
+      "price": 55.09,
       "prev": 57.71,
-      "chg": -1.85,
-      "pct": -3.21,
+      "chg": -2.62,
+      "pct": -4.54,
       "high": 58.1,
-      "low": 55.72,
-      "observed": "20:21:52",
+      "low": 55.05,
+      "observed": "00:09:00",
       "source": "腾讯行情"
     }
   ],
@@ -202,7 +202,7 @@
   },
   "advanced_analysis": {
     "framework_version": "3.0-research",
-    "generated_at": "2026-10-22T20:22+08:00",
+    "generated_at": "2026-10-23T00:09+08:00",
     "regime": {
       "code": "weakening",
       "label": "趋势与宽度同向走弱",
@@ -215,7 +215,7 @@
     },
     "session": {
       "is_trading_day": true,
-      "next_session": "2026-10-23",
+      "next_session": "2026-10-26",
       "quote_date": "2026-10-22",
       "calendar_url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml",
       "calendar_year": 2026
@@ -450,12 +450,12 @@
     ],
     "events": [
       {
-        "title": "吴清主席与财政部副部长郭婷婷共同会见美国公众公司会计监督委员会主席洛戈泰斯",
-        "source": "上海证券交易所",
-        "url": "https://www.sse.com.cn/home/component/news/c/c_20261022_10835497.shtml",
-        "channel": "财政与需求",
-        "pathway": "财政支出 / 需求 → 收入、利润率和资金周转",
-        "check": "核对预算规模、落地时间及收入确认；政策方向与盈利兑现分开判断。",
+        "title": "海南双成药业股份有限公司关于董事、高级管理人员减持计划期限届满暨实施情况的公告",
+        "source": "巨潮资讯",
+        "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002693&orgId=9900022952&announcementId=1225617549&announcementTime=2026-10-23",
+        "channel": "公司与治理",
+        "pathway": "现金流、股本或治理变化 → 估值与风险溢价",
+        "check": "核对正式公告与财务影响；风险警示、诉讼和减持先列入风险清单。",
         "evidence": "标题触发的研究假设，尚未完成全文核验"
       }
     ],
@@ -533,7 +533,7 @@
       "stale": false,
       "fundamentals": false,
       "factor_returns": false,
-      "news_verified_today": 4
+      "news_verified_today": 5
     },
     "methodology": [
       "60日趋势与宽度是透明研究规则，阈值未回测，不代表预测胜率。",
