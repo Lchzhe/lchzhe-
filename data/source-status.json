@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T20:01+08:00",
+  "updated_at": "2026-10-23T23:59+08:00",
   "timezone": "Asia/Shanghai",
   "sources": [
     {
@@ -111,8 +111,8 @@
       "name": "中国债券信息网",
       "category": "债券利率",
       "url": "https://www.chinabond.com.cn/",
-      "status": "restricted",
-      "detail": "RemoteDisconnected"
+      "status": "reachable",
+      "detail": "200"
     },
     {
       "id": "shibor",
