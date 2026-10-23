@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T23:59+08:00",
+  "updated_at": "2026-10-24T00:55+08:00",
   "timezone": "Asia/Shanghai",
   "provider": "腾讯行情公开接口",
   "indices": [
@@ -65,7 +65,7 @@
       "pct": 1.88,
       "high": 989.29,
       "low": 937.19,
-      "observed": "20261023153600",
+      "observed": "20261023153545",
       "source": "腾讯行情"
     },
     {
@@ -113,39 +113,39 @@
       "code": "usDJI",
       "name": "道琼斯",
       "url": "https://quote.eastmoney.com/gb/.DJI.html",
-      "price": 52382.96,
+      "price": 52322.81,
       "prev": 52867.98,
-      "chg": -485.02,
-      "pct": -0.92,
+      "chg": -545.17,
+      "pct": -1.03,
       "high": 52696.7,
       "low": 52055.1,
-      "observed": "2026-10-23 11:59:20",
+      "observed": "2026-10-23 12:55:59",
       "source": "腾讯行情"
     },
     {
       "code": "usIXIC",
       "name": "纳斯达克",
       "url": "https://quote.eastmoney.com/gb/.IXIC.html",
-      "price": 26080.38,
+      "price": 26025.79,
       "prev": 26008.86,
-      "chg": 71.52,
-      "pct": 0.27,
+      "chg": 16.93,
+      "pct": 0.07,
       "high": 26111.62,
       "low": 25866.15,
-      "observed": "2026-10-23 11:59:20",
+      "observed": "2026-10-23 12:55:59",
       "source": "腾讯行情"
     },
     {
       "code": "usINX",
       "name": "标普500",
       "url": "https://quote.eastmoney.com/gb/.INX.html",
-      "price": 7654.63,
+      "price": 7641.01,
       "prev": 7663.43,
-      "chg": -8.8,
-      "pct": -0.11,
+      "chg": -22.42,
+      "pct": -0.29,
       "high": 7660.15,
       "low": 7612.07,
-      "observed": "2026-10-23 11:59:20",
+      "observed": "2026-10-23 12:55:59",
       "source": "腾讯行情"
     }
   ],
@@ -154,39 +154,39 @@
       "code": "hf_XAU",
       "name": "伦敦金",
       "url": "https://quote.eastmoney.com/globalfuture/GC00.html",
-      "price": 4003.51,
+      "price": 3998.98,
       "prev": 4024.26,
-      "chg": -20.75,
-      "pct": -0.52,
+      "chg": -25.28,
+      "pct": -0.63,
       "high": 4033.47,
       "low": 3975.7,
-      "observed": "23:58:00",
+      "observed": "00:54:00",
       "source": "腾讯行情"
     },
     {
       "code": "hf_CL",
       "name": "纽约原油",
       "url": "https://quote.eastmoney.com/globalfuture/CL00.html",
-      "price": 103.07,
+      "price": 102.88,
       "prev": 99.47,
-      "chg": 3.6,
-      "pct": 3.62,
-      "high": 103.28,
+      "chg": 3.41,
+      "pct": 3.43,
+      "high": 103.3,
       "low": 98.84,
-      "observed": "23:59:01",
+      "observed": "00:55:01",
       "source": "腾讯行情"
     },
     {
       "code": "hf_SI",
       "name": "伦敦银",
       "url": "https://quote.eastmoney.com/globalfuture/SI00.html",
-      "price": 54.3,
+      "price": 54.14,
       "prev": 55.01,
-      "chg": -0.71,
-      "pct": -1.28,
+      "chg": -0.87,
+      "pct": -1.58,
       "high": 54.8,
       "low": 53.08,
-      "observed": "23:59:01",
+      "observed": "00:55:00",
       "source": "腾讯行情"
     }
   ],
@@ -202,7 +202,7 @@
   },
   "advanced_analysis": {
     "framework_version": "3.0-research",
-    "generated_at": "2026-10-23T23:59+08:00",
+    "generated_at": "2026-10-24T00:55+08:00",
     "regime": {
       "code": "mixed",
       "label": "信号分化，保持观察",
@@ -214,7 +214,7 @@
       "total": 4
     },
     "session": {
-      "is_trading_day": true,
+      "is_trading_day": false,
       "next_session": "2026-10-26",
       "quote_date": "2026-10-23",
       "calendar_url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml",
@@ -450,12 +450,12 @@
     ],
     "events": [
       {
-        "title": "中国人民银行副行长宣昌能会见法国财政总署署长杜蒙",
-        "source": "中国人民银行",
-        "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026102318114323169/index.html",
-        "channel": "财政与需求",
-        "pathway": "财政支出 / 需求 → 收入、利润率和资金周转",
-        "check": "核对预算规模、落地时间及收入确认；政策方向与盈利兑现分开判断。",
+        "title": "关于2026年半年度业绩说明会召开情况的公告",
+        "source": "巨潮资讯",
+        "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600892&orgId=gssh0600892&announcementId=1225621691&announcementTime=2026-10-24",
+        "channel": "公司与治理",
+        "pathway": "现金流、股本或治理变化 → 估值与风险溢价",
+        "check": "核对正式公告与财务影响；风险警示、诉讼和减持先列入风险清单。",
         "evidence": "标题触发的研究假设，尚未完成全文核验"
       }
     ],
@@ -533,7 +533,7 @@
       "stale": false,
       "fundamentals": false,
       "factor_returns": false,
-      "news_verified_today": 7
+      "news_verified_today": 5
     },
     "methodology": [
       "60日趋势与宽度是透明研究规则，阈值未回测，不代表预测胜率。",
