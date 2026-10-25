@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T23:07+08:00",
+  "updated_at": "2026-10-26T00:33+08:00",
   "timezone": "Asia/Shanghai",
   "sources": [
     {
@@ -72,7 +72,7 @@
       "category": "监管",
       "url": "https://www.csrc.gov.cn/",
       "status": "restricted",
-      "detail": "TimeoutError"
+      "detail": "URLError"
     },
     {
       "id": "cninfo",
