@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T21:45+08:00",
+  "updated_at": "2026-10-27T01:43+08:00",
   "timezone": "Asia/Shanghai",
   "sources": [
     {
@@ -72,7 +72,7 @@
       "category": "监管",
       "url": "https://www.csrc.gov.cn/",
       "status": "restricted",
-      "detail": "TimeoutError"
+      "detail": "URLError"
     },
     {
       "id": "cninfo",
@@ -87,8 +87,8 @@
       "name": "上海证券交易所",
       "category": "A股披露",
       "url": "https://www.sse.com.cn/",
-      "status": "reachable",
-      "detail": "200"
+      "status": "restricted",
+      "detail": "HTTPError"
     },
     {
       "id": "szse",
