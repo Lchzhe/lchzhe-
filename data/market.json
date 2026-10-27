@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T02:56+08:00",
+  "updated_at": "2026-10-28T04:27+08:00",
   "timezone": "Asia/Shanghai",
   "provider": "腾讯行情公开接口",
   "indices": [
@@ -65,7 +65,7 @@
       "pct": -3.35,
       "high": 972.06,
       "low": 930.59,
-      "observed": "20261027153818",
+      "observed": "20261027153800",
       "source": "腾讯行情"
     },
     {
@@ -113,39 +113,39 @@
       "code": "usDJI",
       "name": "道琼斯",
       "url": "https://quote.eastmoney.com/gb/.DJI.html",
-      "price": 52370.55,
+      "price": 52377.57,
       "prev": 52361.58,
-      "chg": 8.97,
-      "pct": 0.02,
+      "chg": 15.99,
+      "pct": 0.03,
       "high": 52477.91,
       "low": 52231.84,
-      "observed": "2026-10-27 14:56:20",
+      "observed": "2026-10-27 16:20:01",
       "source": "腾讯行情"
     },
     {
       "code": "usIXIC",
       "name": "纳斯达克",
       "url": "https://quote.eastmoney.com/gb/.IXIC.html",
-      "price": 26480.95,
+      "price": 26477.81,
       "prev": 26169.38,
-      "chg": 311.57,
-      "pct": 1.19,
-      "high": 26528.94,
+      "chg": 308.43,
+      "pct": 1.18,
+      "high": 26540.81,
       "low": 26219.31,
-      "observed": "2026-10-27 14:56:20",
+      "observed": "2026-10-27 16:27:00",
       "source": "腾讯行情"
     },
     {
       "code": "usINX",
       "name": "标普500",
       "url": "https://quote.eastmoney.com/gb/.INX.html",
-      "price": 7720.26,
+      "price": 7722.6,
       "prev": 7676.77,
-      "chg": 43.49,
-      "pct": 0.57,
-      "high": 7736.06,
+      "chg": 45.83,
+      "pct": 0.6,
+      "high": 7736.24,
       "low": 7677.16,
-      "observed": "2026-10-27 14:56:20",
+      "observed": "2026-10-27 16:20:01",
       "source": "腾讯行情"
     }
   ],
@@ -154,39 +154,39 @@
       "code": "hf_XAU",
       "name": "伦敦金",
       "url": "https://quote.eastmoney.com/globalfuture/GC00.html",
-      "price": 4056.52,
+      "price": 4059.04,
       "prev": 4016.97,
-      "chg": 39.55,
-      "pct": 0.98,
+      "chg": 42.07,
+      "pct": 1.05,
       "high": 4065.59,
       "low": 3989.06,
-      "observed": "02:55:00",
+      "observed": "04:27:00",
       "source": "腾讯行情"
     },
     {
       "code": "hf_CL",
       "name": "纽约原油",
       "url": "https://quote.eastmoney.com/globalfuture/CL00.html",
-      "price": 99.91,
+      "price": 100.12,
       "prev": 101.76,
-      "chg": -1.85,
-      "pct": -1.82,
+      "chg": -1.64,
+      "pct": -1.61,
       "high": 102.82,
-      "low": 99.51,
-      "observed": "02:55:59",
+      "low": 99.44,
+      "observed": "04:27:09",
       "source": "腾讯行情"
     },
     {
       "code": "hf_SI",
       "name": "伦敦银",
       "url": "https://quote.eastmoney.com/globalfuture/SI00.html",
-      "price": 54.38,
+      "price": 54.51,
       "prev": 54.34,
-      "chg": 0.04,
-      "pct": 0.07,
+      "chg": 0.17,
+      "pct": 0.31,
       "high": 54.64,
       "low": 52.71,
-      "observed": "02:55:54",
+      "observed": "04:26:11",
       "source": "腾讯行情"
     }
   ],
@@ -202,7 +202,7 @@
   },
   "advanced_analysis": {
     "framework_version": "3.0-research",
-    "generated_at": "2026-10-28T02:56+08:00",
+    "generated_at": "2026-10-28T04:27+08:00",
     "regime": {
       "code": "weakening",
       "label": "趋势与宽度同向走弱",
@@ -448,17 +448,7 @@
         "priority": "downside"
       }
     ],
-    "events": [
-      {
-        "title": "关于董事长提议回购公司股份的提示性公告",
-        "source": "巨潮资讯",
-        "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603365&orgId=9900026420&announcementId=1225632702&announcementTime=2026-10-28",
-        "channel": "公司与治理",
-        "pathway": "现金流、股本或治理变化 → 估值与风险溢价",
-        "check": "核对正式公告与财务影响；风险警示、诉讼和减持先列入风险清单。",
-        "evidence": "标题触发的研究假设，尚未完成全文核验"
-      }
-    ],
+    "events": [],
     "model_catalog": [
       {
         "name": "DCF与资本成本",
@@ -533,7 +523,7 @@
       "stale": false,
       "fundamentals": false,
       "factor_returns": false,
-      "news_verified_today": 5
+      "news_verified_today": 0
     },
     "methodology": [
       "60日趋势与宽度是透明研究规则，阈值未回测，不代表预测胜率。",
