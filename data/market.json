@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T15:45+08:00",
+  "updated_at": "2026-10-27T21:37+08:00",
   "timezone": "Asia/Shanghai",
   "provider": "腾讯行情公开接口",
   "indices": [
@@ -13,7 +13,7 @@
       "pct": -1.33,
       "high": 3708.2,
       "low": 3648.3,
-      "observed": "20261027154500",
+      "observed": "20261027161400",
       "source": "腾讯行情"
     },
     {
@@ -26,7 +26,7 @@
       "pct": -2.5,
       "high": 11633.3,
       "low": 11245.72,
-      "observed": "20261027154445",
+      "observed": "20261027161445",
       "source": "腾讯行情"
     },
     {
@@ -39,7 +39,7 @@
       "pct": -3.41,
       "high": 2670.47,
       "low": 2548.11,
-      "observed": "20261027154500",
+      "observed": "20261027161400",
       "source": "腾讯行情"
     },
     {
@@ -52,7 +52,7 @@
       "pct": -4.81,
       "high": 1327.33,
       "low": 1249.76,
-      "observed": "20261027154512",
+      "observed": "20261027161412",
       "source": "腾讯行情"
     },
     {
@@ -78,7 +78,7 @@
       "pct": -1.32,
       "high": 4110.0,
       "low": 4049.54,
-      "observed": "20261027154512",
+      "observed": "20261027161412",
       "source": "腾讯行情"
     },
     {
@@ -91,20 +91,20 @@
       "pct": -3.0,
       "high": 6784.25,
       "low": 6511.37,
-      "observed": "20261027154512",
+      "observed": "20261027161412",
       "source": "腾讯行情"
     },
     {
       "code": "hkHSI",
       "name": "恒生指数",
       "url": "https://quote.eastmoney.com/gb/hkHSI.html",
-      "price": 23019.13,
+      "price": 23041.32,
       "prev": 23211.81,
-      "chg": -192.68,
-      "pct": -0.83,
+      "chg": -170.49,
+      "pct": -0.73,
       "high": 23313.92,
-      "low": 23013.47,
-      "observed": "2026/10/27 15:30:14",
+      "low": 22983.99,
+      "observed": "2026/10/27 18:31:19",
       "source": "腾讯行情"
     }
   ],
@@ -113,39 +113,39 @@
       "code": "usDJI",
       "name": "道琼斯",
       "url": "https://quote.eastmoney.com/gb/.DJI.html",
-      "price": 52361.58,
-      "prev": 52215.16,
-      "chg": 146.42,
-      "pct": 0.28,
-      "high": 52620.19,
-      "low": 52263.25,
-      "observed": "2026-10-26 16:43:41",
+      "price": 52365.13,
+      "prev": 52361.58,
+      "chg": 3.55,
+      "pct": 0.01,
+      "high": 52477.91,
+      "low": 52277.49,
+      "observed": "2026-10-27 09:39:39",
       "source": "腾讯行情"
     },
     {
       "code": "usIXIC",
       "name": "纳斯达克",
       "url": "https://quote.eastmoney.com/gb/.IXIC.html",
-      "price": 26169.38,
-      "prev": 25955.34,
-      "chg": 214.04,
-      "pct": 0.82,
-      "high": 26306.83,
-      "low": 25986.56,
-      "observed": "2026-10-26 17:15:59",
+      "price": 26365.18,
+      "prev": 26169.38,
+      "chg": 195.8,
+      "pct": 0.75,
+      "high": 26365.18,
+      "low": 26269.43,
+      "observed": "2026-10-27 09:39:39",
       "source": "腾讯行情"
     },
     {
       "code": "usINX",
       "name": "标普500",
       "url": "https://quote.eastmoney.com/gb/.INX.html",
-      "price": 7676.77,
-      "prev": 7623.68,
-      "chg": 53.09,
-      "pct": 0.7,
-      "high": 7702.13,
-      "low": 7639.7,
-      "observed": "2026-10-26 16:43:43",
+      "price": 7707.96,
+      "prev": 7676.77,
+      "chg": 31.19,
+      "pct": 0.41,
+      "high": 7708.61,
+      "low": 7697.12,
+      "observed": "2026-10-27 09:39:39",
       "source": "腾讯行情"
     }
   ],
@@ -154,39 +154,39 @@
       "code": "hf_XAU",
       "name": "伦敦金",
       "url": "https://quote.eastmoney.com/globalfuture/GC00.html",
-      "price": 4005.03,
+      "price": 4026.25,
       "prev": 4016.97,
-      "chg": -11.94,
-      "pct": -0.3,
-      "high": 4025.31,
-      "low": 3997.27,
-      "observed": "15:44:00",
+      "chg": 9.28,
+      "pct": 0.23,
+      "high": 4031.92,
+      "low": 3989.06,
+      "observed": "21:38:00",
       "source": "腾讯行情"
     },
     {
       "code": "hf_CL",
       "name": "纽约原油",
       "url": "https://quote.eastmoney.com/globalfuture/CL00.html",
-      "price": 102.09,
+      "price": 100.89,
       "prev": 101.76,
-      "chg": 0.33,
-      "pct": 0.32,
-      "high": 102.16,
-      "low": 100.6,
-      "observed": "15:44:59",
+      "chg": -0.87,
+      "pct": -0.86,
+      "high": 102.82,
+      "low": 100.52,
+      "observed": "21:39:05",
       "source": "腾讯行情"
     },
     {
       "code": "hf_SI",
       "name": "伦敦银",
       "url": "https://quote.eastmoney.com/globalfuture/SI00.html",
-      "price": 52.88,
+      "price": 54.08,
       "prev": 54.34,
-      "chg": -1.46,
-      "pct": -2.68,
+      "chg": -0.26,
+      "pct": -0.48,
       "high": 54.28,
       "low": 52.71,
-      "observed": "15:44:49",
+      "observed": "21:39:03",
       "source": "腾讯行情"
     }
   ],
@@ -202,7 +202,7 @@
   },
   "advanced_analysis": {
     "framework_version": "3.0-research",
-    "generated_at": "2026-10-27T15:45+08:00",
+    "generated_at": "2026-10-27T21:37+08:00",
     "regime": {
       "code": "weakening",
       "label": "趋势与宽度同向走弱",
@@ -448,7 +448,17 @@
         "priority": "downside"
       }
     ],
-    "events": [],
+    "events": [
+      {
+        "title": "周海兵副主任会见法国财政总署署长杜蒙",
+        "source": "国家发展改革委",
+        "url": "https://www.ndrc.gov.cn/xwdt/xwfb/202610/t20261027_1408419.html",
+        "channel": "财政与需求",
+        "pathway": "财政支出 / 需求 → 收入、利润率和资金周转",
+        "check": "核对预算规模、落地时间及收入确认；政策方向与盈利兑现分开判断。",
+        "evidence": "标题触发的研究假设，尚未完成全文核验"
+      }
+    ],
     "model_catalog": [
       {
         "name": "DCF与资本成本",
@@ -523,7 +533,7 @@
       "stale": false,
       "fundamentals": false,
       "factor_returns": false,
-      "news_verified_today": 5
+      "news_verified_today": 4
     },
     "methodology": [
       "60日趋势与宽度是透明研究规则，阈值未回测，不代表预测胜率。",
