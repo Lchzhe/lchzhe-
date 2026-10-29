@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T04:39+08:00",
+  "updated_at": "2026-10-30T04:53+08:00",
   "timezone": "Asia/Shanghai",
   "provider": "腾讯行情公开接口",
   "indices": [
@@ -132,7 +132,7 @@
       "pct": -1.38,
       "high": 26286.46,
       "low": 26053.16,
-      "observed": "2026-10-29 16:39:30",
+      "observed": "2026-10-29 16:55:00",
       "source": "腾讯行情"
     },
     {
@@ -154,39 +154,39 @@
       "code": "hf_XAU",
       "name": "伦敦金",
       "url": "https://quote.eastmoney.com/globalfuture/GC00.html",
-      "price": 4026.79,
+      "price": 4019.97,
       "prev": 4067.16,
-      "chg": -40.37,
-      "pct": -0.99,
+      "chg": -47.19,
+      "pct": -1.16,
       "high": 4068.72,
       "low": 4005.21,
-      "observed": "04:38:00",
+      "observed": "04:54:00",
       "source": "腾讯行情"
     },
     {
       "code": "hf_CL",
       "name": "纽约原油",
       "url": "https://quote.eastmoney.com/globalfuture/CL00.html",
-      "price": 102.85,
+      "price": 102.83,
       "prev": 102.78,
-      "chg": 0.07,
-      "pct": 0.07,
+      "chg": 0.05,
+      "pct": 0.05,
       "high": 103.0,
       "low": 99.79,
-      "observed": "04:38:57",
+      "observed": "04:55:01",
       "source": "腾讯行情"
     },
     {
       "code": "hf_SI",
       "name": "伦敦银",
       "url": "https://quote.eastmoney.com/globalfuture/SI00.html",
-      "price": 52.34,
+      "price": 52.15,
       "prev": 53.67,
-      "chg": -1.33,
-      "pct": -2.47,
+      "chg": -1.52,
+      "pct": -2.82,
       "high": 54.45,
       "low": 52.02,
-      "observed": "04:39:02",
+      "observed": "04:55:02",
       "source": "腾讯行情"
     }
   ],
@@ -202,7 +202,7 @@
   },
   "advanced_analysis": {
     "framework_version": "3.0-research",
-    "generated_at": "2026-10-30T04:39+08:00",
+    "generated_at": "2026-10-30T04:53+08:00",
     "regime": {
       "code": "weakening",
       "label": "趋势与宽度同向走弱",
