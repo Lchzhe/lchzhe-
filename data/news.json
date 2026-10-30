@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T20:40+08:00",
+  "updated_at": "2026-10-31T01:18+08:00",
   "timezone": "Asia/Shanghai",
   "refresh_interval_seconds": 60,
   "sources": [
@@ -234,7 +234,7 @@
       "url": "https://www.pbc.gov.cn/en/3688006/index.html",
       "source": "中国人民银行",
       "category": "中国宏观",
-      "published_at": "2026-10-30T20:40+08:00",
+      "published_at": "2026-10-31T01:18+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -279,7 +279,7 @@
       "url": "https://data.stats.gov.cn/",
       "source": "国家统计局数据",
       "category": "中国宏观",
-      "published_at": "2026-10-30T20:40+08:00",
+      "published_at": "2026-10-31T01:18+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源未提供可机器读取的列表，点击进入官网查看最新内容。"
@@ -289,7 +289,7 @@
       "url": "https://www.stats.gov.cn/zt_18555/zthd/sjtjr/tjr17/index.html",
       "source": "国家统计局",
       "category": "中国宏观",
-      "published_at": "2026-10-30T20:40+08:00",
+      "published_at": "2026-10-31T01:18+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -298,7 +298,7 @@
       "url": "https://www.stats.gov.cn/zt_18555/ztfx/sswjjshfzcjbg/index.html",
       "source": "国家统计局",
       "category": "中国宏观",
-      "published_at": "2026-10-30T20:40+08:00",
+      "published_at": "2026-10-31T01:18+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -307,7 +307,7 @@
       "url": "https://www.stats.gov.cn/zt_18555/zdtjgz/zgnypc/d4cnypc/",
       "source": "国家统计局",
       "category": "中国宏观",
-      "published_at": "2026-10-30T20:40+08:00",
+      "published_at": "2026-10-31T01:18+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -316,7 +316,7 @@
       "url": "https://www.stats.gov.cn/zt_18555/zdtjgz/cydc/2025cydc/",
       "source": "国家统计局",
       "category": "中国宏观",
-      "published_at": "2026-10-30T20:40+08:00",
+      "published_at": "2026-10-31T01:18+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -334,7 +334,7 @@
       "url": "https://www.gov.cn/zhengce/content/202610/content_7084279.htm",
       "source": "中国政府网政策",
       "category": "政策",
-      "published_at": "2026-10-30T20:40+08:00",
+      "published_at": "2026-10-31T01:18+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -343,7 +343,7 @@
       "url": "https://www.gov.cn/zhengce/content/202610/content_7084107.htm",
       "source": "中国政府网政策",
       "category": "政策",
-      "published_at": "2026-10-30T20:40+08:00",
+      "published_at": "2026-10-31T01:18+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -352,7 +352,7 @@
       "url": "https://www.gov.cn/zhengce/202610/content_7083930.htm",
       "source": "中国政府网政策",
       "category": "政策",
-      "published_at": "2026-10-30T20:40+08:00",
+      "published_at": "2026-10-31T01:18+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -361,7 +361,7 @@
       "url": "https://www.gov.cn/zhengce/202610/content_7082820.htm",
       "source": "中国政府网政策",
       "category": "政策",
-      "published_at": "2026-10-30T20:40+08:00",
+      "published_at": "2026-10-31T01:18+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -370,7 +370,7 @@
       "url": "https://www.gov.cn/zhengce/content/202610/content_7082737.htm",
       "source": "中国政府网政策",
       "category": "政策",
-      "published_at": "2026-10-30T20:40+08:00",
+      "published_at": "2026-10-31T01:18+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -424,7 +424,7 @@
       "url": "https://www.mof.gov.cn/",
       "source": "财政部",
       "category": "财政",
-      "published_at": "2026-10-30T20:40+08:00",
+      "published_at": "2026-10-31T01:18+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源未提供可机器读取的列表，点击进入官网查看最新内容。"
@@ -434,14 +434,14 @@
       "url": "http://www.customs.gov.cn/",
       "source": "海关总署",
       "category": "外贸",
-      "published_at": "2026-10-30T20:40+08:00",
+      "published_at": "2026-10-31T01:18+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
     },
     {
-      "title": "国家外汇管理局公布2026年9月我国国际收支货物和服务...",
-      "url": "https://www.safe.gov.cn/safe/2026/1030/28040.html",
+      "title": "国家外汇管理局党组传达学习党的二十届五中全会精神",
+      "url": "https://www.safe.gov.cn/safe/2026/1030/28044.html",
       "source": "国家外汇管理局",
       "category": "外汇",
       "published_at": "2026-10-30",
@@ -489,7 +489,7 @@
       "url": "https://www.csrc.gov.cn/csrc/c106311/c7666429/content.shtml",
       "source": "中国证监会",
       "category": "监管",
-      "published_at": "2026-10-30T20:40+08:00",
+      "published_at": "2026-10-31T01:18+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -498,7 +498,7 @@
       "url": "https://www.csrc.gov.cn/csrc/c100028/c7667579/content.shtml",
       "source": "中国证监会",
       "category": "监管",
-      "published_at": "2026-10-30T20:40+08:00",
+      "published_at": "2026-10-31T01:18+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -507,7 +507,7 @@
       "url": "https://www.csrc.gov.cn/csrc/c100028/c7666352/content.shtml",
       "source": "中国证监会",
       "category": "监管",
-      "published_at": "2026-10-30T20:40+08:00",
+      "published_at": "2026-10-31T01:18+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -516,7 +516,7 @@
       "url": "https://www.csrc.gov.cn/csrc/c106311/c7666065/content.shtml",
       "source": "中国证监会",
       "category": "监管",
-      "published_at": "2026-10-30T20:40+08:00",
+      "published_at": "2026-10-31T01:18+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -525,13 +525,13 @@
       "url": "https://www.csrc.gov.cn/csrc/c106311/c7665578/content.shtml",
       "source": "中国证监会",
       "category": "监管",
-      "published_at": "2026-10-30T20:40+08:00",
+      "published_at": "2026-10-31T01:18+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
     {
-      "title": "富士康工业互联网股份有限公司董事会薪酬与考核委员会关于2026年员工持股计划相关事项的核查意见",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=601138&orgId=9900036731&announcementId=1225650699&announcementTime=2026-10-31",
+      "title": "中金公司2026年第三季度报告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=601995&orgId=qsgn0000421&announcementId=1225648780&announcementTime=2026-10-31",
       "source": "巨潮资讯",
       "category": "A股披露",
       "published_at": "2026-10-31",
@@ -539,8 +539,8 @@
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
     {
-      "title": "关于向（预）重整投资人借款暨关联交易的公告",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=000610&orgId=gssz0000610&announcementId=1225650665&announcementTime=2026-10-31",
+      "title": "华发股份2026年第三季度报告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600325&orgId=gssh0600325&announcementId=1225650869&announcementTime=2026-10-31",
       "source": "巨潮资讯",
       "category": "A股披露",
       "published_at": "2026-10-31",
@@ -548,17 +548,8 @@
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
     {
-      "title": "2026年第四次临时股东会决议公告",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600185&orgId=gssh0600185&announcementId=1225650658&announcementTime=2026-10-31",
-      "source": "巨潮资讯",
-      "category": "A股披露",
-      "published_at": "2026-10-31",
-      "date_quality": "url_date",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
-    },
-    {
-      "title": "2026年第三季度报告",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=601696&orgId=qsgn0000638&announcementId=1225650657&announcementTime=2026-10-31",
+      "title": "标准股份关于公司股票被实施其他风险警示相关事项的进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600302&orgId=gssh0600302&announcementId=1225648277&announcementTime=2026-10-31",
       "source": "巨潮资讯",
       "category": "A股披露",
       "published_at": "2026-10-31",
@@ -568,6 +559,15 @@
     {
       "title": "奥精医疗：关于无法在法定期限内披露2026年第三季度报告的风险提示性公告",
       "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=688613&orgId=nssc1000537&announcementId=1225650661&announcementTime=2026-10-31",
+      "source": "巨潮资讯",
+      "category": "A股披露",
+      "published_at": "2026-10-31",
+      "date_quality": "url_date",
+      "summary": "打开原文查看完整公告、数据表或政策文件。"
+    },
+    {
+      "title": "重庆千里科技股份有限公司2026年第三季度报告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=601777&orgId=9900016000&announcementId=1225650817&announcementTime=2026-10-31",
       "source": "巨潮资讯",
       "category": "A股披露",
       "published_at": "2026-10-31",
@@ -624,7 +624,7 @@
       "url": "https://www.szse.cn/",
       "source": "深圳证券交易所",
       "category": "A股披露",
-      "published_at": "2026-10-30T20:40+08:00",
+      "published_at": "2026-10-31T01:18+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
@@ -724,7 +724,7 @@
       "url": "https://www.shibor.org/",
       "source": "Shibor",
       "category": "债券利率",
-      "published_at": "2026-10-30T20:40+08:00",
+      "published_at": "2026-10-31T01:19+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
@@ -734,7 +734,7 @@
       "url": "https://fred.stlouisfed.org/",
       "source": "FRED",
       "category": "全球宏观",
-      "published_at": "2026-10-30T20:40+08:00",
+      "published_at": "2026-10-31T01:18+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
@@ -852,7 +852,7 @@
       "url": "https://www.bls.gov/",
       "source": "美国劳工统计局",
       "category": "全球宏观",
-      "published_at": "2026-10-30T20:40+08:00",
+      "published_at": "2026-10-31T01:18+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
@@ -862,10 +862,28 @@
       "url": "https://www.bea.gov/",
       "source": "美国经济分析局",
       "category": "全球宏观",
-      "published_at": "2026-10-30T20:40+08:00",
+      "published_at": "2026-10-31T01:18+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
+    },
+    {
+      "title": "Philip R. Lane: AI adoption in Europe",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html",
+      "source": "欧洲央行",
+      "category": "全球宏观",
+      "published_at": "Fri, 30 Oct 2026 17:10:00 +0100",
+      "date_quality": "publisher",
+      "summary": "来自公开原始来源的最新发布。"
+    },
+    {
+      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+      "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261030~e40f864093.en.html",
+      "source": "欧洲央行",
+      "category": "全球宏观",
+      "published_at": "Fri, 30 Oct 2026 15:00:00 +0100",
+      "date_quality": "publisher",
+      "summary": "来自公开原始来源的最新发布。"
     },
     {
       "title": "Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026",
@@ -936,24 +954,6 @@
       "source": "欧洲央行",
       "category": "全球宏观",
       "published_at": "Mon, 26 Oct 2026 06:00:00 +0100",
-      "date_quality": "publisher",
-      "summary": "来自公开原始来源的最新发布。"
-    },
-    {
-      "title": "Piero Cipollone: Interview with Milano Finanza",
-      "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html",
-      "source": "欧洲央行",
-      "category": "全球宏观",
-      "published_at": "Sat, 24 Oct 2026 08:00:00 +0200",
-      "date_quality": "publisher",
-      "summary": "来自公开原始来源的最新发布。"
-    },
-    {
-      "title": "ECB Consumer Expectations Survey results – September 2026",
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html",
-      "source": "欧洲央行",
-      "category": "全球宏观",
-      "published_at": "Fri, 23 Oct 2026 10:00:00 +0200",
       "date_quality": "publisher",
       "summary": "来自公开原始来源的最新发布。"
     }
