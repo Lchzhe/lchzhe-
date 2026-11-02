@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T21:53+08:00",
+  "updated_at": "2026-11-03T04:55+08:00",
   "timezone": "Asia/Shanghai",
   "provider": "腾讯行情公开接口",
   "indices": [
@@ -65,7 +65,7 @@
       "pct": 0.58,
       "high": 905.94,
       "low": 874.93,
-      "observed": "20261102153439",
+      "observed": "20261102153430",
       "source": "腾讯行情"
     },
     {
@@ -113,39 +113,39 @@
       "code": "usDJI",
       "name": "道琼斯",
       "url": "https://quote.eastmoney.com/gb/.DJI.html",
-      "price": 51770.31,
-      "prev": 52342.56,
-      "chg": -572.25,
-      "pct": -1.09,
-      "high": 52383.9,
-      "low": 51563.76,
-      "observed": "2026-10-30 16:47:53",
+      "price": 52037.64,
+      "prev": 51770.31,
+      "chg": 267.33,
+      "pct": 0.52,
+      "high": 52424.91,
+      "low": 52008.23,
+      "observed": "2026-11-02 15:55:19",
       "source": "腾讯行情"
     },
     {
       "code": "usIXIC",
       "name": "纳斯达克",
       "url": "https://quote.eastmoney.com/gb/.IXIC.html",
-      "price": 25437.0,
-      "prev": 26184.72,
-      "chg": -747.72,
-      "pct": -2.86,
-      "high": 25673.0,
-      "low": 25177.33,
-      "observed": "2026-10-30 17:15:59",
+      "price": 25182.5,
+      "prev": 25437.0,
+      "chg": -254.5,
+      "pct": -1.0,
+      "high": 25799.46,
+      "low": 25156.3,
+      "observed": "2026-11-02 15:55:19",
       "source": "腾讯行情"
     },
     {
       "code": "usINX",
       "name": "标普500",
       "url": "https://quote.eastmoney.com/gb/.INX.html",
-      "price": 7580.07,
-      "prev": 7720.39,
-      "chg": -140.32,
-      "pct": -1.82,
-      "high": 7637.48,
-      "low": 7527.56,
-      "observed": "2026-10-30 16:47:43",
+      "price": 7547.44,
+      "prev": 7580.07,
+      "chg": -32.63,
+      "pct": -0.43,
+      "high": 7662.23,
+      "low": 7542.41,
+      "observed": "2026-11-02 15:55:19",
       "source": "腾讯行情"
     }
   ],
@@ -154,39 +154,39 @@
       "code": "hf_XAU",
       "name": "伦敦金",
       "url": "https://quote.eastmoney.com/globalfuture/GC00.html",
-      "price": 3943.43,
+      "price": 3947.19,
       "prev": 3876.69,
-      "chg": 66.74,
-      "pct": 1.72,
-      "high": 3950.32,
+      "chg": 70.5,
+      "pct": 1.82,
+      "high": 3970.23,
       "low": 3881.88,
-      "observed": "21:53:00",
+      "observed": "04:54:00",
       "source": "腾讯行情"
     },
     {
       "code": "hf_CL",
       "name": "纽约原油",
       "url": "https://quote.eastmoney.com/globalfuture/CL00.html",
-      "price": 97.62,
+      "price": 95.65,
       "prev": 104.12,
-      "chg": -6.5,
-      "pct": -6.24,
+      "chg": -8.47,
+      "pct": -8.14,
       "high": 102.75,
-      "low": 97.12,
-      "observed": "21:54:07",
+      "low": 95.15,
+      "observed": "04:55:10",
       "source": "腾讯行情"
     },
     {
       "code": "hf_SI",
       "name": "伦敦银",
       "url": "https://quote.eastmoney.com/globalfuture/SI00.html",
-      "price": 50.92,
+      "price": 50.66,
       "prev": 49.28,
-      "chg": 1.64,
-      "pct": 3.34,
+      "chg": 1.38,
+      "pct": 2.82,
       "high": 51.34,
       "low": 49.09,
-      "observed": "21:54:04",
+      "observed": "04:55:07",
       "source": "腾讯行情"
     }
   ],
@@ -202,7 +202,7 @@
   },
   "advanced_analysis": {
     "framework_version": "3.0-research",
-    "generated_at": "2026-11-02T21:53+08:00",
+    "generated_at": "2026-11-03T04:55+08:00",
     "regime": {
       "code": "mixed",
       "label": "信号分化，保持观察",
@@ -215,7 +215,7 @@
     },
     "session": {
       "is_trading_day": true,
-      "next_session": "2026-11-03",
+      "next_session": "2026-11-04",
       "quote_date": "2026-11-02",
       "calendar_url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml",
       "calendar_year": 2026
@@ -448,7 +448,26 @@
         "priority": "downside"
       }
     ],
-    "events": [],
+    "events": [
+      {
+        "title": "关于出售已回购股份的进展公告",
+        "source": "巨潮资讯",
+        "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603660&orgId=9900026447&announcementId=1225654356&announcementTime=2026-11-03",
+        "channel": "公司与治理",
+        "pathway": "现金流、股本或治理变化 → 估值与风险溢价",
+        "check": "核对正式公告与财务影响；风险警示、诉讼和减持先列入风险清单。",
+        "evidence": "标题触发的研究假设，尚未完成全文核验"
+      },
+      {
+        "title": "关于回购股份事项前十名股东及前十名无限售条件股东持股情况的公告",
+        "source": "巨潮资讯",
+        "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002570&orgId=9900019035&announcementId=1225654351&announcementTime=2026-11-03",
+        "channel": "公司与治理",
+        "pathway": "现金流、股本或治理变化 → 估值与风险溢价",
+        "check": "核对正式公告与财务影响；风险警示、诉讼和减持先列入风险清单。",
+        "evidence": "标题触发的研究假设，尚未完成全文核验"
+      }
+    ],
     "model_catalog": [
       {
         "name": "DCF与资本成本",
