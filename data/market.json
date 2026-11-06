@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T05:17+08:00",
+  "updated_at": "2026-11-07T07:19+08:00",
   "timezone": "Asia/Shanghai",
   "provider": "腾讯行情公开接口",
   "indices": [
@@ -119,7 +119,7 @@
       "pct": -0.46,
       "high": 51662.26,
       "low": 50992.61,
-      "observed": "2026-11-06 16:19:40",
+      "observed": "2026-11-06 16:37:13",
       "source": "腾讯行情"
     },
     {
@@ -132,7 +132,7 @@
       "pct": 1.09,
       "high": 24825.55,
       "low": 24507.63,
-      "observed": "2026-11-06 16:19:30",
+      "observed": "2026-11-06 17:15:59",
       "source": "腾讯行情"
     },
     {
@@ -145,7 +145,7 @@
       "pct": 0.31,
       "high": 7444.2,
       "low": 7369.55,
-      "observed": "2026-11-06 16:19:40",
+      "observed": "2026-11-06 16:37:09",
       "source": "腾讯行情"
     }
   ],
@@ -154,39 +154,39 @@
       "code": "hf_XAU",
       "name": "伦敦金",
       "url": "https://quote.eastmoney.com/globalfuture/GC00.html",
-      "price": 4064.7,
+      "price": 4070.75,
       "prev": 4088.8,
-      "chg": -24.1,
-      "pct": -0.59,
+      "chg": -18.05,
+      "pct": -0.44,
       "high": 4106.79,
       "low": 4028.27,
-      "observed": "05:18:00",
+      "observed": "05:54:00",
       "source": "腾讯行情"
     },
     {
       "code": "hf_CL",
       "name": "纽约原油",
       "url": "https://quote.eastmoney.com/globalfuture/CL00.html",
-      "price": 90.28,
+      "price": 90.24,
       "prev": 90.52,
-      "chg": -0.24,
-      "pct": -0.27,
+      "chg": -0.28,
+      "pct": -0.31,
       "high": 92.53,
       "low": 89.07,
-      "observed": "05:19:07",
+      "observed": "05:59:59",
       "source": "腾讯行情"
     },
     {
       "code": "hf_SI",
       "name": "伦敦银",
       "url": "https://quote.eastmoney.com/globalfuture/SI00.html",
-      "price": 51.98,
+      "price": 52.01,
       "prev": 52.38,
-      "chg": -0.4,
-      "pct": -0.75,
+      "chg": -0.37,
+      "pct": -0.71,
       "high": 52.38,
       "low": 51.2,
-      "observed": "05:18:31",
+      "observed": "05:59:59",
       "source": "腾讯行情"
     }
   ],
@@ -202,7 +202,7 @@
   },
   "advanced_analysis": {
     "framework_version": "3.0-research",
-    "generated_at": "2026-11-07T05:17+08:00",
+    "generated_at": "2026-11-07T07:19+08:00",
     "regime": {
       "code": "weakening",
       "label": "趋势与宽度同向走弱",
