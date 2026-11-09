@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T04:52+08:00",
+  "updated_at": "2026-11-10T05:40+08:00",
   "timezone": "Asia/Shanghai",
   "provider": "腾讯行情公开接口",
   "indices": [
@@ -65,7 +65,7 @@
       "pct": 0.82,
       "high": 912.3,
       "low": 894.22,
-      "observed": "20261109153341",
+      "observed": "20261109153344",
       "source": "腾讯行情"
     },
     {
@@ -113,39 +113,39 @@
       "code": "usDJI",
       "name": "道琼斯",
       "url": "https://quote.eastmoney.com/gb/.DJI.html",
-      "price": 52414.75,
+      "price": 52389.75,
       "prev": 51285.73,
-      "chg": 1129.02,
-      "pct": 2.2,
+      "chg": 1104.02,
+      "pct": 2.15,
       "high": 52574.34,
       "low": 51643.01,
-      "observed": "2026-11-09 15:54:41",
+      "observed": "2026-11-09 16:20:01",
       "source": "腾讯行情"
     },
     {
       "code": "usIXIC",
       "name": "纳斯达克",
       "url": "https://quote.eastmoney.com/gb/.IXIC.html",
-      "price": 25284.07,
+      "price": 25253.14,
       "prev": 24579.42,
-      "chg": 704.65,
-      "pct": 2.87,
+      "chg": 673.72,
+      "pct": 2.74,
       "high": 25354.3,
       "low": 24762.57,
-      "observed": "2026-11-09 15:54:40",
+      "observed": "2026-11-09 16:42:00",
       "source": "腾讯行情"
     },
     {
       "code": "usINX",
       "name": "标普500",
       "url": "https://quote.eastmoney.com/gb/.INX.html",
-      "price": 7558.12,
+      "price": 7549.94,
       "prev": 7376.86,
-      "chg": 181.26,
-      "pct": 2.46,
+      "chg": 173.08,
+      "pct": 2.35,
       "high": 7577.39,
       "low": 7422.24,
-      "observed": "2026-11-09 15:54:40",
+      "observed": "2026-11-09 16:20:01",
       "source": "腾讯行情"
     }
   ],
@@ -154,39 +154,39 @@
       "code": "hf_XAU",
       "name": "伦敦金",
       "url": "https://quote.eastmoney.com/globalfuture/GC00.html",
-      "price": 4141.65,
+      "price": 4136.57,
       "prev": 4070.75,
-      "chg": 70.9,
-      "pct": 1.74,
+      "chg": 65.82,
+      "pct": 1.62,
       "high": 4148.33,
       "low": 4054.25,
-      "observed": "04:54:00",
+      "observed": "05:42:00",
       "source": "腾讯行情"
     },
     {
       "code": "hf_CL",
       "name": "纽约原油",
       "url": "https://quote.eastmoney.com/globalfuture/CL00.html",
-      "price": 86.75,
+      "price": 86.48,
       "prev": 90.83,
-      "chg": -4.08,
-      "pct": -4.49,
+      "chg": -4.35,
+      "pct": -4.79,
       "high": 91.42,
       "low": 85.02,
-      "observed": "04:54:05",
+      "observed": "05:42:01",
       "source": "腾讯行情"
     },
     {
       "code": "hf_SI",
       "name": "伦敦银",
       "url": "https://quote.eastmoney.com/globalfuture/SI00.html",
-      "price": 53.37,
+      "price": 53.38,
       "prev": 51.94,
-      "chg": 1.43,
-      "pct": 2.75,
+      "chg": 1.44,
+      "pct": 2.78,
       "high": 53.58,
       "low": 51.41,
-      "observed": "04:54:07",
+      "observed": "05:41:26",
       "source": "腾讯行情"
     }
   ],
@@ -202,7 +202,7 @@
   },
   "advanced_analysis": {
     "framework_version": "3.0-research",
-    "generated_at": "2026-11-10T04:52+08:00",
+    "generated_at": "2026-11-10T05:40+08:00",
     "regime": {
       "code": "weakening",
       "label": "趋势与宽度同向走弱",
@@ -523,7 +523,7 @@
       "stale": false,
       "fundamentals": false,
       "factor_returns": false,
-      "news_verified_today": 5
+      "news_verified_today": 6
     },
     "methodology": [
       "60日趋势与宽度是透明研究规则，阈值未回测，不代表预测胜率。",
