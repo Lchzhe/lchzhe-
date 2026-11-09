@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T05:40+08:00",
+  "updated_at": "2026-11-10T07:58+08:00",
   "timezone": "Asia/Shanghai",
   "provider": "腾讯行情公开接口",
   "indices": [
@@ -119,7 +119,7 @@
       "pct": 2.15,
       "high": 52574.34,
       "low": 51643.01,
-      "observed": "2026-11-09 16:20:01",
+      "observed": "2026-11-09 17:12:54",
       "source": "腾讯行情"
     },
     {
@@ -132,7 +132,7 @@
       "pct": 2.74,
       "high": 25354.3,
       "low": 24762.57,
-      "observed": "2026-11-09 16:42:00",
+      "observed": "2026-11-09 17:15:59",
       "source": "腾讯行情"
     },
     {
@@ -145,7 +145,7 @@
       "pct": 2.35,
       "high": 7577.39,
       "low": 7422.24,
-      "observed": "2026-11-09 16:20:01",
+      "observed": "2026-11-09 17:12:50",
       "source": "腾讯行情"
     }
   ],
@@ -154,39 +154,39 @@
       "code": "hf_XAU",
       "name": "伦敦金",
       "url": "https://quote.eastmoney.com/globalfuture/GC00.html",
-      "price": 4136.57,
-      "prev": 4070.75,
-      "chg": 65.82,
-      "pct": 1.62,
-      "high": 4148.33,
-      "low": 4054.25,
-      "observed": "05:42:00",
+      "price": 4137.73,
+      "prev": 4140.94,
+      "chg": -3.21,
+      "pct": -0.08,
+      "high": 4146.43,
+      "low": 4134.28,
+      "observed": "07:57:00",
       "source": "腾讯行情"
     },
     {
       "code": "hf_CL",
       "name": "纽约原油",
       "url": "https://quote.eastmoney.com/globalfuture/CL00.html",
-      "price": 86.48,
-      "prev": 90.83,
-      "chg": -4.35,
-      "pct": -4.79,
-      "high": 91.42,
-      "low": 85.02,
-      "observed": "05:42:01",
+      "price": 86.49,
+      "prev": 86.85,
+      "chg": -0.36,
+      "pct": -0.41,
+      "high": 86.74,
+      "low": 86.11,
+      "observed": "07:58:01",
       "source": "腾讯行情"
     },
     {
       "code": "hf_SI",
       "name": "伦敦银",
       "url": "https://quote.eastmoney.com/globalfuture/SI00.html",
-      "price": 53.38,
-      "prev": 51.94,
-      "chg": 1.44,
-      "pct": 2.78,
-      "high": 53.58,
-      "low": 51.41,
-      "observed": "05:41:26",
+      "price": 53.43,
+      "prev": 52.69,
+      "chg": 0.74,
+      "pct": 1.4,
+      "high": 53.78,
+      "low": 53.38,
+      "observed": "07:57:54",
       "source": "腾讯行情"
     }
   ],
@@ -202,7 +202,7 @@
   },
   "advanced_analysis": {
     "framework_version": "3.0-research",
-    "generated_at": "2026-11-10T05:40+08:00",
+    "generated_at": "2026-11-10T07:58+08:00",
     "regime": {
       "code": "weakening",
       "label": "趋势与宽度同向走弱",
