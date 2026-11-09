@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T18:24+08:00",
+  "updated_at": "2026-11-10T04:52+08:00",
   "timezone": "Asia/Shanghai",
   "provider": "腾讯行情公开接口",
   "indices": [
@@ -65,7 +65,7 @@
       "pct": 0.82,
       "high": 912.3,
       "low": 894.22,
-      "observed": "20261109153344",
+      "observed": "20261109153341",
       "source": "腾讯行情"
     },
     {
@@ -104,7 +104,7 @@
       "pct": -0.13,
       "high": 24738.88,
       "low": 24421.11,
-      "observed": "2026/11/09 18:09:03",
+      "observed": "2026/11/09 18:31:03",
       "source": "腾讯行情"
     }
   ],
@@ -113,39 +113,39 @@
       "code": "usDJI",
       "name": "道琼斯",
       "url": "https://quote.eastmoney.com/gb/.DJI.html",
-      "price": 51285.73,
-      "prev": 51523.06,
-      "chg": -237.33,
-      "pct": -0.46,
-      "high": 51662.26,
-      "low": 50992.61,
-      "observed": "2026-11-06 16:37:13",
+      "price": 52414.75,
+      "prev": 51285.73,
+      "chg": 1129.02,
+      "pct": 2.2,
+      "high": 52574.34,
+      "low": 51643.01,
+      "observed": "2026-11-09 15:54:41",
       "source": "腾讯行情"
     },
     {
       "code": "usIXIC",
       "name": "纳斯达克",
       "url": "https://quote.eastmoney.com/gb/.IXIC.html",
-      "price": 24579.42,
-      "prev": 24315.0,
-      "chg": 264.42,
-      "pct": 1.09,
-      "high": 24825.55,
-      "low": 24507.63,
-      "observed": "2026-11-06 17:15:59",
+      "price": 25284.07,
+      "prev": 24579.42,
+      "chg": 704.65,
+      "pct": 2.87,
+      "high": 25354.3,
+      "low": 24762.57,
+      "observed": "2026-11-09 15:54:40",
       "source": "腾讯行情"
     },
     {
       "code": "usINX",
       "name": "标普500",
       "url": "https://quote.eastmoney.com/gb/.INX.html",
-      "price": 7376.86,
-      "prev": 7353.73,
-      "chg": 23.13,
-      "pct": 0.31,
-      "high": 7444.2,
-      "low": 7369.55,
-      "observed": "2026-11-06 16:37:09",
+      "price": 7558.12,
+      "prev": 7376.86,
+      "chg": 181.26,
+      "pct": 2.46,
+      "high": 7577.39,
+      "low": 7422.24,
+      "observed": "2026-11-09 15:54:40",
       "source": "腾讯行情"
     }
   ],
@@ -154,39 +154,39 @@
       "code": "hf_XAU",
       "name": "伦敦金",
       "url": "https://quote.eastmoney.com/globalfuture/GC00.html",
-      "price": 4099.39,
+      "price": 4141.65,
       "prev": 4070.75,
-      "chg": 28.64,
-      "pct": 0.7,
-      "high": 4134.07,
+      "chg": 70.9,
+      "pct": 1.74,
+      "high": 4148.33,
       "low": 4054.25,
-      "observed": "18:23:00",
+      "observed": "04:54:00",
       "source": "腾讯行情"
     },
     {
       "code": "hf_CL",
       "name": "纽约原油",
       "url": "https://quote.eastmoney.com/globalfuture/CL00.html",
-      "price": 89.91,
+      "price": 86.75,
       "prev": 90.83,
-      "chg": -0.92,
-      "pct": -1.01,
+      "chg": -4.08,
+      "pct": -4.49,
       "high": 91.42,
-      "low": 89.29,
-      "observed": "18:24:00",
+      "low": 85.02,
+      "observed": "04:54:05",
       "source": "腾讯行情"
     },
     {
       "code": "hf_SI",
       "name": "伦敦银",
       "url": "https://quote.eastmoney.com/globalfuture/SI00.html",
-      "price": 52.69,
+      "price": 53.37,
       "prev": 51.94,
-      "chg": 0.75,
-      "pct": 1.43,
-      "high": 53.47,
+      "chg": 1.43,
+      "pct": 2.75,
+      "high": 53.58,
       "low": 51.41,
-      "observed": "18:23:37",
+      "observed": "04:54:07",
       "source": "腾讯行情"
     }
   ],
@@ -202,7 +202,7 @@
   },
   "advanced_analysis": {
     "framework_version": "3.0-research",
-    "generated_at": "2026-11-09T18:24+08:00",
+    "generated_at": "2026-11-10T04:52+08:00",
     "regime": {
       "code": "weakening",
       "label": "趋势与宽度同向走弱",
@@ -215,7 +215,7 @@
     },
     "session": {
       "is_trading_day": true,
-      "next_session": "2026-11-10",
+      "next_session": "2026-11-11",
       "quote_date": "2026-11-09",
       "calendar_url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml",
       "calendar_year": 2026
@@ -523,7 +523,7 @@
       "stale": false,
       "fundamentals": false,
       "factor_returns": false,
-      "news_verified_today": 3
+      "news_verified_today": 5
     },
     "methodology": [
       "60日趋势与宽度是透明研究规则，阈值未回测，不代表预测胜率。",
