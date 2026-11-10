@@ -5,13 +5,8 @@
       "name": "深证成指",
       "source": "腾讯历史日线",
       "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399001,day,,,400,qfq",
-      "fetched_at": "2026-11-10T04:52+08:00",
+      "fetched_at": "2026-11-10T18:52+08:00",
       "rows": [
-        {
-          "date": "2025-03-18",
-          "close": 11014.75,
-          "volume": 670260918.0
-        },
         {
           "date": "2025-03-19",
           "close": 10979.05,
@@ -2006,6 +2001,11 @@
           "date": "2026-11-09",
           "close": 11145.49,
           "volume": 514921429.0
+        },
+        {
+          "date": "2026-11-10",
+          "close": 11241.54,
+          "volume": 526862998.0
         }
       ]
     },
@@ -2014,13 +2014,8 @@
       "name": "创业板指",
       "source": "腾讯历史日线",
       "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399006,day,,,400,qfq",
-      "fetched_at": "2026-11-10T04:52+08:00",
+      "fetched_at": "2026-11-10T18:52+08:00",
       "rows": [
-        {
-          "date": "2025-03-18",
-          "close": 2228.64,
-          "volume": 238408415.0
-        },
         {
           "date": "2025-03-19",
           "close": 2222.35,
@@ -4015,6 +4010,11 @@
           "date": "2026-11-09",
           "close": 2458.56,
           "volume": 165434913.0
+        },
+        {
+          "date": "2026-11-10",
+          "close": 2494.4,
+          "volume": 174497586.0
         }
       ]
     },
@@ -4023,13 +4023,8 @@
       "name": "上证指数",
       "source": "腾讯历史日线",
       "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000001,day,,,400,qfq",
-      "fetched_at": "2026-11-10T04:52+08:00",
+      "fetched_at": "2026-11-10T18:52+08:00",
       "rows": [
-        {
-          "date": "2025-03-18",
-          "close": 3429.76,
-          "volume": 454916063.0
-        },
         {
           "date": "2025-03-19",
           "close": 3426.43,
@@ -6024,6 +6019,11 @@
           "date": "2026-11-09",
           "close": 3660.79,
           "volume": 427722257.0
+        },
+        {
+          "date": "2026-11-10",
+          "close": 3663.72,
+          "volume": 404865177.0
         }
       ]
     },
@@ -6032,13 +6032,8 @@
       "name": "科创50",
       "source": "腾讯历史日线",
       "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000688,day,,,400,qfq",
-      "fetched_at": "2026-11-10T04:52+08:00",
+      "fetched_at": "2026-11-10T18:52+08:00",
       "rows": [
-        {
-          "date": "2025-03-18",
-          "close": 1089.83,
-          "volume": 30549093.0
-        },
         {
           "date": "2025-03-19",
           "close": 1076.94,
@@ -8033,6 +8028,11 @@
           "date": "2026-11-09",
           "close": 1256.96,
           "volume": 8228867.0
+        },
+        {
+          "date": "2026-11-10",
+          "close": 1265.02,
+          "volume": 7634903.0
         }
       ]
     },
@@ -8041,12 +8041,12 @@
       "name": "北证50",
       "source": "腾讯历史日线",
       "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=bj899050,day,,,400,qfq",
-      "fetched_at": "2026-11-10T04:52+08:00",
+      "fetched_at": "2026-11-10T18:52+08:00",
       "rows": [
         {
-          "date": "2026-11-09",
-          "close": 895.76,
-          "volume": 6635890.0
+          "date": "2026-11-10",
+          "close": 902.51,
+          "volume": 6639050.0
         }
       ]
     },
@@ -8055,13 +8055,8 @@
       "name": "沪深300",
       "source": "腾讯历史日线",
       "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000300,day,,,400,qfq",
-      "fetched_at": "2026-11-10T04:52+08:00",
+      "fetched_at": "2026-11-10T18:52+08:00",
       "rows": [
-        {
-          "date": "2025-03-18",
-          "close": 4007.72,
-          "volume": 140208496.0
-        },
         {
           "date": "2025-03-19",
           "close": 4010.17,
@@ -10056,6 +10051,11 @@
           "date": "2026-11-09",
           "close": 4056.11,
           "volume": 158374872.0
+        },
+        {
+          "date": "2026-11-10",
+          "close": 4059.11,
+          "volume": 150385451.0
         }
       ]
     },
@@ -10064,13 +10064,8 @@
       "name": "中证500",
       "source": "腾讯历史日线",
       "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000905,day,,,400,qfq",
-      "fetched_at": "2026-11-10T04:52+08:00",
+      "fetched_at": "2026-11-10T18:52+08:00",
       "rows": [
-        {
-          "date": "2025-03-18",
-          "close": 6133.3,
-          "volume": 166023043.0
-        },
         {
           "date": "2025-03-19",
           "close": 6101.44,
@@ -12065,10 +12060,15 @@
           "date": "2026-11-09",
           "close": 6586.18,
           "volume": 123881627.0
+        },
+        {
+          "date": "2026-11-10",
+          "close": 6645.89,
+          "volume": 117586969.0
         }
       ]
     }
   },
   "format_version": 2,
-  "updated_at": "2026-11-10T10:59+08:00"
+  "updated_at": "2026-11-10T18:52+08:00"
 }
