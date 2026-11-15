@@ -1,6 +1,6 @@
 # 雷传喆 · 每日金融信息研报
 
-**报告日期：2026-11-15**　**生成时间（北京时间）：2026-11-15 04:27**
+**报告日期：2026-11-16**　**生成时间（北京时间）：2026-11-16 04:50**
 
 > 本报告把公开信息、行情快照和条件化研究判断分开呈现。建议先核对原文，再结合自己的风险承受能力决策；内容不构成个性化投资建议或收益承诺。
 
@@ -8,29 +8,33 @@
 
 ### 1. 中国宏观与政策
 
-- **第十七届中国统计开放日**（[国家统计局](https://www.stats.gov.cn/zt_18555/zthd/sjtjr/tjr17/index.html)，2026-11-15T04:27+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
-- **非凡 "十四五" 奋进新征程—— "十四五" 经济社会发展成就报告**（[国家统计局](https://www.stats.gov.cn/zt_18555/ztfx/sswjjshfzcjbg/index.html)，2026-11-15T04:27+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
-- **第四次全国农业普查**（[国家统计局](https://www.stats.gov.cn/zt_18555/zdtjgz/zgnypc/d4cnypc/)，2026-11-15T04:27+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
-- **2025年全国1%人口抽样调查**（[国家统计局](https://www.stats.gov.cn/zt_18555/zdtjgz/cydc/2025cydc/)，2026-11-15T04:27+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
-- **中医药传统知识保护条例**（[中国政府网政策](https://www.gov.cn/zhengce/content/202611/content_7085591.htm)，2026-11-15T04:27+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
-- **中共中央发出通知 部署党的二十一大代表选举工作**（[中国政府网政策](https://www.gov.cn/zhengce/202611/content_7085529.htm)，2026-11-15T04:27+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
-- **国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复**（[中国政府网政策](https://www.gov.cn/zhengce/content/202611/content_7085109.htm)，2026-11-15T04:27+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
-- **国务院办公厅关于2027年部分节假日安排的通知**（[中国政府网政策](https://www.gov.cn/zhengce/content/202611/content_7085101.htm)，2026-11-15T04:27+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
-- **国务院关于修改和废止部分行政法规的决定**（[中国政府网政策](https://www.gov.cn/zhengce/content/202611/content_7085098.htm)，2026-11-15T04:27+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
-- **打开海关总署官网**（[海关总署](http://www.customs.gov.cn/)，2026-11-15T04:27+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
+- **打开国家统计局数据官网**（[国家统计局数据](https://data.stats.gov.cn/)，2026-11-16T04:50+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
+- **第十七届中国统计开放日**（[国家统计局](https://www.stats.gov.cn/zt_18555/zthd/sjtjr/tjr17/index.html)，2026-11-16T04:50+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
+- **非凡 "十四五" 奋进新征程—— "十四五" 经济社会发展成就报告**（[国家统计局](https://www.stats.gov.cn/zt_18555/ztfx/sswjjshfzcjbg/index.html)，2026-11-16T04:50+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
+- **第四次全国农业普查**（[国家统计局](https://www.stats.gov.cn/zt_18555/zdtjgz/zgnypc/d4cnypc/)，2026-11-16T04:50+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
+- **2025年全国1%人口抽样调查**（[国家统计局](https://www.stats.gov.cn/zt_18555/zdtjgz/cydc/2025cydc/)，2026-11-16T04:50+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
+- **中共中央印发《中国共产党地方委员会工作条例》**（[中国政府网政策](https://www.gov.cn/zhengce/202611/content_7086080.htm)，2026-11-16T04:50+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
+- **中医药传统知识保护条例**（[中国政府网政策](https://www.gov.cn/zhengce/content/202611/content_7085591.htm)，2026-11-16T04:50+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
+- **中共中央发出通知 部署党的二十一大代表选举工作**（[中国政府网政策](https://www.gov.cn/zhengce/202611/content_7085529.htm)，2026-11-16T04:50+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
+- **国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复**（[中国政府网政策](https://www.gov.cn/zhengce/content/202611/content_7085109.htm)，2026-11-16T04:50+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
+- **国务院办公厅关于2027年部分节假日安排的通知**（[中国政府网政策](https://www.gov.cn/zhengce/content/202611/content_7085101.htm)，2026-11-16T04:50+08:00）：公开页面标题显示该项发布，建议打开原文核对政策对象、金额、期限和执行口径。
 
 ### 2. A 股披露与监管
 
-- **吴清主席在首届中国资本市场学术年会开幕式上的致辞**（[中国证监会](https://www.csrc.gov.cn/csrc/c106311/c7670983/content.shtml)，2026-11-15T04:27+08:00）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
-- **国家统计局2026年常规统计督察第9统计督察组向中国证监会反馈统计督察意见**（[中国证监会](https://www.csrc.gov.cn/csrc/c100028/c7670809/content.shtml)，2026-11-15T04:27+08:00）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
-- **中国证监会有关部门负责人答记者问**（[中国证监会](https://www.csrc.gov.cn/csrc/c100028/c7670135/content.shtml)，2026-11-15T04:27+08:00）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
-- **2024年4月12日新闻发布会**（[中国证监会](https://www.csrc.gov.cn/csrc/c100029/c7473708/content.shtml)，2026-11-15T04:27+08:00）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
-- **2024年2月23日新闻发布会**（[中国证监会](https://www.csrc.gov.cn/csrc/c100029/c7464344/content.shtml)，2026-11-15T04:27+08:00）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
-- **打开深圳证券交易所官网**（[深圳证券交易所](https://www.szse.cn/)，2026-11-15T04:27+08:00）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
+- **吴清主席在首届中国资本市场学术年会开幕式上的致辞**（[中国证监会](https://www.csrc.gov.cn/csrc/c106311/c7670983/content.shtml)，2026-11-16T04:50+08:00）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
+- **国家统计局2026年常规统计督察第9统计督察组向中国证监会反馈统计督察意见**（[中国证监会](https://www.csrc.gov.cn/csrc/c100028/c7670809/content.shtml)，2026-11-16T04:50+08:00）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
+- **中国证监会有关部门负责人答记者问**（[中国证监会](https://www.csrc.gov.cn/csrc/c100028/c7670135/content.shtml)，2026-11-16T04:50+08:00）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
+- **2024年4月12日新闻发布会**（[中国证监会](https://www.csrc.gov.cn/csrc/c100029/c7473708/content.shtml)，2026-11-16T04:50+08:00）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
+- **2024年2月23日新闻发布会**（[中国证监会](https://www.csrc.gov.cn/csrc/c100029/c7464344/content.shtml)，2026-11-16T04:50+08:00）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
+- **关于“侨银转债”可能存在不能按期足额兑付本息的第二次重大风险提示性公告**（[巨潮资讯](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002973&orgId=9900037236&announcementId=1225672417&announcementTime=2026-11-16)，2026-11-16）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
+- **通威股份有限公司第九届董事会第十五次会议决议公告**（[巨潮资讯](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600438&orgId=gssh0600438&announcementId=1225672412&announcementTime=2026-11-16)，2026-11-16）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
+- **关于子公司经营管理情况的进展公告**（[巨潮资讯](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600745&orgId=gssh0600745&announcementId=1225672404&announcementTime=2026-11-16)，2026-11-16）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
+- **关于公司及下属子公司产品纳入国家医保目录的公告**（[巨潮资讯](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600812&orgId=gssh0600812&announcementId=1225672403&announcementTime=2026-11-16)，2026-11-16）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
+- **南卫股份第五届董事会第九次会议决议公告**（[巨潮资讯](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603880&orgId=9900031500&announcementId=1225672402&announcementTime=2026-11-16)，2026-11-16）：先判断公告是否改变盈利预测、资产负债表、治理结构或交易约束，再决定是否进入研究清单。
 
 ### 3. 全球宏观与跨市场
 
-- **打开FRED官网**（[FRED](https://fred.stlouisfed.org/)，2026-11-15T04:27+08:00）：作为外部变量观察，重点核对其对利率、美元、能源和风险偏好的传导路径。
+- **打开FRED官网**（[FRED](https://fred.stlouisfed.org/)，2026-11-16T04:50+08:00）：作为外部变量观察，重点核对其对利率、美元、能源和风险偏好的传导路径。
 - **Agencies extend comment period for proposed third-party risk management guidance**（[美联储](https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm)，Fri, 13 Nov 2026 21:15:00 GMT）：作为外部变量观察，重点核对其对利率、美元、能源和风险偏好的传导路径。
 - **Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services**（[美联储](https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm)，Thu, 12 Nov 2026 18:30:00 GMT）：作为外部变量观察，重点核对其对利率、美元、能源和风险偏好的传导路径。
 - **Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027**（[美联储](https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm)，Thu, 12 Nov 2026 17:45:00 GMT）：作为外部变量观察，重点核对其对利率、美元、能源和风险偏好的传导路径。
@@ -55,7 +59,7 @@
 | [恒生指数](https://quote.eastmoney.com/gb/hkHSI.html) | 23,637.60 | -1.55% | 腾讯行情 |
 
 **市场宽度：**
-上涨 755 家、下跌 4472 家、平盘 66 家，上涨占比 14.3%；口径为沪深主要成分估算。
+市场宽度接口当日不可用，不能据此推断涨跌家数；请打开行情中心核对。
 
 **海外指数：**
 道琼斯 52,347.55（+0.10%）；纳斯达克 25,136.27（-0.91%）；标普500 7,561.67（-0.40%）
@@ -69,9 +73,9 @@
 
 ### 1. 市场状态与证据强度
 
-- 当前状态：**趋势与宽度同向走弱**；证据分数 None/100；置信度 未校准概率。
+- 当前状态：**信号分化，保持观察**；证据分数 None/100；置信度 未校准概率。
 - A股指数截面：7个指数均值 -2.08% · 分化 1.14个百分点；描述最近行情；指数相互重叠，均值不代表可投资组合。（限制：港股单列，不计入A股截面。）
-- 市场宽度：上涨占比 14.3%；以接口覆盖范围为准；55%/45%为研究规则阈值，尚未完成收益检验。（限制：沪深主要成分估算）
+- 市场宽度：待补充；以接口覆盖范围为准；55%/45%为研究规则阈值，尚未完成收益检验。（限制：等待市场宽度接口）
 - 中期趋势：沪深300距60日均线 -7.72%；根据已完成交易日收盘计算，与宽度共同作描述性状态识别。（限制：未训练HMM，也未给出上涨概率。）
 - 样本与时间：历史截至 2026-11-13 · 399个日收益；收盘历史剔除未收盘当日；重复抓取和休市日不新增观测。（限制：抓取时间与交易日期分开记录。）
 
@@ -95,8 +99,8 @@
 
 ### 5. 交易日与数据质量
 
-- 交易日判断：否；行情日期：2026-11-13；下一交易日：2026-11-16。日历入口：[https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml](https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml)。
-- 数据质量：较完整；当日已核验发布日期消息 0 条；基本面因子=未接入，本地因子收益=未接入。
+- 交易日判断：是；行情日期：2026-11-13；下一交易日：2026-11-17。日历入口：[https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml](https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml)。
+- 数据质量：部分可用；当日已核验发布日期消息 5 条；基本面因子=未接入，本地因子收益=未接入。
 
 ### 6. 事件传导链
 
@@ -115,7 +119,7 @@
 ### 1. 指数与市场宽度
 
 - 主要指数中 0 个上涨、8 个下跌，平均涨跌幅 —；这说明指数表现并非完全同向。
-- 市场宽度上涨占比为 14.3% 。该指标低于 50% 时，短线赚钱效应需要更多确认，单看指数上涨容易高估市场强度。
+- 市场宽度缺少可用数据，暂不把指数变化外推为全市场机会。
 - 相对强势：上证指数 -0.59%、沪深300 -0.68%、恒生指数 -1.55%。
 - 相对弱势：北证50 -3.50%、创业板指 -3.32%、科创50 -2.30%。
 
@@ -152,12 +156,12 @@
 
 ## 六、信息来源与可追溯性
 
-本次报告使用的数据快照：新闻 2026-11-15T04:27+08:00；行情 2026-11-15T04:27+08:00；行情接口：腾讯行情公开接口。
+本次报告使用的数据快照：新闻 2026-11-16T04:50+08:00；行情 2026-11-16T04:50+08:00；行情接口：腾讯行情公开接口。
 
 | 来源 | 类别 | 状态 | 原始入口 |
 |---|---|---|---|
 | 中国人民银行 | 中国宏观 | reachable | [https://www.pbc.gov.cn/](https://www.pbc.gov.cn/) |
-| 国家统计局数据 | 中国宏观 | reachable | [https://data.stats.gov.cn/](https://data.stats.gov.cn/) |
+| 国家统计局数据 | 中国宏观 | restricted | [https://data.stats.gov.cn/](https://data.stats.gov.cn/) |
 | 国家统计局 | 中国宏观 | reachable | [https://www.stats.gov.cn/](https://www.stats.gov.cn/) |
 | 中国政府网政策 | 政策 | reachable | [https://www.gov.cn/zhengce/](https://www.gov.cn/zhengce/) |
 | 国家发展改革委 | 政策 | reachable | [https://www.ndrc.gov.cn/](https://www.ndrc.gov.cn/) |
@@ -200,27 +204,32 @@
 
 | 时间 | 类别 | 来源 | 标题 | 原文 |
 |---|---|---|---|---|
-| 2026-11-15T04:27+08:00 | 中国宏观 | 中国人民银行 | [English Version](https://www.pbc.gov.cn/en/3688006/index.html) | https://www.pbc.gov.cn/en/3688006/index.html |
-| 2026-11-15T04:27+08:00 | 中国宏观 | 国家统计局数据 | [查看国家统计局数据最新发布](https://data.stats.gov.cn/) | https://data.stats.gov.cn/ |
-| 2026-11-15T04:27+08:00 | 中国宏观 | 国家统计局 | [第十七届中国统计开放日](https://www.stats.gov.cn/zt_18555/zthd/sjtjr/tjr17/index.html) | https://www.stats.gov.cn/zt_18555/zthd/sjtjr/tjr17/index.html |
-| 2026-11-15T04:27+08:00 | 中国宏观 | 国家统计局 | [非凡 "十四五" 奋进新征程—— "十四五" 经济社会发展成就报告](https://www.stats.gov.cn/zt_18555/ztfx/sswjjshfzcjbg/index.html) | https://www.stats.gov.cn/zt_18555/ztfx/sswjjshfzcjbg/index.html |
-| 2026-11-15T04:27+08:00 | 中国宏观 | 国家统计局 | [第四次全国农业普查](https://www.stats.gov.cn/zt_18555/zdtjgz/zgnypc/d4cnypc/) | https://www.stats.gov.cn/zt_18555/zdtjgz/zgnypc/d4cnypc/ |
-| 2026-11-15T04:27+08:00 | 中国宏观 | 国家统计局 | [2025年全国1%人口抽样调查](https://www.stats.gov.cn/zt_18555/zdtjgz/cydc/2025cydc/) | https://www.stats.gov.cn/zt_18555/zdtjgz/cydc/2025cydc/ |
-| 2026-11-15T04:27+08:00 | 政策 | 中国政府网政策 | [中医药传统知识保护条例](https://www.gov.cn/zhengce/content/202611/content_7085591.htm) | https://www.gov.cn/zhengce/content/202611/content_7085591.htm |
-| 2026-11-15T04:27+08:00 | 政策 | 中国政府网政策 | [中共中央发出通知 部署党的二十一大代表选举工作](https://www.gov.cn/zhengce/202611/content_7085529.htm) | https://www.gov.cn/zhengce/202611/content_7085529.htm |
-| 2026-11-15T04:27+08:00 | 政策 | 中国政府网政策 | [国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复](https://www.gov.cn/zhengce/content/202611/content_7085109.htm) | https://www.gov.cn/zhengce/content/202611/content_7085109.htm |
-| 2026-11-15T04:27+08:00 | 政策 | 中国政府网政策 | [国务院办公厅关于2027年部分节假日安排的通知](https://www.gov.cn/zhengce/content/202611/content_7085101.htm) | https://www.gov.cn/zhengce/content/202611/content_7085101.htm |
-| 2026-11-15T04:27+08:00 | 政策 | 中国政府网政策 | [国务院关于修改和废止部分行政法规的决定](https://www.gov.cn/zhengce/content/202611/content_7085098.htm) | https://www.gov.cn/zhengce/content/202611/content_7085098.htm |
-| 2026-11-15T04:27+08:00 | 财政 | 财政部 | [查看财政部最新发布](https://www.mof.gov.cn/) | https://www.mof.gov.cn/ |
-| 2026-11-15T04:27+08:00 | 外贸 | 海关总署 | [打开海关总署官网](http://www.customs.gov.cn/) | http://www.customs.gov.cn/ |
-| 2026-11-15T04:27+08:00 | 监管 | 中国证监会 | [吴清主席在首届中国资本市场学术年会开幕式上的致辞](https://www.csrc.gov.cn/csrc/c106311/c7670983/content.shtml) | https://www.csrc.gov.cn/csrc/c106311/c7670983/content.shtml |
-| 2026-11-15T04:27+08:00 | 监管 | 中国证监会 | [国家统计局2026年常规统计督察第9统计督察组向中国证监会反馈统计督察意见](https://www.csrc.gov.cn/csrc/c100028/c7670809/content.shtml) | https://www.csrc.gov.cn/csrc/c100028/c7670809/content.shtml |
-| 2026-11-15T04:27+08:00 | 监管 | 中国证监会 | [中国证监会有关部门负责人答记者问](https://www.csrc.gov.cn/csrc/c100028/c7670135/content.shtml) | https://www.csrc.gov.cn/csrc/c100028/c7670135/content.shtml |
-| 2026-11-15T04:27+08:00 | 监管 | 中国证监会 | [2024年4月12日新闻发布会](https://www.csrc.gov.cn/csrc/c100029/c7473708/content.shtml) | https://www.csrc.gov.cn/csrc/c100029/c7473708/content.shtml |
-| 2026-11-15T04:27+08:00 | 监管 | 中国证监会 | [2024年2月23日新闻发布会](https://www.csrc.gov.cn/csrc/c100029/c7464344/content.shtml) | https://www.csrc.gov.cn/csrc/c100029/c7464344/content.shtml |
-| 2026-11-15T04:27+08:00 | A股披露 | 深圳证券交易所 | [打开深圳证券交易所官网](https://www.szse.cn/) | https://www.szse.cn/ |
-| 2026-11-15T04:27+08:00 | 债券利率 | Shibor | [打开Shibor官网](https://www.shibor.org/) | https://www.shibor.org/ |
-| 2026-11-15T04:27+08:00 | 全球宏观 | FRED | [打开FRED官网](https://fred.stlouisfed.org/) | https://fred.stlouisfed.org/ |
+| 2026-11-16T04:50+08:00 | 中国宏观 | 中国人民银行 | [English Version](https://www.pbc.gov.cn/en/3688006/index.html) | https://www.pbc.gov.cn/en/3688006/index.html |
+| 2026-11-16T04:50+08:00 | 中国宏观 | 国家统计局数据 | [打开国家统计局数据官网](https://data.stats.gov.cn/) | https://data.stats.gov.cn/ |
+| 2026-11-16T04:50+08:00 | 中国宏观 | 国家统计局 | [第十七届中国统计开放日](https://www.stats.gov.cn/zt_18555/zthd/sjtjr/tjr17/index.html) | https://www.stats.gov.cn/zt_18555/zthd/sjtjr/tjr17/index.html |
+| 2026-11-16T04:50+08:00 | 中国宏观 | 国家统计局 | [非凡 "十四五" 奋进新征程—— "十四五" 经济社会发展成就报告](https://www.stats.gov.cn/zt_18555/ztfx/sswjjshfzcjbg/index.html) | https://www.stats.gov.cn/zt_18555/ztfx/sswjjshfzcjbg/index.html |
+| 2026-11-16T04:50+08:00 | 中国宏观 | 国家统计局 | [第四次全国农业普查](https://www.stats.gov.cn/zt_18555/zdtjgz/zgnypc/d4cnypc/) | https://www.stats.gov.cn/zt_18555/zdtjgz/zgnypc/d4cnypc/ |
+| 2026-11-16T04:50+08:00 | 中国宏观 | 国家统计局 | [2025年全国1%人口抽样调查](https://www.stats.gov.cn/zt_18555/zdtjgz/cydc/2025cydc/) | https://www.stats.gov.cn/zt_18555/zdtjgz/cydc/2025cydc/ |
+| 2026-11-16T04:50+08:00 | 政策 | 中国政府网政策 | [中共中央印发《中国共产党地方委员会工作条例》](https://www.gov.cn/zhengce/202611/content_7086080.htm) | https://www.gov.cn/zhengce/202611/content_7086080.htm |
+| 2026-11-16T04:50+08:00 | 政策 | 中国政府网政策 | [中医药传统知识保护条例](https://www.gov.cn/zhengce/content/202611/content_7085591.htm) | https://www.gov.cn/zhengce/content/202611/content_7085591.htm |
+| 2026-11-16T04:50+08:00 | 政策 | 中国政府网政策 | [中共中央发出通知 部署党的二十一大代表选举工作](https://www.gov.cn/zhengce/202611/content_7085529.htm) | https://www.gov.cn/zhengce/202611/content_7085529.htm |
+| 2026-11-16T04:50+08:00 | 政策 | 中国政府网政策 | [国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复](https://www.gov.cn/zhengce/content/202611/content_7085109.htm) | https://www.gov.cn/zhengce/content/202611/content_7085109.htm |
+| 2026-11-16T04:50+08:00 | 政策 | 中国政府网政策 | [国务院办公厅关于2027年部分节假日安排的通知](https://www.gov.cn/zhengce/content/202611/content_7085101.htm) | https://www.gov.cn/zhengce/content/202611/content_7085101.htm |
+| 2026-11-16T04:50+08:00 | 财政 | 财政部 | [查看财政部最新发布](https://www.mof.gov.cn/) | https://www.mof.gov.cn/ |
+| 2026-11-16T04:50+08:00 | 外贸 | 海关总署 | [打开海关总署官网](http://www.customs.gov.cn/) | http://www.customs.gov.cn/ |
+| 2026-11-16T04:50+08:00 | 监管 | 中国证监会 | [吴清主席在首届中国资本市场学术年会开幕式上的致辞](https://www.csrc.gov.cn/csrc/c106311/c7670983/content.shtml) | https://www.csrc.gov.cn/csrc/c106311/c7670983/content.shtml |
+| 2026-11-16T04:50+08:00 | 监管 | 中国证监会 | [国家统计局2026年常规统计督察第9统计督察组向中国证监会反馈统计督察意见](https://www.csrc.gov.cn/csrc/c100028/c7670809/content.shtml) | https://www.csrc.gov.cn/csrc/c100028/c7670809/content.shtml |
+| 2026-11-16T04:50+08:00 | 监管 | 中国证监会 | [中国证监会有关部门负责人答记者问](https://www.csrc.gov.cn/csrc/c100028/c7670135/content.shtml) | https://www.csrc.gov.cn/csrc/c100028/c7670135/content.shtml |
+| 2026-11-16T04:50+08:00 | 监管 | 中国证监会 | [2024年4月12日新闻发布会](https://www.csrc.gov.cn/csrc/c100029/c7473708/content.shtml) | https://www.csrc.gov.cn/csrc/c100029/c7473708/content.shtml |
+| 2026-11-16T04:50+08:00 | 监管 | 中国证监会 | [2024年2月23日新闻发布会](https://www.csrc.gov.cn/csrc/c100029/c7464344/content.shtml) | https://www.csrc.gov.cn/csrc/c100029/c7464344/content.shtml |
+| 2026-11-16 | A股披露 | 巨潮资讯 | [关于“侨银转债”可能存在不能按期足额兑付本息的第二次重大风险提示性公告](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002973&orgId=9900037236&announcementId=1225672417&announcementTime=2026-11-16) | https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002973&orgId=9900037236&announcementId=1225672417&announcementTime=2026-11-16 |
+| 2026-11-16 | A股披露 | 巨潮资讯 | [通威股份有限公司第九届董事会第十五次会议决议公告](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600438&orgId=gssh0600438&announcementId=1225672412&announcementTime=2026-11-16) | https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600438&orgId=gssh0600438&announcementId=1225672412&announcementTime=2026-11-16 |
+| 2026-11-16 | A股披露 | 巨潮资讯 | [关于子公司经营管理情况的进展公告](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600745&orgId=gssh0600745&announcementId=1225672404&announcementTime=2026-11-16) | https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600745&orgId=gssh0600745&announcementId=1225672404&announcementTime=2026-11-16 |
+| 2026-11-16 | A股披露 | 巨潮资讯 | [关于公司及下属子公司产品纳入国家医保目录的公告](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600812&orgId=gssh0600812&announcementId=1225672403&announcementTime=2026-11-16) | https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600812&orgId=gssh0600812&announcementId=1225672403&announcementTime=2026-11-16 |
+| 2026-11-16 | A股披露 | 巨潮资讯 | [南卫股份第五届董事会第九次会议决议公告](https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603880&orgId=9900031500&announcementId=1225672402&announcementTime=2026-11-16) | https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603880&orgId=9900031500&announcementId=1225672402&announcementTime=2026-11-16 |
+| 2026-11-16T04:50+08:00 | A股披露 | 深圳证券交易所 | [打开深圳证券交易所官网](https://www.szse.cn/) | https://www.szse.cn/ |
+| 2026-11-16T04:50+08:00 | 债券利率 | Shibor | [打开Shibor官网](https://www.shibor.org/) | https://www.shibor.org/ |
+| 2026-11-16T04:50+08:00 | 全球宏观 | FRED | [打开FRED官网](https://fred.stlouisfed.org/) | https://fred.stlouisfed.org/ |
 | Fri, 13 Nov 2026 21:15:00 GMT | 全球宏观 | 美联储 | [Agencies extend comment period for proposed third-party risk management guidance](https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm) | https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm |
 | Thu, 12 Nov 2026 18:30:00 GMT | 全球宏观 | 美联储 | [Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services](https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm) | https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm |
 | Thu, 12 Nov 2026 17:45:00 GMT | 全球宏观 | 美联储 | [Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027](https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm) | https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm |
@@ -233,8 +242,8 @@
 | Tue, 13 Oct 2026 18:00:00 GMT | 全球宏观 | 美联储 | [Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026](https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm) | https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm |
 | Fri, 9 Oct 2026 14:00:00 GMT | 全球宏观 | 美联储 | [Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families](https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm) | https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm |
 | Thu, 8 Oct 2026 20:30:00 GMT | 全球宏观 | 美联储 | [Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering](https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm) | https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm |
-| 2026-11-15T04:27+08:00 | 全球宏观 | 美国劳工统计局 | [打开美国劳工统计局官网](https://www.bls.gov/) | https://www.bls.gov/ |
-| 2026-11-15T04:27+08:00 | 全球宏观 | 美国经济分析局 | [打开美国经济分析局官网](https://www.bea.gov/) | https://www.bea.gov/ |
+| 2026-11-16T04:50+08:00 | 全球宏观 | 美国劳工统计局 | [打开美国劳工统计局官网](https://www.bls.gov/) | https://www.bls.gov/ |
+| 2026-11-16T04:50+08:00 | 全球宏观 | 美国经济分析局 | [打开美国经济分析局官网](https://www.bea.gov/) | https://www.bea.gov/ |
 | Fri, 13 Nov 2026 08:20:00 +0100 | 全球宏观 | 欧洲央行 | [Isabel Schnabel: Made in Europe](https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261113~3883f1f187.en.html) | https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261113~3883f1f187.en.html |
 | Tue, 10 Nov 2026 17:45:00 +0100 | 全球宏观 | 欧洲央行 | [Philip R. Lane: The science and practice of monetary policy communication: the ECB experience](https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html) | https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html |
 | Tue, 10 Nov 2026 15:00:00 +0100 | 全球宏观 | 欧洲央行 | [Piero Cipollone: Cash and the digital euro: two sides of the same coin](https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110~9422461bad.en.html) | https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110~9422461bad.en.html |
