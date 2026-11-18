@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T17:08+08:00",
+  "updated_at": "2026-11-19T01:58+08:00",
   "timezone": "Asia/Shanghai",
   "provider": "腾讯行情公开接口",
   "indices": [
@@ -104,7 +104,7 @@
       "pct": -0.91,
       "high": 23436.97,
       "low": 23208.13,
-      "observed": "2026/11/18 16:53:03",
+      "observed": "2026/11/18 18:31:03",
       "source": "腾讯行情"
     }
   ],
@@ -113,39 +113,39 @@
       "code": "usDJI",
       "name": "道琼斯",
       "url": "https://quote.eastmoney.com/gb/.DJI.html",
-      "price": 50759.42,
-      "prev": 51608.17,
-      "chg": -848.75,
-      "pct": -1.64,
-      "high": 51463.53,
-      "low": 50566.98,
-      "observed": "2026-11-17 16:42:18",
+      "price": 50312.12,
+      "prev": 50759.42,
+      "chg": -447.3,
+      "pct": -0.88,
+      "high": 50637.7,
+      "low": 50029.35,
+      "observed": "2026-11-18 12:59:00",
       "source": "腾讯行情"
     },
     {
       "code": "usIXIC",
       "name": "纳斯达克",
       "url": "https://quote.eastmoney.com/gb/.IXIC.html",
-      "price": 24328.38,
-      "prev": 24509.76,
-      "chg": -181.38,
-      "pct": -0.74,
-      "high": 24547.66,
-      "low": 23989.09,
-      "observed": "2026-11-17 17:15:59",
+      "price": 24428.98,
+      "prev": 24328.38,
+      "chg": 100.6,
+      "pct": 0.41,
+      "high": 24538.78,
+      "low": 24225.3,
+      "observed": "2026-11-18 12:58:59",
       "source": "腾讯行情"
     },
     {
       "code": "usINX",
       "name": "标普500",
       "url": "https://quote.eastmoney.com/gb/.INX.html",
-      "price": 7340.53,
-      "prev": 7416.59,
-      "chg": -76.06,
-      "pct": -1.03,
-      "high": 7415.37,
-      "low": 7288.34,
-      "observed": "2026-11-17 16:42:12",
+      "price": 7331.66,
+      "prev": 7340.53,
+      "chg": -8.87,
+      "pct": -0.12,
+      "high": 7367.68,
+      "low": 7285.76,
+      "observed": "2026-11-18 12:58:59",
       "source": "腾讯行情"
     }
   ],
@@ -154,39 +154,39 @@
       "code": "hf_XAU",
       "name": "伦敦金",
       "url": "https://quote.eastmoney.com/globalfuture/GC00.html",
-      "price": 3773.0,
+      "price": 3732.48,
       "prev": 3849.17,
-      "chg": -76.17,
-      "pct": -1.98,
+      "chg": -116.69,
+      "pct": -3.03,
       "high": 3857.33,
-      "low": 3757.31,
-      "observed": "17:07:00",
+      "low": 3728.45,
+      "observed": "01:57:00",
       "source": "腾讯行情"
     },
     {
       "code": "hf_CL",
       "name": "纽约原油",
       "url": "https://quote.eastmoney.com/globalfuture/CL00.html",
-      "price": 82.82,
+      "price": 81.42,
       "prev": 84.65,
-      "chg": -1.83,
-      "pct": -2.16,
+      "chg": -3.23,
+      "pct": -3.82,
       "high": 84.77,
-      "low": 82.38,
-      "observed": "17:08:05",
+      "low": 81.2,
+      "observed": "01:58:06",
       "source": "腾讯行情"
     },
     {
       "code": "hf_SI",
       "name": "伦敦银",
       "url": "https://quote.eastmoney.com/globalfuture/SI00.html",
-      "price": 45.68,
+      "price": 44.88,
       "prev": 47.36,
-      "chg": -1.68,
-      "pct": -3.54,
+      "chg": -2.48,
+      "pct": -5.23,
       "high": 47.52,
-      "low": 45.51,
-      "observed": "17:08:02",
+      "low": 44.66,
+      "observed": "01:58:03",
       "source": "腾讯行情"
     }
   ],
@@ -202,7 +202,7 @@
   },
   "advanced_analysis": {
     "framework_version": "3.0-research",
-    "generated_at": "2026-11-18T17:08+08:00",
+    "generated_at": "2026-11-19T01:58+08:00",
     "regime": {
       "code": "weakening",
       "label": "趋势与宽度同向走弱",
@@ -215,7 +215,7 @@
     },
     "session": {
       "is_trading_day": true,
-      "next_session": "2026-11-19",
+      "next_session": "2026-11-20",
       "quote_date": "2026-11-18",
       "calendar_url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml",
       "calendar_year": 2026
@@ -448,17 +448,7 @@
         "priority": "downside"
       }
     ],
-    "events": [
-      {
-        "title": "中国人民银行与加拿大财政部、加拿大央行共同签署《中加金融工作组工作规范》",
-        "source": "中国人民银行",
-        "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111809190698994/index.html",
-        "channel": "财政与需求",
-        "pathway": "财政支出 / 需求 → 收入、利润率和资金周转",
-        "check": "核对预算规模、落地时间及收入确认；政策方向与盈利兑现分开判断。",
-        "evidence": "标题触发的研究假设，尚未完成全文核验"
-      }
-    ],
+    "events": [],
     "model_catalog": [
       {
         "name": "DCF与资本成本",
@@ -533,7 +523,7 @@
       "stale": false,
       "fundamentals": false,
       "factor_returns": false,
-      "news_verified_today": 7
+      "news_verified_today": 5
     },
     "methodology": [
       "60日趋势与宽度是透明研究规则，阈值未回测，不代表预测胜率。",
