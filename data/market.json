@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T19:29+08:00",
+  "updated_at": "2026-11-27T04:25+08:00",
   "timezone": "Asia/Shanghai",
   "provider": "腾讯行情公开接口",
   "indices": [
@@ -154,68 +154,63 @@
       "code": "hf_XAU",
       "name": "伦敦金",
       "url": "https://quote.eastmoney.com/globalfuture/GC00.html",
-      "price": 3568.17,
+      "price": 3566.26,
       "prev": 3588.55,
-      "chg": -20.38,
-      "pct": -0.57,
+      "chg": -22.29,
+      "pct": -0.62,
       "high": 3607.02,
       "low": 3551.13,
-      "observed": "19:30:00",
+      "observed": "03:29:00",
       "source": "腾讯行情"
     },
     {
       "code": "hf_CL",
       "name": "纽约原油",
       "url": "https://quote.eastmoney.com/globalfuture/CL00.html",
-      "price": 84.56,
+      "price": 84.94,
       "prev": 83.68,
-      "chg": 0.88,
-      "pct": 1.05,
+      "chg": 1.26,
+      "pct": 1.5,
       "high": 85.23,
       "low": 83.16,
-      "observed": "19:31:03",
+      "observed": "03:29:50",
       "source": "腾讯行情"
     },
     {
       "code": "hf_SI",
       "name": "伦敦银",
       "url": "https://quote.eastmoney.com/globalfuture/SI00.html",
-      "price": 41.87,
+      "price": 41.7,
       "prev": 40.54,
-      "chg": 1.33,
-      "pct": 3.28,
+      "chg": 1.16,
+      "pct": 2.86,
       "high": 42.52,
       "low": 41.08,
-      "observed": "19:30:58",
+      "observed": "03:29:55",
       "source": "腾讯行情"
     }
   ],
   "breadth": {
-    "available": true,
-    "up": 1730,
-    "down": 3395,
-    "flat": 173,
-    "total": 5298,
-    "ratio": 32.7,
-    "label": "沪深主要成分估算",
-    "url": "https://push2.eastmoney.com/api/qt/ulist.np/get?fltt=2&fields=f104,f105,f106&secids=1.000001,0.399001"
+    "available": false,
+    "label": "等待市场宽度接口",
+    "url": "https://quote.eastmoney.com/center/gridlist.html#hs_a_board"
   },
   "advanced_analysis": {
     "framework_version": "3.0-research",
-    "generated_at": "2026-11-26T19:29+08:00",
+    "generated_at": "2026-11-27T04:25+08:00",
     "regime": {
-      "code": "weakening",
-      "label": "趋势与宽度同向走弱",
+      "code": "mixed",
+      "label": "信号分化，保持观察",
       "score": null,
       "confidence": null,
       "confidence_label": "未校准概率",
-      "quality_label": "较完整",
-      "covered": 4,
+      "quality_label": "部分可用",
+      "covered": 3,
       "total": 4
     },
     "session": {
       "is_trading_day": true,
-      "next_session": "2026-11-27",
+      "next_session": "2026-11-30",
       "quote_date": "2026-11-26",
       "calendar_url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml",
       "calendar_year": 2026
@@ -230,10 +225,10 @@
       },
       {
         "name": "市场宽度",
-        "status": "available",
-        "value": "上涨占比 32.7%",
+        "status": "missing",
+        "value": "待补充",
         "interpretation": "以接口覆盖范围为准；55%/45%为研究规则阈值，尚未完成收益检验。",
-        "caveat": "沪深主要成分估算"
+        "caveat": "等待市场宽度接口"
       },
       {
         "name": "中期趋势",
@@ -448,7 +443,26 @@
         "priority": "downside"
       }
     ],
-    "events": [],
+    "events": [
+      {
+        "title": "关于涉及诉讼事项进展的公告",
+        "source": "巨潮资讯",
+        "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=600525&orgId=gssh0600525&announcementId=1225691423&announcementTime=2026-11-27",
+        "channel": "公司与治理",
+        "pathway": "现金流、股本或治理变化 → 估值与风险溢价",
+        "check": "核对正式公告与财务影响；风险警示、诉讼和减持先列入风险清单。",
+        "evidence": "标题触发的研究假设，尚未完成全文核验"
+      },
+      {
+        "title": "宏盛华源2026年第三季度业绩说明会召开实况",
+        "source": "巨潮资讯",
+        "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=601096&orgId=9900052305&announcementId=1225691422&announcementTime=2026-11-27",
+        "channel": "公司与治理",
+        "pathway": "现金流、股本或治理变化 → 估值与风险溢价",
+        "check": "核对正式公告与财务影响；风险警示、诉讼和减持先列入风险清单。",
+        "evidence": "标题触发的研究假设，尚未完成全文核验"
+      }
+    ],
     "model_catalog": [
       {
         "name": "DCF与资本成本",
@@ -519,11 +533,11 @@
       }
     ],
     "data_quality": {
-      "label": "较完整",
+      "label": "部分可用",
       "stale": false,
       "fundamentals": false,
       "factor_returns": false,
-      "news_verified_today": 7
+      "news_verified_today": 5
     },
     "methodology": [
       "60日趋势与宽度是透明研究规则，阈值未回测，不代表预测胜率。",
@@ -532,12 +546,12 @@
     ]
   },
   "analysis": {
-    "stance": "趋势与宽度同向走弱",
-    "tone": "数据覆盖：较完整；60日趋势与宽度是透明研究规则，阈值未回测，不代表预测胜率。",
+    "stance": "信号分化，保持观察",
+    "tone": "数据覆盖：部分可用；60日趋势与宽度是透明研究规则，阈值未回测，不代表预测胜率。",
     "watch": [
       "描述最近行情；指数相互重叠，均值不代表可投资组合。",
-      "以接口覆盖范围为准；55%/45%为研究规则阈值，尚未完成收益检验。",
-      "根据已完成交易日收盘计算，与宽度共同作描述性状态识别。"
+      "根据已完成交易日收盘计算，与宽度共同作描述性状态识别。",
+      "收盘历史剔除未收盘当日；重复抓取和休市日不新增观测。"
     ],
     "risks": [
       "价格指数日收益用于β、波动、ES和回撤；未含股息、成本或个人持仓。",
