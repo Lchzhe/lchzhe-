@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T10:52+08:00",
+  "updated_at": "2026-11-28T18:56+08:00",
   "timezone": "Asia/Shanghai",
   "refresh_interval_seconds": 60,
   "sources": [
@@ -24,8 +24,8 @@
       "name": "国家统计局",
       "category": "中国宏观",
       "url": "https://www.stats.gov.cn/",
-      "status": "restricted",
-      "detail": "RemoteDisconnected"
+      "status": "reachable",
+      "detail": "200"
     },
     {
       "id": "gov-policy",
@@ -96,8 +96,8 @@
       "name": "深圳证券交易所",
       "category": "A股披露",
       "url": "https://www.szse.cn/",
-      "status": "reachable",
-      "detail": "200"
+      "status": "restricted",
+      "detail": "URLError"
     },
     {
       "id": "bse",
@@ -234,7 +234,7 @@
       "url": "https://www.pbc.gov.cn/en/3688006/index.html",
       "source": "中国人民银行",
       "category": "中国宏观",
-      "published_at": "2026-11-28T10:52+08:00",
+      "published_at": "2026-11-28T18:56+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -279,27 +279,62 @@
       "url": "https://data.stats.gov.cn/",
       "source": "国家统计局数据",
       "category": "中国宏观",
-      "published_at": "2026-11-28T10:52+08:00",
+      "published_at": "2026-11-28T18:56+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源未提供可机器读取的列表，点击进入官网查看最新内容。"
     },
     {
-      "title": "打开国家统计局官网",
-      "url": "https://www.stats.gov.cn/",
+      "title": "学习宣传贯彻党的二十届五中全会精神",
+      "url": "https://www.stats.gov.cn/zt_18555/zthd/wzqh2026/index.html",
       "source": "国家统计局",
       "category": "中国宏观",
-      "published_at": "2026-11-28T10:52+08:00",
-      "date_quality": "source_entry",
-      "item_type": "source_entry",
-      "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
+      "published_at": "2026-11-28T18:56+08:00",
+      "date_quality": "unknown",
+      "summary": "打开原文查看完整公告、数据表或政策文件。"
+    },
+    {
+      "title": "第十七届中国统计开放日",
+      "url": "https://www.stats.gov.cn/zt_18555/zthd/sjtjr/tjr17/index.html",
+      "source": "国家统计局",
+      "category": "中国宏观",
+      "published_at": "2026-11-28T18:56+08:00",
+      "date_quality": "unknown",
+      "summary": "打开原文查看完整公告、数据表或政策文件。"
+    },
+    {
+      "title": "非凡 \"十四五\" 奋进新征程—— \"十四五\" 经济社会发展成就报告",
+      "url": "https://www.stats.gov.cn/zt_18555/ztfx/sswjjshfzcjbg/index.html",
+      "source": "国家统计局",
+      "category": "中国宏观",
+      "published_at": "2026-11-28T18:56+08:00",
+      "date_quality": "unknown",
+      "summary": "打开原文查看完整公告、数据表或政策文件。"
+    },
+    {
+      "title": "第四次全国农业普查",
+      "url": "https://www.stats.gov.cn/zt_18555/zdtjgz/zgnypc/d4cnypc/",
+      "source": "国家统计局",
+      "category": "中国宏观",
+      "published_at": "2026-11-28T18:56+08:00",
+      "date_quality": "unknown",
+      "summary": "打开原文查看完整公告、数据表或政策文件。"
+    },
+    {
+      "title": "2025年全国1%人口抽样调查",
+      "url": "https://www.stats.gov.cn/zt_18555/zdtjgz/cydc/2025cydc/",
+      "source": "国家统计局",
+      "category": "中国宏观",
+      "published_at": "2026-11-28T18:56+08:00",
+      "date_quality": "unknown",
+      "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
     {
       "title": "中共中央印发《中国共产党地方委员会工作条例》",
       "url": "https://www.gov.cn/zhengce/202611/content_7086080.htm",
       "source": "中国政府网政策",
       "category": "政策",
-      "published_at": "2026-11-28T10:52+08:00",
+      "published_at": "2026-11-28T18:56+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -308,7 +343,7 @@
       "url": "https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
       "source": "中国政府网政策",
       "category": "政策",
-      "published_at": "2026-11-28T10:52+08:00",
+      "published_at": "2026-11-28T18:56+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -317,7 +352,7 @@
       "url": "https://www.gov.cn/zhengce/202611/content_7085529.htm",
       "source": "中国政府网政策",
       "category": "政策",
-      "published_at": "2026-11-28T10:52+08:00",
+      "published_at": "2026-11-28T18:56+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -326,7 +361,7 @@
       "url": "https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
       "source": "中国政府网政策",
       "category": "政策",
-      "published_at": "2026-11-28T10:52+08:00",
+      "published_at": "2026-11-28T18:56+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -335,7 +370,7 @@
       "url": "https://www.gov.cn/zhengce/content/202611/content_7085101.htm",
       "source": "中国政府网政策",
       "category": "政策",
-      "published_at": "2026-11-28T10:52+08:00",
+      "published_at": "2026-11-28T18:56+08:00",
       "date_quality": "unknown",
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
@@ -389,7 +424,7 @@
       "url": "https://www.mof.gov.cn/",
       "source": "财政部",
       "category": "财政",
-      "published_at": "2026-11-28T10:52+08:00",
+      "published_at": "2026-11-28T18:56+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源未提供可机器读取的列表，点击进入官网查看最新内容。"
@@ -399,7 +434,7 @@
       "url": "http://www.customs.gov.cn/",
       "source": "海关总署",
       "category": "外贸",
-      "published_at": "2026-11-28T10:52+08:00",
+      "published_at": "2026-11-28T18:56+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
@@ -454,7 +489,7 @@
       "url": "https://www.csrc.gov.cn/",
       "source": "中国证监会",
       "category": "监管",
-      "published_at": "2026-11-28T10:54+08:00",
+      "published_at": "2026-11-28T18:58+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
@@ -550,40 +585,14 @@
       "summary": "打开原文查看完整公告、数据表或政策文件。"
     },
     {
-      "title": "深交所首批主动ETF平稳上市引入180亿元增量资金",
-      "url": "https://www.szse.cn/aboutus/trends/news/t20261123_623994.html",
+      "title": "打开深圳证券交易所官网",
+      "url": "https://www.szse.cn/",
       "source": "深圳证券交易所",
       "category": "A股披露",
-      "published_at": "2026-11-23",
-      "date_quality": "url_date",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
-    },
-    {
-      "title": "深交所组合式推出新一批降费措施助力激发市场主体活力",
-      "url": "https://www.szse.cn/aboutus/trends/news/t20261122_623988.html",
-      "source": "深圳证券交易所",
-      "category": "A股披露",
-      "published_at": "2026-11-22",
-      "date_quality": "url_date",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
-    },
-    {
-      "title": "深交所就创业板做市交易业务相关规则公开征求意见",
-      "url": "https://www.szse.cn/aboutus/trends/news/t20261122_623984.html",
-      "source": "深圳证券交易所",
-      "category": "A股披露",
-      "published_at": "2026-11-22",
-      "date_quality": "url_date",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
-    },
-    {
-      "title": "阳光监管 透明服务",
-      "url": "https://www.szse.cn/transparency/index/",
-      "source": "深圳证券交易所",
-      "category": "A股披露",
-      "published_at": "2026-11-28T10:52+08:00",
-      "date_quality": "unknown",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
+      "published_at": "2026-11-28T18:56+08:00",
+      "date_quality": "source_entry",
+      "item_type": "source_entry",
+      "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
     },
     {
       "title": "习近平在2021年中国国际服务贸易交易会全球服务贸易峰会上的致辞 我们将继续支持中小企业创新发展，深化新三板改革，设立北京证券交易所，打造服务创新型中小企业主阵地。 2021-09-02",
@@ -680,7 +689,7 @@
       "url": "https://www.shibor.org/",
       "source": "Shibor",
       "category": "债券利率",
-      "published_at": "2026-11-28T10:52+08:00",
+      "published_at": "2026-11-28T18:57+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
@@ -690,7 +699,7 @@
       "url": "https://fred.stlouisfed.org/",
       "source": "FRED",
       "category": "全球宏观",
-      "published_at": "2026-11-28T10:52+08:00",
+      "published_at": "2026-11-28T18:56+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
@@ -808,7 +817,7 @@
       "url": "https://www.bls.gov/",
       "source": "美国劳工统计局",
       "category": "全球宏观",
-      "published_at": "2026-11-28T10:52+08:00",
+      "published_at": "2026-11-28T18:56+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
@@ -818,10 +827,19 @@
       "url": "https://www.bea.gov/",
       "source": "美国经济分析局",
       "category": "全球宏观",
-      "published_at": "2026-11-28T10:52+08:00",
+      "published_at": "2026-11-28T18:56+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
+    },
+    {
+      "title": "Boris Vujčić: Interview with Kurier",
+      "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261128~10e11f78f1.en.html",
+      "source": "欧洲央行",
+      "category": "全球宏观",
+      "published_at": "Sat, 28 Nov 2026 09:00:00 +0100",
+      "date_quality": "publisher",
+      "summary": "来自公开原始来源的最新发布。"
     },
     {
       "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
@@ -923,20 +941,11 @@
       "summary": "来自公开原始来源的最新发布。"
     },
     {
-      "title": "Philip R. Lane: The practice and science of monetary policy communication: the ECB experience",
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261117~7f5d3b1a0e.en.pdf",
-      "source": "欧洲央行",
-      "category": "全球宏观",
-      "published_at": "Tue, 17 Nov 2026 19:30:00 +0100",
-      "date_quality": "publisher",
-      "summary": "来自公开原始来源的最新发布。"
-    },
-    {
       "title": "打开国际货币基金组织官网",
       "url": "https://www.imf.org/",
       "source": "国际货币基金组织",
       "category": "全球宏观",
-      "published_at": "2026-11-28T10:52+08:00",
+      "published_at": "2026-11-28T18:56+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
@@ -946,19 +955,10 @@
       "url": "https://www.oecd.org/",
       "source": "OECD",
       "category": "全球宏观",
-      "published_at": "2026-11-28T10:52+08:00",
+      "published_at": "2026-11-28T18:56+08:00",
       "date_quality": "source_entry",
       "item_type": "source_entry",
       "summary": "该来源暂时无法自动读取，点击官网仍可查看最新发布。"
-    },
-    {
-      "title": "https://www.worldbank.org/ext/en/home",
-      "url": "https://www.worldbank.org/ext/en/home",
-      "source": "世界银行",
-      "category": "全球宏观",
-      "published_at": "2026-11-28T10:52+08:00",
-      "date_quality": "unknown",
-      "summary": "打开原文查看完整公告、数据表或政策文件。"
     }
   ]
 }

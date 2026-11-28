@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T10:52+08:00",
+  "updated_at": "2026-11-28T18:56+08:00",
   "timezone": "Asia/Shanghai",
   "sources": [
     {
@@ -23,8 +23,8 @@
       "name": "国家统计局",
       "category": "中国宏观",
       "url": "https://www.stats.gov.cn/",
-      "status": "restricted",
-      "detail": "RemoteDisconnected"
+      "status": "reachable",
+      "detail": "200"
     },
     {
       "id": "gov-policy",
@@ -95,8 +95,8 @@
       "name": "深圳证券交易所",
       "category": "A股披露",
       "url": "https://www.szse.cn/",
-      "status": "reachable",
-      "detail": "200"
+      "status": "restricted",
+      "detail": "URLError"
     },
     {
       "id": "bse",
