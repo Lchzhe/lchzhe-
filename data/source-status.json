@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T07:55+08:00",
+  "updated_at": "2026-11-28T10:52+08:00",
   "timezone": "Asia/Shanghai",
   "sources": [
     {
@@ -23,8 +23,8 @@
       "name": "国家统计局",
       "category": "中国宏观",
       "url": "https://www.stats.gov.cn/",
-      "status": "reachable",
-      "detail": "200"
+      "status": "restricted",
+      "detail": "RemoteDisconnected"
     },
     {
       "id": "gov-policy",
@@ -71,16 +71,16 @@
       "name": "中国证监会",
       "category": "监管",
       "url": "https://www.csrc.gov.cn/",
-      "status": "reachable",
-      "detail": "200"
+      "status": "restricted",
+      "detail": "URLError"
     },
     {
       "id": "cninfo",
       "name": "巨潮资讯",
       "category": "A股披露",
       "url": "https://www.cninfo.com.cn/",
-      "status": "restricted",
-      "detail": "TimeoutError"
+      "status": "reachable",
+      "detail": "200"
     },
     {
       "id": "sse",
@@ -95,8 +95,8 @@
       "name": "深圳证券交易所",
       "category": "A股披露",
       "url": "https://www.szse.cn/",
-      "status": "restricted",
-      "detail": "URLError"
+      "status": "reachable",
+      "detail": "200"
     },
     {
       "id": "bse",
